@@ -163,6 +163,7 @@
     # CLI / Dev
     just
     bun
+    nodejs_latest
     deno
     git
     pnpm
