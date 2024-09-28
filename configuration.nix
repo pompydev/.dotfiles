@@ -212,6 +212,7 @@
     polychromatic
     collision
     baobab
+    gnome-disk-utility
     open-webui
 
     # Gaming
