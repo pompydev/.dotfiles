@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "bbenoist.nix",
+    "esbenp.prettier-vscode",
+    "jnoortheen.nix-ide"
+  ]
+}

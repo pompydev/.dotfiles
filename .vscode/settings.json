@@ -1,0 +1,21 @@
+{
+  "cSpell.words": ["dotfiles"],
+
+  "editor.formatOnSave": true,
+
+  "nix.enableLanguageServer": true,
+  "nix.serverPath": "nixd",
+
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[nix]": {
+    "editor.defaultFormatter": "jnoortheen.nix-ide"
+  }
+}
