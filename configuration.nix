@@ -219,6 +219,12 @@
     steam
   ];
 
+  services.open-webui.enable = true;
+  services.ollama = {
+    enable = true;
+    acceleration = "cuda";
+  };
+
   programs.gnupg.agent = {
     enable = true;
     enableSSHSupport = true;
