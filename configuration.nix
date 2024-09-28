@@ -134,6 +134,7 @@
     file-roller
     gnupg
     pinentry
+    protonvpn-gui
 
     # fonts
     meslo-lgs-nf
