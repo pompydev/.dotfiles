@@ -161,6 +161,7 @@
     yarn
     yarn-berry
     zig
+    tree
     nixd
     nixfmt-rfc-style
 
