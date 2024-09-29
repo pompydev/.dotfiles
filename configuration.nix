@@ -188,6 +188,7 @@
     tree
     nixd
     nixfmt-rfc-style
+    nvitop
 
     # Applications / Browser
     brave
