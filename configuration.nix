@@ -120,22 +120,24 @@
     gnome-disk-utility
     polychromatic
 
-    # Misc
-    nautilus
-    opentabletdriver
-    appimage-run
+    # Misc Application
     anytype
     rustdesk
     collision
-    open-webui
-    gnupg
-    pinentry
-    protonvpn-gui
     file-roller
     font-manager
     gparted
     menulibre
+    protonvpn-gui
     gpa
+    nautilus
+    opentabletdriver
+
+    # Misc
+    appimage-run
+    open-webui
+    gnupg
+    pinentry
   ];
 
   # User & Shell
