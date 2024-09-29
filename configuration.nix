@@ -63,6 +63,7 @@
     atuin
 
     # Dev
+    python3
     btop
     nvitop
     just
@@ -182,6 +183,11 @@
   services.printing.enable = false;
   hardware.opentabletdriver.enable = true;
   security.rtkit.enable = true;
+  environment.sessionVariables = {
+    CUDA_PATH = "${pkgs.cudatoolkit}";
+    EXTRA_LDFLAGS = "-L/lib -L${pkgs.linuxPackages.nvidia_x11}/lib";
+    EXTRA_CCFLAGS = "-I/usr/include";
+  };
 
   # Audio
   hardware.pulseaudio.support32Bit = true;
