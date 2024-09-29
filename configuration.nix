@@ -15,10 +15,6 @@
     inputs.home-manager.nixosModules.default
   ];
   nixpkgs.config.allowUnfree = true;
-  nix.settings.experimental-features = [
-    "nix-command"
-    "flakes"
-  ];
   nix.settings = {
     substituters = [
       "https://nix-community.cachix.org"
@@ -29,12 +25,117 @@
       "nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs="
       "cuda-maintainers.cachix.org-1:0dq3bujKpuEPMCX6U4WylrUDZ9JyUG0VpVZa7CNfq5E="
     ];
+
+    experimental-features = [
+      "nix-command"
+      "flakes"
+    ];
   };
   home-manager = {
     users = {
       pomp = import ./home.nix;
     };
   };
+
+  environment.systemPackages = with pkgs; [
+    # Desktop
+    gnomeExtensions.bluetooth-battery-meter
+    gnomeExtensions.appindicator
+    gnomeExtensions.pop-shell
+    nautilus-open-any-terminal
+
+    # Icons & Themes
+    papirus-icon-theme
+    pop-gtk-theme
+
+    # Fonts
+    meslo-lgs-nf
+    ubuntu-sans-mono
+    noto-fonts-cjk-sans
+    terminus-nerdfont
+    nerdfonts
+
+    # Shell
+    zsh
+    fzf-zsh
+    fzf
+    eza
+    atuin
+
+    # Dev
+    btop
+    nvitop
+    just
+    bun
+    nodejs_latest
+    deno
+    git
+    pnpm
+    go
+    rustup
+    yarn
+    yarn-berry
+    zig
+    tree
+    nixd
+    nixfmt-rfc-style
+    vim
+    kitty
+    vscodium
+    zed-editor
+    virtualbox
+    jetbrains-toolbox
+    pgadmin4
+    pgadmin4-desktopmode
+
+    # Gaming
+    gamemode
+    osu-lazer-bin
+    steam
+
+    # Browsers
+    brave
+    mullvad-browser
+
+    # Communication
+    kiwitalk
+    slack
+    discord
+    vesktop
+
+    # Media
+    obs-studio
+    vlc
+    gimp
+    kdePackages.kdenlive
+    blender
+
+    # Configuration & Monitor
+    dconf-editor
+    mission-center
+    resources
+    gnome-tweaks
+    baobab
+    gnome-disk-utility
+    polychromatic
+
+    # Misc
+    nautilus
+    opentabletdriver
+    appimage-run
+    anytype
+    rustdesk
+    collision
+    open-webui
+    gnupg
+    pinentry
+    protonvpn-gui
+    file-roller
+    font-manager
+    gparted
+    menulibre
+    gpa
+  ];
 
   # User & Shell
   programs.zsh.enable = true;
@@ -134,106 +235,6 @@
     # what driver version?
     package = config.boot.kernelPackages.nvidiaPackages.beta;
   };
-
-  environment.systemPackages = with pkgs; [
-    # System / Component
-    gnomeExtensions.bluetooth-battery-meter
-    gnomeExtensions.appindicator
-    gnomeExtensions.pop-shell
-    nautilus-open-any-terminal
-    papirus-icon-theme
-    pop-gtk-theme
-    file-roller
-    gnupg
-    pinentry
-    protonvpn-gui
-
-    # fonts
-    meslo-lgs-nf
-    ubuntu-sans-mono
-    noto-fonts-cjk-sans
-    terminus-nerdfont
-    nerdfonts
-
-    # shell
-    fzf-zsh
-    fzf
-    eza
-    btop
-    atuin
-    zsh
-
-    # System / GUI Util
-    font-manager
-    gnome-tweaks
-    dconf-editor
-    mission-center
-    resources
-    gparted
-    menulibre
-    gpa
-
-    # CLI / Dev
-    just
-    bun
-    nodejs_latest
-    deno
-    git
-    pnpm
-    go
-    rustup
-    yarn
-    yarn-berry
-    zig
-    tree
-    nixd
-    nixfmt-rfc-style
-    nvitop
-
-    # Applications / Browser
-    brave
-    mullvad-browser
-
-    # Applications / Communication
-    kiwitalk
-    slack
-    discord
-    vesktop
-
-    # Applications / Media
-    obs-studio
-    vlc
-    gimp
-    kdePackages.kdenlive
-    blender
-
-    # Applications / Dev
-    vim
-    kitty
-    vscodium
-    zed-editor
-    virtualbox
-    jetbrains-toolbox
-    pgadmin4
-    pgadmin4-desktopmode
-
-    # Applications / Misc
-    nautilus
-    opentabletdriver
-    appimage-run
-    anytype
-    rustdesk
-    polychromatic
-    collision
-    baobab
-    gnome-disk-utility
-    open-webui
-
-    # Gaming
-    gamemode
-    osu-lazer-bin
-    steam
-  ];
 
   services.open-webui.enable = true;
   services.ollama = {
