@@ -146,10 +146,8 @@
     nautilus
     open-webui
 
-    # Misc
-    appimage-run
+    # Misc System packages
     gnupg
-    pinentry
   ];
 
   # User & Shell
