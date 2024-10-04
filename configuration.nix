@@ -63,6 +63,7 @@
     atuin
 
     # Dev
+    wget
     python3
     btop
     nvitop
