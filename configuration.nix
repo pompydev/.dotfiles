@@ -109,7 +109,7 @@
     discord
     vesktop
 
-    # Media
+    # Design, Content Creation, and Media
     (pkgs.wrapOBS {
       plugins = with pkgs.obs-studio-plugins; [
         input-overlay
@@ -121,6 +121,7 @@
     contrast
     gimp
     kdePackages.kdenlive
+    font-manager
     blender
 
     # Configuration & Monitor
@@ -131,23 +132,22 @@
     baobab
     gnome-disk-utility
     polychromatic
+    gparted
+    gpa
+    menulibre
+    opentabletdriver
 
     # Misc Application
     anytype
     rustdesk
     collision
     file-roller
-    font-manager
-    gparted
-    menulibre
     protonvpn-gui
-    gpa
     nautilus
-    opentabletdriver
+    open-webui
 
     # Misc
     appimage-run
-    open-webui
     gnupg
     pinentry
   ];
