@@ -49,6 +49,7 @@
     # '';
 
     ".profile".source = home/.profile;
+    ".zshrc".source = home/.zshrc;
   };
 
   # Home Manager can also manage your environment variables through

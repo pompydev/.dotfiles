@@ -57,6 +57,8 @@
 
     # Shell
     zsh
+    oh-my-zsh
+    zsh-powerlevel10k
     fzf-zsh
     fzf
     eza
@@ -147,7 +149,10 @@
   ];
 
   # User & Shell
-  programs.zsh.enable = true;
+  programs.zsh = {
+    enable = true;
+    promptInit = "source ${pkgs.zsh-powerlevel10k}/share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
+  };
   users.users.pomp = {
     isNormalUser = true;
     description = "pomp";
