@@ -105,7 +105,11 @@
     vesktop
 
     # Media
-    obs-studio
+    (pkgs.wrapOBS {
+      plugins = with pkgs.obs-studio-plugins; [
+        input-overlay
+      ];
+    })
     vlc
     gimp
     kdePackages.kdenlive
