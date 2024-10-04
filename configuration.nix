@@ -115,6 +115,7 @@
         input-overlay
       ];
     })
+    eog
     vlc
     gimp
     kdePackages.kdenlive
