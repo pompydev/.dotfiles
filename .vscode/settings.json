@@ -1,5 +1,5 @@
 {
-  "cSpell.words": ["dotfiles", "justfile"],
+  "cSpell.words": ["dotfiles", "justfile", "nixpkgs"],
 
   "editor.formatOnSave": true,
 
