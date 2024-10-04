@@ -118,6 +118,7 @@
     eog
     vlc
     gcolor3
+    contrast
     gimp
     kdePackages.kdenlive
     blender
