@@ -117,6 +117,7 @@
     })
     eog
     vlc
+    gcolor3
     gimp
     kdePackages.kdenlive
     blender
