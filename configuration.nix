@@ -140,6 +140,9 @@
     menulibre
     opentabletdriver
 
+    # Office
+    onlyoffice-bin
+
     # Misc Application
     anytype
     rustdesk
