@@ -47,6 +47,8 @@
     #   org.gradle.console=verbose
     #   org.gradle.daemon.idletimeout=3600000
     # '';
+
+    ".profile".source = home/.profile;
   };
 
   # Home Manager can also manage your environment variables through
