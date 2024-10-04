@@ -78,6 +78,7 @@
     git
     pnpm
     go
+    go-tools
     rustup
     yarn
     yarn-berry
