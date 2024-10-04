@@ -189,6 +189,7 @@
   networking.networkmanager.enable = true;
   services.printing.enable = false;
   hardware.opentabletdriver.enable = true;
+  hardware.openrazer.enable = true;
   security.rtkit.enable = true;
   environment.sessionVariables = {
     CUDA_PATH = "${pkgs.cudatoolkit}";
