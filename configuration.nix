@@ -82,6 +82,7 @@
     yarn
     yarn-berry
     zig
+    zls
     tree
     nixd
     nixfmt-rfc-style
