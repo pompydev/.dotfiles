@@ -65,6 +65,7 @@
     atuin
 
     # Dev
+    bustle
     yasm
     wget
     python3
