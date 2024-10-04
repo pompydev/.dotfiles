@@ -63,6 +63,7 @@
     atuin
 
     # Dev
+    yasm
     wget
     python3
     btop
