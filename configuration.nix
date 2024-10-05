@@ -101,6 +101,7 @@
     unityhub
     opentofu
     terraform
+    sysprof
 
     # Hacking
     metasploit
