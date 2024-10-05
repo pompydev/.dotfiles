@@ -100,6 +100,8 @@
     gamemode
     osu-lazer-bin
     steam
+    lunar-client
+    prismlauncher
 
     # Browsers
     brave
