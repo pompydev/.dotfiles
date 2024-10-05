@@ -72,6 +72,29 @@
     # EDITOR = "emacs";
   };
 
+  dconf.settings = {
+    "org/gnome/shell/extensions/pop-shell" = {
+      active-hint = true;
+      active-hint-border-radius = 11;
+      gap-inner = 3;
+      gap-outer = 3;
+      hint-color-rgba = "rgb(36,138,118)";
+      mouse-cursor-focus-location = 0;
+      pop-monitor-down = [ ];
+      pop-monitor-left = [ ];
+      pop-monitor-right = [ ];
+      pop-monitor-up = [ ];
+      pop-workspace-down = [ ];
+      pop-workspace-up = [ ];
+      show-skip-taskbar = false;
+      show-title = true;
+      smart-gaps = false;
+      stacking-with-mouse = false;
+      tile-by-default = true;
+      toggle-stacking-global = [ ];
+    };
+  };
+
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
 }
