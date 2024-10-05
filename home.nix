@@ -81,7 +81,6 @@
       idle-dim = true;
       power-button-action = "suspend";
       sleep-inactive-ac-type = "nothing";
-
     };
 
     "org/gnome/settings-daemon/plugins/xsettings" = {
