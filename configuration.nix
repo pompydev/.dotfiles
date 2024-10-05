@@ -142,6 +142,7 @@
 
     # Configuration & Monitor
     dconf-editor
+    helvum
     mission-center
     resources
     gnome-tweaks
