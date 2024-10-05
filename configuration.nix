@@ -103,6 +103,7 @@
     terraform
     ## Profiling
     sysprof
+    hyperfine
 
     # Hacking
     metasploit
