@@ -167,6 +167,7 @@
     labplot
     pika-backup
     gnome-calculator
+    gnome-characters
 
     # Misc System packages
     gnupg
