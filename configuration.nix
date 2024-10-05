@@ -99,6 +99,7 @@
     pgadmin4
     pgadmin4-desktopmode
     unityhub
+    metasploit
 
     # Gaming
     gamemode
