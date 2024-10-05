@@ -66,6 +66,7 @@
 
     # Dev
     bustle
+    dotnet-sdk
     jdk
     yasm
     wget
