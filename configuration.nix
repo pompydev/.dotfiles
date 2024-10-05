@@ -139,6 +139,7 @@
     font-manager
     blender
     zrythm
+    tenacity
 
     # Configuration & Monitor
     dconf-editor
