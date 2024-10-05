@@ -132,6 +132,7 @@
     contrast
     gimp
     kdePackages.kdenlive
+    gmetronome
     font-manager
     blender
     zrythm
