@@ -131,6 +131,7 @@
     gcolor3
     contrast
     gimp
+    inkscape
     kdePackages.kdenlive
     gmetronome
     font-manager
