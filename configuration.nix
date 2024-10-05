@@ -111,6 +111,7 @@
 
     # Communication
     kiwitalk
+    element-desktop
     slack
     discord
     vesktop
