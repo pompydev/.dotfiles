@@ -94,6 +94,7 @@
     jetbrains-toolbox
     pgadmin4
     pgadmin4-desktopmode
+    unityhub
 
     # Gaming
     gamemode
