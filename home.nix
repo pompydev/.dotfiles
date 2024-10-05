@@ -89,6 +89,16 @@
       hinting = "full";
     };
 
+    "org/gnome/shell" = {
+      disable-user-extensions = false;
+      enabled-extensions = [
+        pkgs.gnomeExtensions.bluetooth-battery-meter.extensionUuid
+        pkgs.gnomeExtensions.appindicator.extensionUuid
+        pkgs.gnomeExtensions.pop-shell.extensionUuid
+        pkgs.gnomeExtensions.blur-my-shell.extensionUuid
+      ];
+    };
+
     "org/gnome/shell/extensions/blur-my-shell" = {
       appfolder-dialog-opacity = 0.12;
       blur-applications = false;
