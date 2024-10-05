@@ -73,6 +73,22 @@
   };
 
   dconf.settings = {
+    "org/gnome/settings-daemon/plugins/color" = {
+      night-light-enabled = false;
+    };
+
+    "org/gnome/settings-daemon/plugins/power" = {
+      idle-dim = true;
+      power-button-action = "suspend";
+      sleep-inactive-ac-type = "nothing";
+
+    };
+
+    "org/gnome/settings-daemon/plugins/xsettings" = {
+      antialiasing = "grayscale";
+      hinting = "full";
+    };
+
     "org/gnome/shell/extensions/pop-shell" = {
       active-hint = true;
       active-hint-border-radius = 11;
