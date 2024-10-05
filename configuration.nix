@@ -87,6 +87,7 @@
     go
     go-tools
     rustup
+    rust-analyzer
     yarn
     yarn-berry
     zig
