@@ -102,6 +102,7 @@
     metasploit
     opentofu
     terraform
+    imhex
 
     # Gaming
     gamemode
