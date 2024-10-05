@@ -101,6 +101,7 @@
     pgadmin4-desktopmode
     opentofu
     terraform
+    seabird
     ## Nodejs
     nodejs_latest
     bun
