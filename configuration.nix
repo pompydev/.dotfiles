@@ -94,6 +94,7 @@
     vscodium
     zed-editor
     jetbrains-toolbox
+    filezilla
     pgadmin4
     pgadmin4-desktopmode
     unityhub
