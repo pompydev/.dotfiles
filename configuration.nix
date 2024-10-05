@@ -265,6 +265,10 @@
     package = config.boot.kernelPackages.nvidiaPackages.beta;
   };
 
+  # VirtualBox
+  virtualisation.virtualbox.host.enable = true;
+  virtualisation.virtualbox.host.enableExtensionPack = true;
+
   services.open-webui.enable = true;
   services.ollama = {
     enable = true;
