@@ -100,6 +100,8 @@
     pgadmin4-desktopmode
     unityhub
     metasploit
+    opentofu
+    terraform
 
     # Gaming
     gamemode
