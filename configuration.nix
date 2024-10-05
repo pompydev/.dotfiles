@@ -79,17 +79,12 @@
     btop
     nvitop
     just
-    bun
-    nodejs_latest
     deno
     git
-    pnpm
     go
     go-tools
     rustup
     rust-analyzer
-    yarn
-    yarn-berry
     zig
     zls
     tree
@@ -107,6 +102,12 @@
     unityhub
     opentofu
     terraform
+    ## Nodejs
+    nodejs_latest
+    bun
+    pnpm
+    yarn
+    yarn-berry
     ## TUI
     lazygit
     lazydocker
