@@ -99,9 +99,11 @@
     pgadmin4
     pgadmin4-desktopmode
     unityhub
-    metasploit
     opentofu
     terraform
+
+    # Hacking
+    metasploit
     imhex
 
     # Gaming
