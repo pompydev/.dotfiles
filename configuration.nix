@@ -168,6 +168,7 @@
     pika-backup
     gnome-calculator
     gnome-characters
+    qbittorrent
 
     # Misc System packages
     gnupg
