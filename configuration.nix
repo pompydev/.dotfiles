@@ -126,6 +126,7 @@
     kdePackages.kdenlive
     font-manager
     blender
+    zrythm
 
     # Configuration & Monitor
     dconf-editor
