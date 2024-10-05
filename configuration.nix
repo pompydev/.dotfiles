@@ -155,6 +155,7 @@
 
     # Configuration & Monitor
     dconf-editor
+    coppwr
     helvum
     mission-center
     resources
