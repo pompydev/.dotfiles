@@ -63,6 +63,7 @@
     fzf
     eza
     atuin
+    yazi
 
     # Dev
     bustle
