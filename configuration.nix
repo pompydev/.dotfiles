@@ -70,16 +70,12 @@
     yazi
 
     # Dev
-    bustle
     dotnet-sdk
     jdk
     yasm
     wget
     python3
-    btop
-    nvitop
     just
-    deno
     git
     go
     go-tools
@@ -87,29 +83,33 @@
     rust-analyzer
     zig
     zls
-    tree
     nixd
     nixfmt-rfc-style
     vim
+    opentofu
+    terraform
+    ## General GUI
     kitty
     vscodium
     zed-editor
+    pgadmin4
+    pgadmin4-desktopmode
     jetbrains-toolbox
     filezilla
     glade
-    pgadmin4
-    pgadmin4-desktopmode
-    opentofu
-    terraform
     seabird
     ## Nodejs
     nodejs_latest
+    deno
     bun
     pnpm
     yarn
     yarn-berry
     firebase-tools
-    ## TUI
+    ## General CLI / TUI
+    btop
+    nvitop
+    tree
     lazygit
     lazydocker
     ## Game dev
@@ -167,6 +167,7 @@
 
     # Configuration & Monitor
     dconf-editor
+    bustle
     coppwr
     helvum
     mission-center
@@ -180,6 +181,7 @@
     menulibre
     opentabletdriver
     gsmartcontrol
+    cpu-x
 
     # Office
     onlyoffice-bin
