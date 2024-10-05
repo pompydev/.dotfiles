@@ -108,6 +108,7 @@
     pnpm
     yarn
     yarn-berry
+    firebase-tools
     ## TUI
     lazygit
     lazydocker
