@@ -101,6 +101,7 @@
     unityhub
     opentofu
     terraform
+    ## Game dev
     godot3-mono
     godot3-mono-export-templates
     godot_4
@@ -182,6 +183,7 @@
     gnome-calculator
     gnome-characters
     qbittorrent
+    metadata-cleaner
 
     # Misc System packages
     gnupg
