@@ -99,7 +99,6 @@
     glade
     pgadmin4
     pgadmin4-desktopmode
-    unityhub
     opentofu
     terraform
     ## Nodejs
@@ -113,6 +112,7 @@
     lazygit
     lazydocker
     ## Game dev
+    unityhub
     godot3-mono
     godot3-mono-export-templates
     godot_4
