@@ -161,6 +161,7 @@
     protonvpn-gui
     nautilus
     open-webui
+    labplot
 
     # Misc System packages
     gnupg
