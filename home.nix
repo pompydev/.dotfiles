@@ -89,6 +89,19 @@
       hinting = "full";
     };
 
+    "org/gnome/shell/extensions/blur-my-shell" = {
+      appfolder-dialog-opacity = 0.12;
+      blur-applications = false;
+      blur-dash = true;
+      blur-panel = false;
+      brightness = 0.6;
+      dash-opacity = 0.12;
+      debug = false;
+      hacks-level = 1;
+      hidetopbar = false;
+      sigma = 15;
+    };
+
     "org/gnome/shell/extensions/pop-shell" = {
       active-hint = true;
       active-hint-border-radius = 11;

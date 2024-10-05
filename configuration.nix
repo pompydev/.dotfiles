@@ -42,6 +42,7 @@
     gnomeExtensions.bluetooth-battery-meter
     gnomeExtensions.appindicator
     gnomeExtensions.pop-shell
+    gnomeExtensions.blur-my-shell
     nautilus-open-any-terminal
 
     # Icons & Themes
