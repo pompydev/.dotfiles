@@ -66,6 +66,7 @@
 
     # Dev
     bustle
+    jdk
     yasm
     wget
     python3
