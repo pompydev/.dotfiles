@@ -101,6 +101,7 @@
     unityhub
     opentofu
     terraform
+    ## Profiling
     sysprof
 
     # Hacking
