@@ -163,6 +163,7 @@
     nautilus
     open-webui
     labplot
+    pika-backup
 
     # Misc System packages
     gnupg
