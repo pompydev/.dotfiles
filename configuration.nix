@@ -95,6 +95,7 @@
     zed-editor
     jetbrains-toolbox
     filezilla
+    glade
     pgadmin4
     pgadmin4-desktopmode
     unityhub
