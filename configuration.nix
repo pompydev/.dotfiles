@@ -39,10 +39,13 @@
 
   environment.systemPackages = with pkgs; [
     # Desktop
-    gnomeExtensions.bluetooth-battery-meter
     gnomeExtensions.appindicator
-    gnomeExtensions.pop-shell
+    gnomeExtensions.bluetooth-battery-meter
     gnomeExtensions.blur-my-shell
+    gnomeExtensions.lock-keys
+    gnomeExtensions.pop-shell
+    gnomeExtensions.tray-icons-reloaded
+    gnomeExtensions.user-themes
     nautilus-open-any-terminal
 
     # Icons & Themes

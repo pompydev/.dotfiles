@@ -92,10 +92,13 @@
     "org/gnome/shell" = {
       disable-user-extensions = false;
       enabled-extensions = [
-        pkgs.gnomeExtensions.bluetooth-battery-meter.extensionUuid
         pkgs.gnomeExtensions.appindicator.extensionUuid
-        pkgs.gnomeExtensions.pop-shell.extensionUuid
+        pkgs.gnomeExtensions.bluetooth-battery-meter.extensionUuid
         pkgs.gnomeExtensions.blur-my-shell.extensionUuid
+        pkgs.gnomeExtensions.lock-keys.extensionUuid
+        pkgs.gnomeExtensions.pop-shell.extensionUuid
+        pkgs.gnomeExtensions.tray-icons-reloaded.extensionUuid
+        pkgs.gnomeExtensions.user-themes.extensionUuid
       ];
     };
 
@@ -110,6 +113,10 @@
       hacks-level = 1;
       hidetopbar = false;
       sigma = 15;
+    };
+
+    "org/gnome/shell/extensions/lockkeys" = {
+      notification-preferences = "off";
     };
 
     "org/gnome/shell/extensions/pop-shell" = {
@@ -131,6 +138,18 @@
       stacking-with-mouse = false;
       tile-by-default = true;
       toggle-stacking-global = [ ];
+    };
+
+    "org/gnome/shell/extensions/trayIconsReloaded" = {
+      icon-margin-horizontal = 0;
+      icon-padding-horizontal = 4;
+      icon-size = 20;
+      icons-limit = 8;
+      tray-margin-left = 0;
+    };
+
+    "org/gnome/shell/extensions/user-theme" = {
+      name = "Pop-dark";
     };
   };
 
