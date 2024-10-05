@@ -167,6 +167,7 @@
     gpa
     menulibre
     opentabletdriver
+    gsmartcontrol
 
     # Office
     onlyoffice-bin
