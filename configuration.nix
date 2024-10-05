@@ -102,6 +102,9 @@
     unityhub
     opentofu
     terraform
+    ## TUI
+    lazygit
+    lazydocker
     ## Game dev
     godot3-mono
     godot3-mono-export-templates
