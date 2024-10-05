@@ -88,6 +88,16 @@
       hinting = "full";
     };
 
+    "org/gnome/mutter" = {
+      dynamic-workspaces = true;
+      edge-tiling = false;
+      experimental-features = [
+        "kms-modifiers"
+        "variable-refresh-rate"
+      ];
+      workspaces-only-on-primary = false;
+    };
+
     "org/gnome/nautilus/preferences" = {
       default-folder-viewer = "icon-view";
       search-filter-time-type = "last_modified";
