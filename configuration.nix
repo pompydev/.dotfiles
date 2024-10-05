@@ -166,6 +166,7 @@
     open-webui
     labplot
     pika-backup
+    gnome-calculator
 
     # Misc System packages
     gnupg
