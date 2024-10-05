@@ -91,7 +91,6 @@
     kitty
     vscodium
     zed-editor
-    virtualbox
     jetbrains-toolbox
     pgadmin4
     pgadmin4-desktopmode
