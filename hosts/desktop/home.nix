@@ -48,8 +48,8 @@
     #   org.gradle.daemon.idletimeout=3600000
     # '';
 
-    ".profile".source = home/.profile;
-    ".zshrc".source = home/.zshrc;
+    ".profile".source = ../../home/.profile;
+    ".zshrc".source = ../../home/.zshrc;
   };
 
   # Home Manager can also manage your environment variables through

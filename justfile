@@ -1,5 +1,5 @@
-r:
-    sudo nixos-rebuild switch --flake ./#default --print-build-logs
+r HOST:
+    sudo nixos-rebuild switch --flake ./#{{HOST}} --print-build-logs
 
 u:
     sudo nix flake update
