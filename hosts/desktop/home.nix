@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ../../modules/home-manager/dconf-gnome-extension-blur-my-shell.nix
     ../../modules/home-manager/dconf-input.nix
   ];
 
@@ -133,19 +134,6 @@
         pkgs.gnomeExtensions.tray-icons-reloaded.extensionUuid
         pkgs.gnomeExtensions.user-themes.extensionUuid
       ];
-    };
-
-    "org/gnome/shell/extensions/blur-my-shell" = {
-      appfolder-dialog-opacity = 0.12;
-      blur-applications = false;
-      blur-dash = true;
-      blur-panel = false;
-      brightness = 0.6;
-      dash-opacity = 0.12;
-      debug = false;
-      hacks-level = 1;
-      hidetopbar = false;
-      sigma = 15;
     };
 
     "org/gnome/shell/extensions/lockkeys" = {
