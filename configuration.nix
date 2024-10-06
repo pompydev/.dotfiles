@@ -200,7 +200,6 @@
     gnome-characters
     qbittorrent
     metadata-cleaner
-    monero-gui
 
     # Misc System packages
     gnupg
