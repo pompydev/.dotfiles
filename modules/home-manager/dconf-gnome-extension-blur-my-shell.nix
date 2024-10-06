@@ -14,12 +14,12 @@
     sigma = 15;
   };
 
-  dconfg.settings."org/gnome/shell/extensions/blur-my-shell/appfolder" = {
+  dconf.settings."org/gnome/shell/extensions/blur-my-shell/appfolder" = {
     brightness = 0.6;
     sigma = 15;
   };
 
-  dconfg.settings."org/gnome/shell/extensions/blur-my-shell/dash-to-dock" = {
+  dconf.settings."org/gnome/shell/extensions/blur-my-shell/dash-to-dock" = {
     blur = true;
     brightness = 0.6;
     sigma = 15;
@@ -27,12 +27,12 @@
     style-dash-to-dock = 0;
   };
 
-  dconfg.settings."org/gnome/shell/extensions/blur-my-shell/panel" = {
+  dconf.settings."org/gnome/shell/extensions/blur-my-shell/panel" = {
     brightness = 0.6;
     sigma = 15;
   };
 
-  dconfg.settings."org/gnome/shell/extensions/blur-my-shell/window-list" = {
+  dconf.settings."org/gnome/shell/extensions/blur-my-shell/window-list" = {
     brightness = 0.6;
     sigma = 15;
   };
