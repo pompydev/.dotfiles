@@ -1,6 +1,10 @@
-{ config, pkgs, ... }:
+{ pkgs, ... }:
 
 {
+  imports = [
+    ../../modules/home-manager/dconf-input.nix
+  ];
+
   home.username = "pomp";
   home.homeDirectory = "/home/pomp";
 
