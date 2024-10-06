@@ -12,6 +12,7 @@
   # Nix stuff
   imports = [
     ./hardware-configuration.nix
+    ../../modules/nixos/locale.nix
     inputs.home-manager.nixosModules.default
   ];
   nixpkgs.config.allowUnfree = true;
