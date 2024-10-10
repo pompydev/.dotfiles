@@ -13,6 +13,7 @@
   imports = [
     ./hardware-configuration.nix
     ../../modules/nixos/locale.nix
+    ../../modules/nixos/nautilus-open-any-terminal.nix
     inputs.home-manager.nixosModules.default
   ];
   nixpkgs.config.allowUnfree = true;
@@ -48,7 +49,6 @@
     gnomeExtensions.pop-shell
     gnomeExtensions.tray-icons-reloaded
     gnomeExtensions.user-themes
-    nautilus-open-any-terminal
 
     # Icons & Themes
     papirus-icon-theme
