@@ -41,6 +41,7 @@
   environment.systemPackages = with pkgs; [
     # Desktop
     gnomeExtensions.appindicator
+    gnomeExtensions.gnome-40-ui-improvements
     gnomeExtensions.bluetooth-battery-meter
     gnomeExtensions.blur-my-shell
     gnomeExtensions.lock-keys
