@@ -13,7 +13,7 @@
   imports = [
     ./hardware-configuration.nix
     ../../modules/nixos/locale.nix
-    ../../modules/nixos/nautilus-open-any-terminal.nix
+    ../../modules/nixos/nautilus.nix
     inputs.home-manager.nixosModules.default
   ];
   nixpkgs.config.allowUnfree = true;
@@ -196,7 +196,6 @@
     collision
     file-roller
     protonvpn-gui
-    nautilus
     open-webui
     labplot
     pika-backup
