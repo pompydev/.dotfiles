@@ -14,6 +14,7 @@
     ./hardware-configuration.nix
     ../../modules/nixos/locale.nix
     ../../modules/package/authenticator.nix
+    ../../modules/package/cubiomes-viewer.nix
     ../../modules/package/killall.nix
     ../../modules/package/nautilus.nix
     ../../modules/package/otd.nix
