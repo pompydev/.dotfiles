@@ -169,6 +169,7 @@
 
     # Configuration & Monitor
     dconf-editor
+    seahorse
     bustle
     coppwr
     helvum
