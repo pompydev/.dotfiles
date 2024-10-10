@@ -10,6 +10,8 @@
 
 -->
 
+A [Nix flake](https://wiki.nixos.org/wiki/Flakes) for my [NixOS](https://nixos.org) setup.
+
 ## Software
 
 |                 Software | Choice                                                                                                                                                                           |
