@@ -91,6 +91,7 @@
     terraform
     ## General GUI
     kitty
+    gitbutler
     vscodium
     zed-editor
     pgadmin4
