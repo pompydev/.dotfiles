@@ -13,6 +13,7 @@
   imports = [
     ./hardware-configuration.nix
     ../../modules/nixos/locale.nix
+    ../../modules/package/killall.nix
     ../../modules/package/nautilus.nix
     ../../modules/package/otd.nix
     inputs.home-manager.nixosModules.default
