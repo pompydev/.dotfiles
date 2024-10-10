@@ -16,6 +16,7 @@
     ../../modules/package/killall.nix
     ../../modules/package/nautilus.nix
     ../../modules/package/otd.nix
+    ../../modules/package/shell.nix
     inputs.home-manager.nixosModules.default
   ];
   nixpkgs.config.allowUnfree = true;
@@ -62,16 +63,6 @@
     noto-fonts-cjk-sans
     terminus-nerdfont
     nerdfonts
-
-    # Shell
-    zsh
-    oh-my-zsh
-    zsh-powerlevel10k
-    fzf-zsh
-    fzf
-    eza
-    atuin
-    yazi
 
     # Dev
     dotnet-sdk
@@ -209,11 +200,7 @@
     gnupg
   ];
 
-  # User & Shell
-  programs.zsh = {
-    enable = true;
-    promptInit = "source ${pkgs.zsh-powerlevel10k}/share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
-  };
+  # User
   users.users.pomp = {
     isNormalUser = true;
     description = "pomp";
@@ -221,7 +208,6 @@
       "networkmanager"
       "wheel"
     ];
-    shell = pkgs.zsh;
   };
 
   # System
