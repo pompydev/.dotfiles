@@ -1,4 +1,4 @@
-r HOST:
+r HOST="desktop":
     sudo nixos-rebuild switch --flake ./#{{HOST}} --print-build-logs
 
 u:
