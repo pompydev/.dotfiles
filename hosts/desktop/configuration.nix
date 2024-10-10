@@ -13,7 +13,7 @@
   imports = [
     ./hardware-configuration.nix
     ../../modules/nixos/locale.nix
-    ../../modules/nixos/nautilus.nix
+    ../../modules/package/nautilus.nix
     inputs.home-manager.nixosModules.default
   ];
   nixpkgs.config.allowUnfree = true;
