@@ -14,6 +14,7 @@
     ./hardware-configuration.nix
     ../../modules/nixos/locale.nix
     ../../modules/package/nautilus.nix
+    ../../modules/package/otd.nix
     inputs.home-manager.nixosModules.default
   ];
   nixpkgs.config.allowUnfree = true;
@@ -183,7 +184,6 @@
     gparted
     gpa
     menulibre
-    opentabletdriver
     gsmartcontrol
     cpu-x
 
@@ -228,7 +228,6 @@
   networking.hostName = "nixos";
   networking.networkmanager.enable = true;
   services.printing.enable = false;
-  hardware.opentabletdriver.enable = true;
   hardware.openrazer.enable = true;
   security.rtkit.enable = true;
   environment.sessionVariables = {
