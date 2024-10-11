@@ -164,6 +164,7 @@
     blender
     zrythm
     tenacity
+    parabolic
 
     # Configuration & Monitor
     dconf-editor
