@@ -18,6 +18,7 @@
     ../../modules/package/killall.nix
     ../../modules/package/mongodb-compass.nix
     ../../modules/package/nautilus.nix
+    ../../modules/package/osu-lazer-bin.nix
     ../../modules/package/otd.nix
     ../../modules/package/shell.nix
     inputs.home-manager.nixosModules.default
@@ -127,7 +128,6 @@
 
     # Gaming
     gamemode
-    osu-lazer-bin
     steam
     lunar-client
     prismlauncher
