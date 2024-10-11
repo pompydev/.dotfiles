@@ -125,15 +125,15 @@
 
     "org/gnome/shell" = {
       disable-user-extensions = false;
-      enabled-extensions = [
-        pkgs.gnomeExtensions.appindicator.extensionUuid
-        pkgs.gnomeExtensions.bluetooth-battery-meter.extensionUuid
-        pkgs.gnomeExtensions.blur-my-shell.extensionUuid
-        pkgs.gnomeExtensions.lock-keys.extensionUuid
-        pkgs.gnomeExtensions.pop-shell.extensionUuid
-        pkgs.gnomeExtensions.tray-icons-reloaded.extensionUuid
-        pkgs.gnomeExtensions.gnome-40-ui-improvements.extensionUuid
-        pkgs.gnomeExtensions.user-themes.extensionUuid
+      enabled-extensions = with pkgs.gnomeExtensions; [
+        appindicator.extensionUuid
+        bluetooth-battery-meter.extensionUuid
+        blur-my-shell.extensionUuid
+        lock-keys.extensionUuid
+        pop-shell.extensionUuid
+        tray-icons-reloaded.extensionUuid
+        gnome-40-ui-improvements.extensionUuid
+        user-themes.extensionUuid
       ];
     };
 
