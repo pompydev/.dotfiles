@@ -12,6 +12,7 @@
   # Nix stuff
   imports = [
     ./hardware-configuration.nix
+    ../../modules/nixos/audio.nix
     ../../modules/nixos/locale.nix
     ../../modules/package/authenticator.nix
     ../../modules/package/cubiomes-viewer.nix
@@ -170,8 +171,6 @@
     dconf-editor
     seahorse
     bustle
-    coppwr
-    helvum
     mission-center
     resources
     gnome-tweaks
@@ -228,17 +227,6 @@
     CUDA_PATH = "${pkgs.cudatoolkit}";
     EXTRA_LDFLAGS = "-L/lib -L${pkgs.linuxPackages.nvidia_x11}/lib";
     EXTRA_CCFLAGS = "-I/usr/include";
-  };
-
-  # Audio
-  hardware.pulseaudio.support32Bit = true;
-  hardware.pulseaudio.enable = false;
-  services.pipewire = {
-    enable = true;
-    alsa.enable = true;
-    alsa.support32Bit = true;
-    pulse.enable = true;
-    jack.enable = true;
   };
 
   # Desktop
