@@ -2,9 +2,8 @@
   description = "pomp's NixOS flake";
 
   inputs = {
-    nixpkgs = {
-      url = "github:nixos/nixpkgs/nixos-unstable";
-    };
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    nixpkgs-master.url = "github:NixOS/nixpkgs/master";
 
     home-manager = {
       url = "github:nix-community/home-manager";
@@ -13,7 +12,17 @@
   };
 
   outputs =
-    { nixpkgs, ... }@inputs:
+    { nixpkgs, nixpkgs-master, ... }@inputs:
+
+    let
+      system = "x86_64-linux";
+      overlay-nixpkgs = final: prev: {
+        master = import nixpkgs-master {
+          inherit system;
+          config.allowUnfree = true;
+        };
+      };
+    in
     {
       nixosConfigurations = {
         desktop = nixpkgs.lib.nixosSystem {
@@ -22,6 +31,12 @@
           };
 
           modules = [
+            (
+              { ... }:
+              {
+                nixpkgs.overlays = [ overlay-nixpkgs ];
+              }
+            )
             ./hosts/desktop/configuration.nix
           ];
         };
