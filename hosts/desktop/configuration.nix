@@ -27,6 +27,9 @@
     inputs.home-manager.nixosModules.default
   ];
   nixpkgs.config.allowUnfree = true;
+  nix.extraOptions = ''
+    trusted-users = root pomp
+  ''; # allow pomp to manage nix store
   nix.settings = {
     substituters = [
       "https://nix-community.cachix.org"
