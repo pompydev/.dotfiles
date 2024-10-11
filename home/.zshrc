@@ -6,6 +6,7 @@ fi
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(
+  direnv
   fzf
   git
   zsh-interactive-cd
@@ -39,3 +40,8 @@ eval "$(atuin init zsh)"
 # https://github.com/junegunn/fzf
 eval "$(fzf --zsh)"
 #endregion fzf
+
+#region direnv
+# https://direnv.net
+eval "$(direnv hook zsh)"
+#endregion direnv
