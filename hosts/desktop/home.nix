@@ -132,6 +132,7 @@
         pkgs.gnomeExtensions.lock-keys.extensionUuid
         pkgs.gnomeExtensions.pop-shell.extensionUuid
         pkgs.gnomeExtensions.tray-icons-reloaded.extensionUuid
+        pkgs.gnomeExtensions.gnome-40-ui-improvements.extensionUuid
         pkgs.gnomeExtensions.user-themes.extensionUuid
       ];
     };
