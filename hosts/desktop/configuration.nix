@@ -15,6 +15,7 @@
     ../../modules/nixos/locale.nix
     ../../modules/package/authenticator.nix
     ../../modules/package/cubiomes-viewer.nix
+    ../../modules/package/handbrake.nix
     ../../modules/package/killall.nix
     ../../modules/package/mongodb-compass.nix
     ../../modules/package/nautilus.nix
