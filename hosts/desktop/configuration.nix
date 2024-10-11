@@ -16,6 +16,7 @@
     ../../modules/package/authenticator.nix
     ../../modules/package/cubiomes-viewer.nix
     ../../modules/package/killall.nix
+    ../../modules/package/mongodb-compass.nix
     ../../modules/package/nautilus.nix
     ../../modules/package/otd.nix
     ../../modules/package/shell.nix
