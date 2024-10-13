@@ -82,8 +82,7 @@
     gitbutler
     vscodium
     zed-editor
-    pgadmin4
-    pgadmin4-desktopmode
+    dbeaver-bin
     jetbrains-toolbox
     filezilla
     glade
