@@ -77,24 +77,6 @@
     nerdfonts
 
     # Dev
-    dotnet-sdk
-    jdk
-    yasm
-    wget
-    python3
-    just
-    git
-    go
-    go-tools
-    rustup
-    rust-analyzer
-    zig
-    zls
-    nixd
-    nixfmt-rfc-style
-    vim
-    opentofu
-    terraform
     ## General GUI
     kitty
     gitbutler
@@ -106,15 +88,11 @@
     filezilla
     glade
     seabird
-    ## Nodejs
-    nodejs_latest
-    deno
-    bun
-    pnpm
-    yarn
-    yarn-berry
-    firebase-tools
     ## General CLI / TUI
+    wget
+    just
+    git
+    vim
     btop
     nvitop
     tree
@@ -128,7 +106,6 @@
     godot_4-export-templates
     ## Profiling
     sysprof
-    hyperfine
 
     # Hacking
     metasploit
