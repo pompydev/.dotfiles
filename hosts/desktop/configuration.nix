@@ -209,6 +209,7 @@
     # Misc System packages
     gnupg
     appimage-run
+    file
   ];
 
   # User
