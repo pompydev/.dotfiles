@@ -3,6 +3,7 @@
 
   "editor.formatOnSave": true,
 
+  "nix.formatterPath": "nixpkgs-fmt",
   "nix.enableLanguageServer": true,
   "nix.serverPath": "nixd",
 

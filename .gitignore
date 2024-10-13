@@ -1,1 +1,4 @@
 /_/
+
+.devenv*
+.direnv
