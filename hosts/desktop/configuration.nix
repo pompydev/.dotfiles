@@ -181,6 +181,7 @@
     gnome-characters
     qbittorrent
     metadata-cleaner
+    gnome-connections
 
     # Misc System packages
     gnupg
