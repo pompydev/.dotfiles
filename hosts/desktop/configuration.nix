@@ -223,10 +223,7 @@
     xterm
   ];
   services.xserver.enable = true;
-  services.xserver.xkb = {
-    layout = "us";
-    variant = "";
-  };
+  services.xserver.xkb.layout = "kr";
 
   # Graphics
   nixpkgs.config.cudaSupport = true;
