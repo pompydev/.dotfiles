@@ -24,6 +24,7 @@
     ../../modules/package/osu-lazer-bin.nix
     ../../modules/package/otd.nix
     ../../modules/package/shell.nix
+    ../../modules/package/virtualbox.nix
     inputs.home-manager.nixosModules.default
   ];
   nixpkgs.config.allowUnfree = true;
@@ -254,10 +255,6 @@
     # what driver version?
     package = config.boot.kernelPackages.nvidiaPackages.beta;
   };
-
-  # VirtualBox
-  virtualisation.virtualbox.host.enable = true;
-  virtualisation.virtualbox.host.enableExtensionPack = true;
 
   services.open-webui.enable = true;
   services.ollama = {
