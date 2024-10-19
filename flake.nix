@@ -40,6 +40,22 @@
             ./hosts/desktop/configuration.nix
           ];
         };
+
+        laptop = nixpkgs.lib.nixosSystem {
+          specialArgs = {
+            inherit inputs;
+          };
+
+          modules = [
+            (
+              { ... }:
+              {
+                nixpkgs.overlays = [ overlay-nixpkgs ];
+              }
+            )
+            ./hosts/laptop/configuration.nix
+          ];
+        };
       };
     };
 }
