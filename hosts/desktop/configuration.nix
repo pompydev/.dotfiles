@@ -201,7 +201,7 @@
 
   # System
   boot.loader.systemd-boot.enable = true;
-  networking.hostName = "nixos";
+  networking.hostName = "desktop";
   networking.networkmanager.enable = true;
   services.printing.enable = false;
   hardware.openrazer.enable = true;
