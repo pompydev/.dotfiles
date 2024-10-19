@@ -171,7 +171,7 @@
 
     # Misc Application
     anytype
-    rustdesk
+    rustdesk-flutter
     collision
     file-roller
     protonvpn-gui

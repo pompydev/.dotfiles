@@ -22,7 +22,7 @@
     just
     brave
     vscodium
-    rustdesk
+    rustdesk-flutter
   ];
 
   boot.loader.systemd-boot.enable = true;
