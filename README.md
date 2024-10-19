@@ -20,15 +20,15 @@ Timeline: [setup-script-sh](https://github.com/developomp/setup-script-sh) ➡ [
 
 ## Software
 
-|                 Software | Choice                                                                                                                                                                           |
-| -----------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Desktop Environment - 🚀 | [GNOME](https://www.gnome.org) (to be replaced with [COSMIC](https://github.com/pop-os/cosmic-epoch))                                                                            |
-|               Icons - 💎 | [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)                                                                                                          |
-|           GTK theme - 🎨 | [Pop!](https://github.com/pop-os/gtk-theme)                                                                                                                                      |
-|               Shell - 🐚 | [zsh](https://github.com/zsh-users/zsh) with [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)                                                                                       |
-|            Terminal - 🖥️ | [kitty](https://github.com/kovidgoyal/kitty)                                                                                                                                     |
-|             Browser - 🌐 | [Brave](https://github.com/brave/brave-browser) (to be replaced with [zen](https://github.com/zen-browser/desktop) then [LadyBird](https://github.com/LadybirdBrowser/ladybird)) |
-|   Text Editor & IDE - 📝 | [VSCodium](https://github.com/VSCodium/vscodium) (to be replaced with [zed](https://github.com/zed-industries/zed))                                                              |
+|                 Software | Choice                                                                  | Future candidates                                                                                      |
+| -----------------------: | :---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| Desktop Environment - 🚀 | [GNOME](https://www.gnome.org)                                          | [COSMIC](https://github.com/pop-os/cosmic-epoch)                                                       |
+|               Icons - 💎 | [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) |                                                                                                        |
+|           GTK theme - 🎨 | [Pop!](https://github.com/pop-os/gtk-theme)                             |                                                                                                        |
+|               Shell - 🐚 | [zsh](https://github.com/zsh-users/zsh)                                 | [fish](https://fishshell.com)                                                                          |
+|            Terminal - 🖥️ | [kitty](https://github.com/kovidgoyal/kitty)                            |                                                                                                        |
+|             Browser - 🌐 | [Brave](https://github.com/brave/brave-browser)                         | [zen](https://github.com/zen-browser/desktop), [LadyBird](https://github.com/LadybirdBrowser/ladybird) |
+|   Text Editor & IDE - 📝 | [VSCodium](https://github.com/VSCodium/vscodium)                        | [zed](https://github.com/zed-industries/zed)                                                           |
 
 ## Wallpaper
 
