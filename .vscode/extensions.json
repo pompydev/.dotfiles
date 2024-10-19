@@ -2,6 +2,7 @@
   "recommendations": [
     "esbenp.prettier-vscode",
     "jnoortheen.nix-ide",
-    "mkhl.direnv"
+    "mkhl.direnv",
+    "nefrob.vscode-just-syntax"
   ]
 }
