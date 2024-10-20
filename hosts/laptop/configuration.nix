@@ -4,10 +4,10 @@
   imports = [
     ./hardware-configuration.nix
     ../../modules/nixos/audio.nix
+    ../../modules/nixos/devenv.nix
     ../../modules/nixos/locale.nix
     ../../modules/nixos/nix.nix
-    ../../modules/package/devenv.nix
-    ../../modules/package/shell.nix
+    ../../modules/nixos/shell.nix
     inputs.home-manager.nixosModules.default
   ];
   home-manager = {

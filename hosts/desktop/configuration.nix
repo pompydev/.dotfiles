@@ -13,18 +13,18 @@
   imports = [
     ./hardware-configuration.nix
     ../../modules/nixos/audio.nix
+    ../../modules/nixos/authenticator.nix
+    ../../modules/nixos/cubiomes-viewer.nix
+    ../../modules/nixos/devenv.nix
+    ../../modules/nixos/handbrake.nix
+    ../../modules/nixos/killall.nix
     ../../modules/nixos/locale.nix
-    ../../modules/package/authenticator.nix
-    ../../modules/package/cubiomes-viewer.nix
-    ../../modules/package/devenv.nix
-    ../../modules/package/handbrake.nix
-    ../../modules/package/killall.nix
-    ../../modules/package/mongodb-compass.nix
-    ../../modules/package/nautilus.nix
-    ../../modules/package/osu-lazer-bin.nix
-    ../../modules/package/otd.nix
-    ../../modules/package/shell.nix
-    ../../modules/package/virtualbox.nix
+    ../../modules/nixos/mongodb-compass.nix
+    ../../modules/nixos/nautilus.nix
+    ../../modules/nixos/osu-lazer-bin.nix
+    ../../modules/nixos/otd.nix
+    ../../modules/nixos/shell.nix
+    ../../modules/nixos/virtualbox.nix
     inputs.home-manager.nixosModules.default
   ];
   nixpkgs.config.allowUnfree = true;
