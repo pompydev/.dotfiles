@@ -14,6 +14,7 @@
     fzf-zsh
     fzf
     eza
+    tmux
     atuin
     yazi
   ];
