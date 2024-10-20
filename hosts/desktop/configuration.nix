@@ -22,6 +22,7 @@
     ../../modules/nixos/locale.nix
     ../../modules/nixos/mongodb-compass.nix
     ../../modules/nixos/nautilus.nix
+    ../../modules/nixos/obs.nix
     ../../modules/nixos/osu-lazer-bin.nix
     ../../modules/nixos/otd.nix
     ../../modules/nixos/shell.nix
@@ -132,12 +133,6 @@
     vesktop
 
     # Design, Content Creation, and Media
-    (pkgs.wrapOBS {
-      plugins = with pkgs.obs-studio-plugins; [
-        input-overlay
-        obs-vkcapture
-      ];
-    })
     eog
     vlc
     gcolor3
