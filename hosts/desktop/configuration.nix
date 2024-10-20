@@ -16,6 +16,7 @@
     ../../modules/nixos/authenticator.nix
     ../../modules/nixos/cubiomes-viewer.nix
     ../../modules/nixos/devenv.nix
+    ../../modules/nixos/docker.nix
     ../../modules/nixos/handbrake.nix
     ../../modules/nixos/killall.nix
     ../../modules/nixos/locale.nix
@@ -198,6 +199,7 @@
     extraGroups = [
       "networkmanager"
       "wheel"
+      "docker"
     ];
   };
 
