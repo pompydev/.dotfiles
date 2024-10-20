@@ -79,6 +79,7 @@
 
     # Dev
     ## General GUI
+    mongodb-compass
     kitty
     gitbutler
     vscodium
