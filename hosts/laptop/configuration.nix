@@ -5,6 +5,7 @@
     ./hardware-configuration.nix
     ../../modules/nixos/audio.nix
     ../../modules/nixos/devenv.nix
+    ../../modules/nixos/gnome.nix
     ../../modules/nixos/locale.nix
     ../../modules/nixos/nix.nix
     ../../modules/nixos/shell.nix
@@ -32,8 +33,6 @@
   networking.hostName = "laptop";
   networking.networkmanager.enable = true;
   services.xserver.enable = true;
-  services.xserver.displayManager.gdm.enable = true;
-  services.xserver.desktopManager.gnome.enable = true;
   services.printing.enable = false; # enable only when needed
   security.rtkit.enable = true;
 

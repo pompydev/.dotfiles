@@ -17,6 +17,7 @@
     ../../modules/nixos/cubiomes-viewer.nix
     ../../modules/nixos/devenv.nix
     ../../modules/nixos/docker.nix
+    ../../modules/nixos/gnome.nix
     ../../modules/nixos/handbrake.nix
     ../../modules/nixos/killall.nix
     ../../modules/nixos/locale.nix
@@ -38,20 +39,6 @@
   };
 
   environment.systemPackages = with pkgs; [
-    # Desktop
-    gnomeExtensions.appindicator
-    gnomeExtensions.gnome-40-ui-improvements
-    gnomeExtensions.bluetooth-battery-meter
-    gnomeExtensions.blur-my-shell
-    gnomeExtensions.lock-keys
-    gnomeExtensions.pop-shell
-    gnomeExtensions.tray-icons-reloaded
-    gnomeExtensions.user-themes
-
-    # Icons & Themes
-    papirus-icon-theme
-    pop-gtk-theme
-
     # Fonts
     meslo-lgs-nf
     ubuntu-sans-mono
@@ -189,13 +176,6 @@
   };
 
   # Desktop
-  services.xserver.displayManager.gdm.enable = true;
-  services.xserver.desktopManager.gnome.enable = true;
-  services.gnome.core-utilities.enable = false;
-  environment.gnome.excludePackages = with pkgs; [
-    gnome-tour
-    xterm
-  ];
   services.xserver.enable = true;
   services.xserver.xkb.layout = "kr";
 
