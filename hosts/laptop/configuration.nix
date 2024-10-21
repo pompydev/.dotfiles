@@ -18,7 +18,6 @@
 
   environment.systemPackages = with pkgs; [
     vim
-    git
     just
     brave
     vscodium

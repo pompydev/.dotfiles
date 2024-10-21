@@ -4,6 +4,7 @@
   imports = [
     ../../modules/home-manager/dconf-gnome-extension-blur-my-shell.nix
     ../../modules/home-manager/dconf-input.nix
+    ../../modules/home-manager/git.nix
   ];
 
   home.username = "pomp";

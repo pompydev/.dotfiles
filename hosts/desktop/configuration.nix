@@ -94,7 +94,6 @@
     ## General CLI / TUI
     wget
     just
-    git
     vim
     btop
     nvitop
