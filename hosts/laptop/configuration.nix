@@ -21,6 +21,7 @@
     just
     brave
     vscodium
+    anytype
     rustdesk-flutter
   ];
 
