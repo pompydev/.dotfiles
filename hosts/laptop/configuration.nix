@@ -7,6 +7,7 @@
     ../../modules/nixos/devenv.nix
     ../../modules/nixos/gnome.nix
     ../../modules/nixos/locale.nix
+    ../../modules/nixos/nautilus.nix
     ../../modules/nixos/nix.nix
     ../../modules/nixos/osu.nix
     ../../modules/nixos/shell.nix
