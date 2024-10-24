@@ -26,6 +26,9 @@
     anytype
     rustdesk-flutter
 
+    # Office
+    onlyoffice-bin
+
     # Configuration & Monitor
     mission-center
     resources
