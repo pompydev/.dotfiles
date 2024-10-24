@@ -29,6 +29,7 @@
     # Configuration & Monitor
     mission-center
     resources
+    gnome-tweaks
   ];
 
   boot.loader.systemd-boot.enable = true;
