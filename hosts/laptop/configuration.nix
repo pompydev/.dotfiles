@@ -25,6 +25,10 @@
     vscodium
     anytype
     rustdesk-flutter
+
+    # Configuration & Monitor
+    mission-center
+    resources
   ];
 
   boot.loader.systemd-boot.enable = true;
