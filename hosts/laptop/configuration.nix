@@ -8,6 +8,7 @@
     ../../modules/nixos/gnome.nix
     ../../modules/nixos/locale.nix
     ../../modules/nixos/nix.nix
+    ../../modules/nixos/osu.nix
     ../../modules/nixos/shell.nix
     inputs.home-manager.nixosModules.default
   ];
