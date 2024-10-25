@@ -7,6 +7,8 @@
     ../../modules/home-manager/git.nix
   ];
 
+  nixpkgs.config.allowUnfree = true;
+
   home.username = "pomp";
   home.homeDirectory = "/home/pomp";
 
