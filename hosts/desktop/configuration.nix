@@ -134,7 +134,6 @@
 
     # Misc Application
     anytype
-    gnome.seahorse
     rustdesk-flutter
     collision
     file-roller
