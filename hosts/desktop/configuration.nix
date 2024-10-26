@@ -49,7 +49,6 @@
     mongodb-compass
     kitty
     gitbutler
-    vscodium
     zed-editor
     dbeaver-bin
     jetbrains-toolbox

@@ -26,7 +26,6 @@
     vim
     just
     brave
-    vscodium
     kitty
     anytype
     rustdesk-flutter
