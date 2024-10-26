@@ -92,7 +92,6 @@
     mullvad-browser
 
     # Communication
-    kiwitalk
     element-desktop
     slack
     discord
