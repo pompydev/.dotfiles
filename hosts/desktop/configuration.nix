@@ -1,6 +1,3 @@
-# man configuration.nix
-# nixos-help
-
 {
   config,
   pkgs,
@@ -9,7 +6,6 @@
 }:
 
 {
-  # Nix stuff
   imports = [
     ./hardware-configuration.nix
     ../../modules/nixos/audio.nix
@@ -29,15 +25,17 @@
     ../../modules/nixos/otd.nix
     ../../modules/nixos/shell.nix
     ../../modules/nixos/virtualbox.nix
-    inputs.home-manager.nixosModules.default
+    inputs.home-manager.nixosModules.home-manager
   ];
-  nixpkgs.config.allowUnfree = true;
+
   home-manager = {
     users = {
       pomp = import ./home.nix;
     };
   };
 
+  # Packages
+  nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
     # Fonts
     meslo-lgs-nf

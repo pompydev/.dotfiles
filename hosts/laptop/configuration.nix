@@ -11,14 +11,17 @@
     ../../modules/nixos/nix.nix
     ../../modules/nixos/osu.nix
     ../../modules/nixos/shell.nix
-    inputs.home-manager.nixosModules.default
+    inputs.home-manager.nixosModules.home-manager
   ];
+
   home-manager = {
     users = {
       pomp = import ./home.nix;
     };
   };
 
+  # Packages
+  nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
     vim
     just
@@ -37,16 +40,7 @@
     gnome-tweaks
   ];
 
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
-
-  boot.initrd.luks.devices."luks-72250b57-488c-4850-a000-766508a1ceb7".device = "/dev/disk/by-uuid/72250b57-488c-4850-a000-766508a1ceb7";
-  networking.hostName = "laptop";
-  networking.networkmanager.enable = true;
-  services.xserver.enable = true;
-  services.printing.enable = false; # enable only when needed
-  security.rtkit.enable = true;
-
+  # User
   users.users.pomp = {
     isNormalUser = true;
     description = "pomp";
@@ -56,8 +50,15 @@
     ];
   };
 
-  nixpkgs.config.allowUnfree = true;
-
+  # System
+  boot.loader.systemd-boot.enable = true;
+  boot.loader.efi.canTouchEfiVariables = true;
+  boot.initrd.luks.devices."luks-72250b57-488c-4850-a000-766508a1ceb7".device = "/dev/disk/by-uuid/72250b57-488c-4850-a000-766508a1ceb7";
+  networking.hostName = "laptop";
+  networking.networkmanager.enable = true;
+  services.xserver.enable = true;
+  services.printing.enable = false; # enable only when needed
+  security.rtkit.enable = true;
   programs.gnupg.agent = {
     enable = true;
     enableSSHSupport = true;
