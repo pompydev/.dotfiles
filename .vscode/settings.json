@@ -1,5 +1,18 @@
 {
-  "cSpell.words": ["dotfiles", "justfile", "nixpkgs"],
+  "cSpell.words": [
+    "chillhop",
+    "devenv",
+    "dotfiles",
+    "geneviève",
+    "justfile",
+    "nixos",
+    "nixpkgs",
+    "nordified",
+    "papirus",
+    "pompup",
+    "Vimjoyer",
+    "Östberg"
+  ],
 
   "editor.formatOnSave": true,
 
