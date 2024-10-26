@@ -137,7 +137,6 @@
     collision
     file-roller
     protonvpn-gui
-    open-webui
     labplot
     pika-backup
     gnome-calculator
@@ -205,7 +204,7 @@
     package = config.boot.kernelPackages.nvidiaPackages.beta;
   };
 
-  services.open-webui.enable = true;
+  # services.open-webui.enable = true;
   services.ollama = {
     enable = true;
     acceleration = "cuda";
