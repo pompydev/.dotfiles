@@ -161,6 +161,10 @@
 
   # System
   boot.loader.systemd-boot.enable = true;
+  boot.kernelParams = [
+    "quiet"
+    "splash"
+  ];
   networking.hostName = "desktop";
   networking.networkmanager.enable = true;
   services.printing.enable = false;

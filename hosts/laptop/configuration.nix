@@ -50,6 +50,10 @@
   };
 
   # System
+  boot.kernelParams = [
+    "quiet"
+    "splash"
+  ];
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
   boot.initrd.luks.devices."luks-72250b57-488c-4850-a000-766508a1ceb7".device = "/dev/disk/by-uuid/72250b57-488c-4850-a000-766508a1ceb7";
