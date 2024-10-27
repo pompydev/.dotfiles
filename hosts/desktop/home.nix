@@ -15,6 +15,13 @@
   home.username = "pomp";
   home.homeDirectory = "/home/pomp";
 
+  gtk.gtk3.bookmarks = [
+    "file://$HOME/.config"
+    "file://$HOME/.local"
+    "file://$HOME/Dev"
+    "file://$HOME/Programs"
+  ];
+
   # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
   # introduces backwards incompatible changes.
