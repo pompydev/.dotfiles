@@ -150,6 +150,12 @@
     file
   ];
 
+  # Programs
+  programs.gnupg.agent = {
+    enable = true;
+    enableSSHSupport = true;
+  };
+
   # User
   users.users.pomp = {
     isNormalUser = true;
@@ -208,15 +214,11 @@
     package = config.boot.kernelPackages.nvidiaPackages.beta;
   };
 
+  # Services
   # services.open-webui.enable = true;
   services.ollama = {
     enable = true;
     acceleration = "cuda";
-  };
-
-  programs.gnupg.agent = {
-    enable = true;
-    enableSSHSupport = true;
   };
   # services.openssh.enable = true;
 

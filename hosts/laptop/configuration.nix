@@ -43,6 +43,12 @@
     inspector
   ];
 
+  # Programs
+  programs.gnupg.agent = {
+    enable = true;
+    enableSSHSupport = true;
+  };
+
   # User
   users.users.pomp = {
     isNormalUser = true;
@@ -63,13 +69,11 @@
   boot.initrd.luks.devices."luks-72250b57-488c-4850-a000-766508a1ceb7".device = "/dev/disk/by-uuid/72250b57-488c-4850-a000-766508a1ceb7";
   networking.hostName = "laptop";
   networking.networkmanager.enable = true;
+  security.rtkit.enable = true;
+
+  # Services
   services.xserver.enable = true;
   services.printing.enable = false; # enable only when needed
-  security.rtkit.enable = true;
-  programs.gnupg.agent = {
-    enable = true;
-    enableSSHSupport = true;
-  };
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
