@@ -143,6 +143,7 @@
     monero-gui
     snoop
     hashes
+    inspector
 
     # Misc System packages
     gnupg

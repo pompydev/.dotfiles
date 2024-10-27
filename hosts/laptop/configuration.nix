@@ -41,6 +41,7 @@
     anytype
     snoop
     hashes
+    inspector
   ];
 
   # User
