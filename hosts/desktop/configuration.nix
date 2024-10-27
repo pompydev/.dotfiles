@@ -141,6 +141,7 @@
     qbittorrent
     metadata-cleaner
     monero-gui
+    snoop
 
     # Misc System packages
     gnupg

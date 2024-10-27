@@ -27,7 +27,6 @@
     just
     brave
     kitty
-    anytype
     rustdesk-flutter
 
     # Office
@@ -37,6 +36,10 @@
     mission-center
     resources
     gnome-tweaks
+
+    # Misc Application
+    anytype
+    snoop
   ];
 
   # User
