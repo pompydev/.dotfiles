@@ -51,7 +51,7 @@ with lib.hm.gvariant;
       hangul-keyboard = "2";
       hanja-keys = "Hangul_Hanja";
       initial-input-mode = "latin";
-      switch-keys = "Multi_key";
+      switch-keys = "Multi_key,Alt_R";
       word-commit = false;
     };
   };
