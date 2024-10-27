@@ -26,7 +26,6 @@
     vim
     just
     brave
-    kitty
     rustdesk-flutter
 
     # Office

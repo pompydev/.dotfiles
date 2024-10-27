@@ -47,7 +47,6 @@
     # Dev
     ## General GUI
     mongodb-compass
-    kitty
     gitbutler
     zed-editor
     dbeaver-bin
