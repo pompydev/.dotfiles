@@ -40,6 +40,7 @@
     # Misc Application
     anytype
     snoop
+    hashes
   ];
 
   # User

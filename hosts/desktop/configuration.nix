@@ -142,6 +142,7 @@
     metadata-cleaner
     monero-gui
     snoop
+    hashes
 
     # Misc System packages
     gnupg
