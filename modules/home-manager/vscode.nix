@@ -7,20 +7,26 @@
     # List installed extensions: codium --list-extensions
     extensions = with pkgs.vscode-extensions; [
       # general vscode features
-      aaron-bond.better-comments # comment color highlighting
-      editorconfig.editorconfig # EditorConfig support
       mikestead.dotenv # .env file support
       # mkxml.vscode-filesize # show file size on bottom bar
-      streetsidesoftware.code-spell-checker # spell checking
       wakatime.vscode-wakatime # Wakatime support
-      usernamehw.errorlens # show error on lines they originated from
 
       # general editing feature
+      aaron-bond.better-comments # comment color highlighting
+      # wayou.vscode-todo-highlight
+      editorconfig.editorconfig # EditorConfig support
+      streetsidesoftware.code-spell-checker # spell checking
+      usernamehw.errorlens # show error on lines they originated from
       christian-kohler.path-intellisense # autocomplete filenames
       # dbankier.vscode-quick-select # selecting quoted text
       # earshinov.sort-lines-by-selection # sort lines by selection
       stkb.rewrap # auto-wrap long text
       # plievone.vscode-template-literal-editor # template string syntax highlight
+
+      # Markdown/Markup
+      redhat.vscode-xml
+      redhat.vscode-yaml
+      unifiedjs.vscode-mdx
 
       # general web tech
       bradlc.vscode-tailwindcss # Tailwind support
@@ -37,19 +43,23 @@
       yoavbls.pretty-ts-errors # make TS error human readable
       # bierner.jsdoc-markdown-highlighting # markdown syntax highlighting for jsdoc comments
       # vunguyentuan.vscode-postcss # postcss support
+      styled-components.vscode-styled-components
 
       # icons & themes
       pkief.material-icon-theme # explorer icon theme
       zhuangtongfa.material-theme # One Dark Pro theme
 
       # git / github
-      eamodio.gitlens # basic git action as GUI
-      github.vscode-github-actions # Github action features
+      eamodio.gitlens
+      github.vscode-github-actions
+      github.vscode-pull-request-github
+      # vivaxy.vscode-conventional-commits
 
-      # reverse engineering
+      # reverse engineering & debugging
       # tintinweb.vscode-decompiler # Decompile jar, apk, pyc, pyo, binary executable, etc
       # icsharpcode.ilspy-vscode # C# reverse engineering
       ms-vscode.hexeditor # hex editor
+      vadimcn.vscode-lldb
 
       # Markdown
       yzhang.markdown-all-in-one # markdown swiss army knife
@@ -67,6 +77,7 @@
       ms-python.black-formatter # popular python formatter
       ms-python.python # python support
       ms-toolsai.jupyter # jupyter extension pack
+      # donjayamanne.python-extension-pack
 
       # Go
       golang.go # Go support
@@ -107,6 +118,7 @@
       # alfish.godot-files # godot file support
       # geequlim.godot-tools # godot-vscode integratrion
       # neikeq.godot-csharp-vscode # godot C# tools
+      # razoric.gdscript-toolkit-formatter
 
       # nginx
       # ahmadalli.vscode-nginx-conf # nginx config support
@@ -124,28 +136,31 @@
       # Zig
       ziglang.vscode-zig
 
-      # xforever.language-x86-64-assembly
-      # alexcvzz.vscode-sqlite
-      bmewburn.vscode-intelephense-client
-      # donjayamanne.python-extension-pack
-      github.vscode-pull-request-github
-      graphql.vscode-graphql
-      graphql.vscode-graphql-syntax
-      # hbenl.test-adapter-converter
-      # inferrinizzard.prettier-sql-vscode
+      # Nix
       jnoortheen.nix-ide
-      # macabeus.vscode-fluent
-      mkhl.direnv
-      nefrob.vscode-just-syntax
-      # razoric.gdscript-toolkit-formatter
-      redhat.vscode-xml
-      redhat.vscode-yaml
-      styled-components.vscode-styled-components
+      mkhl.direnv # for devenv
+
+      # Lua
       sumneko.lua
-      unifiedjs.vscode-mdx
-      vadimcn.vscode-lldb
-      # vivaxy.vscode-conventional-commits
-      # wayou.vscode-todo-highlight
+
+      # Assembly
+      # xforever.language-x86-64-assembly
+
+      # SQL
+      # alexcvzz.vscode-sqlite
+      # inferrinizzard.prettier-sql-vscode
+
+      # PHP
+      bmewburn.vscode-intelephense-client
+
+      # Tests
+      # hbenl.test-adapter-converter
+
+      # i18n
+      # macabeus.vscode-fluent
+
+      # Justfile
+      nefrob.vscode-just-syntax
     ];
 
     userSettings = {
