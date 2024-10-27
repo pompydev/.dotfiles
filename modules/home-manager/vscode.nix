@@ -3,7 +3,6 @@
 {
   programs.vscode = {
     enable = true;
-    package = pkgs.vscodium;
 
     # List installed extensions: codium --list-extensions
     extensions = with pkgs.vscode-extensions; [
