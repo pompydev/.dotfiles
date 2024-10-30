@@ -4,7 +4,7 @@
   dconf.settings = {
     "org/gnome/desktop/interface" = {
       gtk-theme = "Pop-dark";
-      cursor-theme = "Breeze";
+      cursor-theme = "Adwaita";
       icon-theme = "Papirus-Dark";
 
       font-antialiasing = "grayscale";
