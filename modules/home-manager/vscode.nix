@@ -335,7 +335,7 @@
         name = "cpptools";
         publisher = "ms-vscode";
         version = "1.22.10";
-        sha256 = "sha256-mwx/wh7AXxv4JG4++3lAEyetUr42GcTF8NgD8P8EMaQ=";
+        sha256 = "sha256-S6cneQMUcKPGGgC2b0pN5BaZA+9dSPHF/c2w0fzSmxI=";
       }
 
       # C#
@@ -517,7 +517,7 @@
         name = "lua";
         publisher = "sumneko";
         version = "3.11.1";
-        sha256 = "sha256-DPJxMmu5gdZqs+eMpbvpPgir+4aJ22viqsBpuyBzi6A=";
+        sha256 = "sha256-Kb/3xxc0EM1SBAcE3VRSs2n8IjtCKxBDkZERveW795A=";
       }
 
       # Assembly
