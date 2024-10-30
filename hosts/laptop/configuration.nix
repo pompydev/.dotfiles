@@ -38,6 +38,7 @@
 
     # Misc Application
     anytype
+    menulibre
     snoop
     hashes
     inspector
