@@ -17,6 +17,7 @@
     ../../modules/nixos/handbrake.nix
     ../../modules/nixos/killall.nix
     ../../modules/nixos/locale.nix
+    ../../modules/nixos/monero.nix
     ../../modules/nixos/mongodb-compass.nix
     ../../modules/nixos/nautilus.nix
     ../../modules/nixos/nix.nix
@@ -139,7 +140,6 @@
     gnome-characters
     qbittorrent
     metadata-cleaner
-    monero-gui
     snoop
     hashes
     inspector
