@@ -13,6 +13,7 @@
     ../../modules/nixos/cubiomes-viewer.nix
     ../../modules/nixos/devenv.nix
     ../../modules/nixos/docker.nix
+    ../../modules/nixos/fonts.nix
     ../../modules/nixos/gnome.nix
     ../../modules/nixos/handbrake.nix
     ../../modules/nixos/killall.nix
@@ -38,13 +39,6 @@
   # Packages
   nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
-    # Fonts
-    meslo-lgs-nf
-    ubuntu-sans-mono
-    noto-fonts-cjk-sans
-    terminus-nerdfont
-    nerdfonts
-
     # Dev
     ## General GUI
     mongodb-compass
