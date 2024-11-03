@@ -3,6 +3,7 @@
 {
   imports = [
     ./hardware-configuration.nix
+    ./modules/graphics.nix
     ../../modules/nixos/audio.nix
     ../../modules/nixos/devenv.nix
     ../../modules/nixos/gnome.nix
