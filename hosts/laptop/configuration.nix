@@ -44,6 +44,7 @@
     snoop
     hashes
     inspector
+    gnome-disk-utility
   ];
 
   # Programs
