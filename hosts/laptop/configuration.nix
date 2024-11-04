@@ -44,6 +44,7 @@
     snoop
     hashes
     inspector
+    baobab
     gnome-disk-utility
   ];
 
