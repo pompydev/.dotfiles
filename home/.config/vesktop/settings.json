@@ -1,0 +1,15 @@
+{
+    "minimizeToTray": "on",
+    "discordBranch": "stable",
+    "arRPC": false,
+    "customTitleBar": false,
+    "splashTheming": true,
+    "tray": true,
+    "splashColor": "oklab(0.899195 -0.00202516 -0.0162148)",
+    "splashBackground": "oklab(0.379212 -0.00176263 -0.028922)",
+    "enableMenu": false,
+    "spellCheckLanguages": [
+        "en-US",
+        "en"
+    ]
+}

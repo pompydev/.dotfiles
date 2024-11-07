@@ -86,7 +86,6 @@
     element-desktop
     slack
     discord
-    vesktop
 
     # Design, Content Creation, and Media
     eog
