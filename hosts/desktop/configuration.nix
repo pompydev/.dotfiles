@@ -14,6 +14,7 @@
     ../../modules/nixos/devenv.nix
     ../../modules/nixos/docker.nix
     ../../modules/nixos/fonts.nix
+    ../../modules/nixos/gamemode.nix
     ../../modules/nixos/gnome.nix
     ../../modules/nixos/handbrake.nix
     ../../modules/nixos/killall.nix
@@ -72,7 +73,6 @@
     imhex
 
     # Gaming
-    gamemode
     steam
     lunar-client
     prismlauncher
