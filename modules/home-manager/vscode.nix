@@ -216,6 +216,12 @@
         sha256 = "sha256-mrmQZJhDUEaK0Hgg9sgzG8kCGqatUIlZIsKh1Cd410o=";
       }
       {
+        name = "vscode-github-actions";
+        publisher = "github";
+        version = "0.27.0";
+        sha256 = "sha256-sZ831fPgy/HGsXL1gTezbTsnVcYjwxEd79JfMu1jaGo=";
+      }
+      {
         name = "vscode-pull-request-github";
         publisher = "github";
         version = "0.98.0";
