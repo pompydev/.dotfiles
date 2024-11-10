@@ -43,7 +43,7 @@
     # Dev
     ## General GUI
     mongodb-compass
-    gitbutler
+    # gitbutler
     zed-editor
     dbeaver-bin
     jetbrains-toolbox
