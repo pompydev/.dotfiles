@@ -8,6 +8,7 @@
 {
   imports = [
     ./hardware-configuration.nix
+    ../../modules/nixos/adb.nix
     ../../modules/nixos/audio.nix
     ../../modules/nixos/authenticator.nix
     ../../modules/nixos/cubiomes-viewer.nix
