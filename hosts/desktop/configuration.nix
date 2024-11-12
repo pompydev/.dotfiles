@@ -58,6 +58,7 @@
     btop
     nvitop
     tree
+    usbutils
     lazygit
     lazydocker
     ## Game dev
