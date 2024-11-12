@@ -35,6 +35,14 @@
         sha256 = "sha256-Id4ev+pTaq4Bqsw+saA+fvBTvfkFzI5ClLQ+FMXqKMg=";
       }
 
+      # AI stuff
+      {
+        name = "continue";
+        publisher = "Continue";
+        version = "0.8.56";
+        sha256 = "sha256-A99fv6YrhXGb12cmfKMOuiVrzaxGqh2GmsTA/mfH68A=";
+      }
+
       # general editing feature
       {
         name = "better-comments";
