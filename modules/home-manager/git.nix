@@ -11,6 +11,10 @@
       key = "2B516173EDD492EB";
     };
     extraConfig = {
+      push = {
+        autoSetupRemote = true;
+      };
+
       init = {
         defaultBranch = "master";
       };
