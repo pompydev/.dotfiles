@@ -606,6 +606,7 @@
       "git.autofetch" = true;
       "git.confirmSync" = false;
       "git.openRepositoryInParentFolders" = "always";
+      "diffEditor.ignoreTrimWhitespace" = false;
       "gitlens.currentLine.enabled" = false;
       "gitlens.hovers.currentLine.over" = "line";
       "gitlens.statusBar.enabled" = false;
