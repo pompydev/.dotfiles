@@ -13,6 +13,7 @@
     ../../modules/nixos/nix.nix
     ../../modules/nixos/osu.nix
     ../../modules/nixos/shell.nix
+    ../../modules/nixos/virtualbox.nix
     inputs.home-manager.nixosModules.home-manager
   ];
 
