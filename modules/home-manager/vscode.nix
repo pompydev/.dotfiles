@@ -301,6 +301,12 @@
         version = "0.7.10";
         sha256 = "sha256-m8W21ztTmEOjDI1KCymeBgQzg9jdgKG9dCFp+U1D818=";
       }
+      {
+        name = "dprint";
+        publisher = "dprint";
+        version = "0.16.3";
+        sha256 = "sha256-tK2sNLM+neYm+YXPaTKzWHcT+JE+fEbMR7MeB8gBKTI=";
+      }
 
       # Rust
       {
