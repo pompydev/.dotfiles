@@ -588,6 +588,7 @@
       "workbench.colorTheme" = "One Dark Pro Flat";
       "security.workspace.trust.untrustedFiles" = "open";
       "window.restoreWindows" = "none";
+      "extensions.autoUpdate" = false;
 
       # font
       "editor.fontFamily" = "'NotoSansM Nerd Font Mono', 'MesloLGS Nerd Font Mono'";
