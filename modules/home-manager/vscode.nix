@@ -43,8 +43,8 @@
         # https://marketplace.visualstudio.com/items?itemName=continue.continue
         name = "continue";
         publisher = "Continue";
-        version = "0.9.233";
-        sha256 = "sha256-JLFNBJI56kgSIZP0itI5/89M9aOeDpSEPFNKAA46kwk=";
+        version = "0.9.237";
+        sha256 = "sha256-yfqUTHw2ygIj/GhjgpqqumoroT2Dw5C9BJ/LYEXyQOQ=";
       }
 
       # general editing feature
@@ -374,8 +374,8 @@
         # https://marketplace.visualstudio.com/items?itemName=ms-python.python
         name = "python";
         publisher = "ms-python";
-        version = "2024.21.2024112001";
-        sha256 = "sha256-b19mFPe+0aIuXuGO6EOpzws/5mAZVCygvpOWAuXwMVQ=";
+        version = "2024.21.2024112701";
+        sha256 = "sha256-QP8OSQ7jjPfFKPx9V+IEEglc8SEsECMuF37nCC4ScPA=";
       }
       {
         # https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff
@@ -408,8 +408,8 @@
         # https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp
         name = "csharp";
         publisher = "ms-dotnettools";
-        version = "2.57.28";
-        sha256 = "sha256-alRY8EXT9BweXsLPWfyTLo/bxPGUUiA7TEi6Am/b8A8=";
+        version = "2.58.20";
+        sha256 = "sha256-Vgyx48TP/hqk+Nlu71mUEkYZ8RAMICsqxiE9xl/kAlo=";
       }
       {
         # https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit
