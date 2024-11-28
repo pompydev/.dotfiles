@@ -12,5 +12,6 @@
     noto-fonts-emoji
     noto-fonts-extra
     nerd-fonts.terminess-ttf
+    nanum
   ];
 }
