@@ -85,7 +85,6 @@
     prismlauncher
 
     # Browsers
-    brave
     tor-browser-bundle-bin
     mullvad-browser
 

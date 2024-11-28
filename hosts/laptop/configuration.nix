@@ -33,7 +33,6 @@
   environment.systemPackages = with pkgs; [
     vim
     just
-    brave
     rustdesk-flutter
 
     # Office
