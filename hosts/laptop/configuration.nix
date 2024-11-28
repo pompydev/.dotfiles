@@ -66,7 +66,9 @@
     description = "pomp";
     extraGroups = [
       "networkmanager"
+      "gamemode"
       "wheel"
+      "docker"
     ];
   };
 
