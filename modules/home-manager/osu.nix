@@ -12,7 +12,7 @@
     # osu! uses a sample rate of 44.1kHz instead of the usual 48kHz.
     # Setting PIPEWIRE_LATENCY=16/48000 does not force the game to use 48kHz sample rate.
     # values below 8 causes issue
-    Exec=PIPEWIRE_LATENCY=16/48000 gamemoderun osu! %U
+    Exec=env PIPEWIRE_LATENCY=16/48000 gamemoderun osu! %U
     Categories=Game
     Comment=A free-to-win rhythm game. Rhythm is just a *click* away!
     SingleMainWindow=true
