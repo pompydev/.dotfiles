@@ -14,6 +14,7 @@
     ../../modules/nixos/osu.nix
     ../../modules/nixos/shell.nix
     ../../modules/nixos/virtualbox.nix
+    ../../modules/nixos/xdg-user-dirs.nix
     inputs.home-manager.nixosModules.home-manager
   ];
 
