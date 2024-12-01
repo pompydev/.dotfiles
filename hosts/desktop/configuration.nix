@@ -124,6 +124,7 @@
     menulibre
     gsmartcontrol
     cpu-x
+    gnome-logs
 
     # Office
     onlyoffice-bin
