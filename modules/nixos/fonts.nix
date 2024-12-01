@@ -16,25 +16,31 @@ in
 
   fonts.fontDir.enable = true;
   fonts.packages = with pkgs; [
+    # General fonts
+    noto-fonts
+    noto-fonts-cjk-sans
+    noto-fonts-cjk-serif
+    noto-fonts-extra
+    google-fonts-audiowide
+
     # Windows Fonts
     corefonts
     vistafonts
     liberation_ttf
 
-    # Google fonts
-    google-fonts-audiowide
-
+    # Monospaced
+    meslo-lgs-nf
+    ubuntu-sans-mono
     # https://github.com/NixOS/nixpkgs/tree/master/pkgs/data/fonts/nerd-fonts
     nerd-fonts.terminess-ttf
 
-    meslo-lgs-nf
-    ubuntu-sans-mono
-    noto-fonts
-    noto-fonts-cjk-sans
-    noto-fonts-cjk-serif
-    noto-fonts-color-emoji
+    # Emoji
+    unicode-emoji
     noto-fonts-emoji
-    noto-fonts-extra
+    noto-fonts-color-emoji
+
+    # Korean
     nanum
+    baekmuk-ttf
   ];
 }
