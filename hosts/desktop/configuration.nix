@@ -25,7 +25,6 @@
     ../../modules/nixos/nautilus.nix
     ../../modules/nixos/nix.nix
     ../../modules/nixos/obs.nix
-    ../../modules/nixos/osu.nix
     ../../modules/nixos/otd.nix
     ../../modules/nixos/shell.nix
     ../../modules/nixos/virtualbox.nix

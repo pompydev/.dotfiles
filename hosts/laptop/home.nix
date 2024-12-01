@@ -8,6 +8,7 @@
     ../../modules/home-manager/dconf-input.nix
     ../../modules/home-manager/git.nix
     ../../modules/home-manager/kitty.nix
+    ../../modules/home-manager/osu.nix
     ../../modules/home-manager/vesktop.nix
     ../../modules/home-manager/vscode.nix
     ../../modules/home-manager/xdg-user-dirs.nix
