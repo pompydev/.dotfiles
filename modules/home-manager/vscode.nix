@@ -673,7 +673,7 @@
       "extensions.autoUpdate" = false;
 
       # font
-      "editor.fontFamily" = "'Terminess Nerd Font Mono', 'MesloLGS NF'";
+      "editor.fontFamily" = "'MesloLGS NF', 'Terminess Nerd Font Mono'";
       "terminal.integrated.fontSize" = 15;
 
       # sidebar
