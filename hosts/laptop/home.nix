@@ -10,6 +10,7 @@
     ../../modules/home-manager/kitty.nix
     ../../modules/home-manager/vesktop.nix
     ../../modules/home-manager/vscode.nix
+    ../../modules/home-manager/xdg-user-dirs.nix
   ];
 
   nixpkgs.config.allowUnfree = true;
