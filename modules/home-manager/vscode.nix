@@ -43,8 +43,8 @@
         # https://marketplace.visualstudio.com/items?itemName=continue.continue
         name = "continue";
         publisher = "Continue";
-        version = "0.9.237";
-        sha256 = "sha256-yfqUTHw2ygIj/GhjgpqqumoroT2Dw5C9BJ/LYEXyQOQ=";
+        version = "0.9.239";
+        sha256 = "sha256-D2OBylNbTBpMLighdQTEMCRKxTK+nsRd5TNWrEeSXPM=";
       }
 
       # general editing feature
@@ -374,15 +374,15 @@
         # https://marketplace.visualstudio.com/items?itemName=ms-python.python
         name = "python";
         publisher = "ms-python";
-        version = "2024.21.2024112701";
-        sha256 = "sha256-QP8OSQ7jjPfFKPx9V+IEEglc8SEsECMuF37nCC4ScPA=";
+        version = "2024.21.2024112901";
+        sha256 = "sha256-zouhlDTZzY2+5XdEO6EGrezNdtq8JSM26KK86SWlInQ=";
       }
       {
         # https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff
         name = "ruff";
         publisher = "charliermarsh";
         version = "2024.56.0";
-        sha256 = "sha256-VaDD9JOV5ttNg/1nnyYJwqtsHfuX/0DgcBOxYYyhn1w=";
+        sha256 = "sha256-FAOod8OAzGi3IBpQkgbgwuAP7yVJ3/MBiylWYU+X+NY=";
       }
 
       # Go
@@ -409,7 +409,7 @@
         name = "csharp";
         publisher = "ms-dotnettools";
         version = "2.58.20";
-        sha256 = "sha256-Vgyx48TP/hqk+Nlu71mUEkYZ8RAMICsqxiE9xl/kAlo=";
+        sha256 = "sha256-9w/AGuM2fiv5cxU+MkED3o90DoHf5GNbLE1UrpqL4hA=";
       }
       {
         # https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit
