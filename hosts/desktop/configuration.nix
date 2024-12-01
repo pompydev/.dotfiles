@@ -65,6 +65,7 @@
     usbutils
     lazygit
     lazydocker
+    desktop-file-utils
     ## Game dev
     unityhub
     godot3-mono
