@@ -19,10 +19,14 @@
   home.homeDirectory = "/home/pomp";
 
   gtk.gtk3.bookmarks = [
+    "file://$HOME/Downloads"
+    "file://$HOME/Pictures"
+    "file://$HOME/Videos"
+    "file://$HOME/Documents"
     "file://$HOME/.config"
     "file://$HOME/.local"
-    "file://$HOME/Dev"
     "file://$HOME/Programs"
+    "file://$HOME/Dev"
   ];
 
   # This value determines the Home Manager release that your configuration is
