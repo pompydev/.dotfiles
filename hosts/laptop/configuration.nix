@@ -51,6 +51,7 @@
     inspector
     baobab
     gnome-disk-utility
+    cheese
   ];
 
   # Programs

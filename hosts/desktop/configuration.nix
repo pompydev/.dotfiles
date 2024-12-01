@@ -107,6 +107,7 @@
     zrythm
     tenacity
     parabolic
+    cheese
 
     # Configuration & Monitor
     dconf-editor
