@@ -674,7 +674,6 @@
 
       # font
       "editor.fontFamily" = "'MesloLGS NF', 'Terminess Nerd Font Mono'";
-      "terminal.integrated.fontSize" = 15;
 
       # sidebar
       "workbench.hover.delay" = 200;
