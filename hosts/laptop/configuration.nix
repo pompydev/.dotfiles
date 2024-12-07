@@ -49,6 +49,7 @@
     hashes
     inspector
     baobab
+    protonvpn-gui
     gnome-disk-utility
     cheese
   ];
