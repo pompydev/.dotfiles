@@ -1,6 +1,7 @@
 { pkgs, ... }:
 
 {
+  users.users.pomp.extraGroups = [ "gamemode" ];
   programs.gamemode = {
     enable = true;
 

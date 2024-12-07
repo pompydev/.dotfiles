@@ -7,6 +7,7 @@
     ../../modules/nixos/audio.nix
     ../../modules/nixos/devenv.nix
     ../../modules/nixos/fonts.nix
+    ../../modules/nixos/gamemode.nix
     ../../modules/nixos/gnome.nix
     ../../modules/nixos/locale.nix
     ../../modules/nixos/nautilus.nix
@@ -66,9 +67,7 @@
     description = "pomp";
     extraGroups = [
       "networkmanager"
-      "gamemode"
       "wheel"
-      "docker"
     ];
   };
 

@@ -65,7 +65,6 @@
     tree
     usbutils
     lazygit
-    lazydocker
     desktop-file-utils
     ## Game dev
     unityhub
@@ -164,9 +163,7 @@
     description = "pomp";
     extraGroups = [
       "networkmanager"
-      "gamemode"
       "wheel"
-      "docker"
     ];
   };
 
