@@ -8,10 +8,11 @@
     "nixos",
     "nixpkgs",
     "nordified",
+    "Östberg",
     "papirus",
+    "pkgs",
     "pompup",
-    "Vimjoyer",
-    "Östberg"
+    "Vimjoyer"
   ],
 
   "editor.formatOnSave": true,

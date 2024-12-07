@@ -26,6 +26,7 @@
     ../../modules/nixos/nix.nix
     ../../modules/nixos/obs.nix
     ../../modules/nixos/otd.nix
+    ../../modules/nixos/razer.nix
     ../../modules/nixos/shell.nix
     ../../modules/nixos/virtualbox.nix
     inputs.home-manager.nixosModules.home-manager
@@ -118,7 +119,6 @@
     gnome-tweaks
     baobab
     gnome-disk-utility
-    polychromatic
     gparted
     gpa
     menulibre
