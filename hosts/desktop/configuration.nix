@@ -29,6 +29,7 @@
     ../../modules/nixos/razer.nix
     ../../modules/nixos/shell.nix
     ../../modules/nixos/virtualbox.nix
+    ../../modules/nixos/wol.nix
     inputs.home-manager.nixosModules.home-manager
   ];
 
