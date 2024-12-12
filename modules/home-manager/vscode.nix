@@ -263,13 +263,6 @@
         sha256 = "sha256-sZ831fPgy/HGsXL1gTezbTsnVcYjwxEd79JfMu1jaGo=";
       }
       {
-        # https://marketplace.visualstudio.com/items?itemName=github.vscode-pull-request-github
-        name = "vscode-pull-request-github";
-        publisher = "github";
-        version = "0.101.2024112104";
-        sha256 = "sha256-vo/U5YuXnyGxPuFQDuNOe2MelOaWtmsFwjoLTAR+ah4=";
-      }
-      {
         # https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits
         name = "vscode-conventional-commits";
         publisher = "vivaxy";
