@@ -28,7 +28,7 @@ Timeline: [setup-script-sh](https://github.com/developomp/setup-script-sh) ➡ [
 |               Shell - 🐚 | [zsh](https://github.com/zsh-users/zsh)                                 | [fish](https://fishshell.com)                                                                          |
 |            Terminal - 🖥️ | [kitty](https://github.com/kovidgoyal/kitty)                            |                                                                                                        |
 |             Browser - 🌐 | [Brave](https://github.com/brave/brave-browser)                         | [zen](https://github.com/zen-browser/desktop), [LadyBird](https://github.com/LadybirdBrowser/ladybird) |
-|   Text Editor & IDE - 📝 | [VSCodium](https://github.com/VSCodium/vscodium)                        | [zed](https://github.com/zed-industries/zed)                                                           |
+|   Text Editor & IDE - 📝 | [VSCodium](https://github.com/VSCodium/vscodium)                        |                                                                                                        |
 
 ## Wallpaper
 

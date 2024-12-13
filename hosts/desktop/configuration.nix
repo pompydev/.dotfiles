@@ -51,7 +51,6 @@
     ## General GUI
     mongodb-compass
     # gitbutler
-    zed-editor
     dbeaver-bin
     jetbrains-toolbox
     filezilla
