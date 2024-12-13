@@ -15,6 +15,9 @@
     # Icons & Themes
     papirus-icon-theme
     pop-gtk-theme
+
+    gnome-clocks
+    gnome-connections
   ];
 
   services.xserver.displayManager.gdm.enable = true;
