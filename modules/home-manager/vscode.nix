@@ -714,13 +714,20 @@
         sha256 = "sha256-cDo8nH6hFvYNiHuoriDzgZC4xt/vm+yJdLZ1pgggpSA=";
       }
 
-      # Justfile
+      # Makefile & Justfile
       {
         # https://marketplace.visualstudio.com/items?itemName=nefrob.vscode-just-syntax
         name = "vscode-just-syntax";
         publisher = "nefrob";
         version = "0.6.0";
         sha256 = "sha256-CYFDNQQFk6vC6RG/ZLp36npunuJKHrqxrwiOF9RmPrM=";
+      }
+      {
+        # https://marketplace.visualstudio.com/items?itemName=nefrob.vscode-just-syntax
+        name = "makefile-tools";
+        publisher = "ms-vscode";
+        version = "0.11.13";
+        sha256 = "sha256-j6u3IWFz6ion42T8QKtdQN2GWyX2qdPDdLmRduGvtcw=";
       }
     ];
   };
