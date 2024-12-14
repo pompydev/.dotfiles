@@ -40,8 +40,10 @@
                 # https://pipewire.pages.freedesktop.org/wireplumber/daemon/configuration/alsa.html#alsa-buffer-properties
                 # https://docs.pipewire.org/page_man_pipewire_conf_5.html
 
+                device.profile = "pro-audio";
+
                 api.alsa.headroom = 0;
-                api.alsa.period-size = 128;
+                api.alsa.period-size = 64;
                 api.alsa.period-num = 1;
 
                 clock.quantum-floor = 16;
