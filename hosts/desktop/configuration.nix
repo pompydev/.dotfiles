@@ -169,6 +169,7 @@
   };
 
   # System
+  # systemd.services.NetworkManager-wait-online.enable = false;
   boot.loader.systemd-boot.enable = true;
   boot.kernelParams = [
     "quiet"
