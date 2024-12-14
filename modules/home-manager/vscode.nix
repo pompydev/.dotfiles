@@ -54,6 +54,19 @@
       "intelephense.telemetry.enabled" = false;
     };
 
+    keybindings = [
+      {
+        key = "ctrl+alt+s";
+        command = "git.stageSelectedRanges";
+        when = "isInDiffEditor && !operationInProgress";
+      }
+      {
+        key = "ctrl+alt+u";
+        command = "git.unstageSelectedRanges";
+        when = "isInDiffEditor && !operationInProgress";
+      }
+    ];
+
     # List installed extensions: codium --list-extensions
     extensions = pkgs.vscode-utils.extensionsFromVscodeMarketplace [
       # {
