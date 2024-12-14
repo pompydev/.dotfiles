@@ -3,6 +3,7 @@
     "esbenp.prettier-vscode",
     "jnoortheen.nix-ide",
     "mkhl.direnv",
-    "nefrob.vscode-just-syntax"
+    "nefrob.vscode-just-syntax",
+    "tamasfe.even-better-toml"
   ]
 }

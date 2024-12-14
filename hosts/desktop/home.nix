@@ -77,6 +77,7 @@
 
     ".profile".source = ../../home/.profile;
     ".zshrc".source = ../../home/.zshrc;
+    ".config/starship.toml".source = ../../home/.config/starship.toml;
   };
 
   # Home Manager can also manage your environment variables through

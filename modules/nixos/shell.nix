@@ -2,16 +2,20 @@
 
 {
   users.users.pomp.shell = pkgs.zsh;
+  programs.starship.enable = true;
+
+  # https://mynixos.com/nixpkgs/options/programs.zsh
   programs.zsh = {
     enable = true;
-    promptInit = "source ${pkgs.zsh-powerlevel10k}/share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
+    syntaxHighlighting.enable = true;
+    shellAliases = {
+      c = "clear";
+      e = "eza --long --classify=always --color=always --icons=always --all --group-directories-first --binary --group --no-time --octal-permissions";
+      y = "yazi";
+    };
   };
 
   environment.systemPackages = with pkgs; [
-    zsh
-    oh-my-zsh
-    zsh-powerlevel10k
-    fzf-zsh
     fzf
     eza
     tmux

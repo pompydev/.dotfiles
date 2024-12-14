@@ -1,0 +1,14 @@
+# https://starship.rs/config
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """$directory$character"""
+right_format = """$all"""
+
+[aws]
+disabled = true
+
+[git_branch]
+format = '[$symbol$branch(:$remote_branch)]($style) '
+
+[nix_shell]
+format = '[$symbol$state( \($name\))]($style) '
