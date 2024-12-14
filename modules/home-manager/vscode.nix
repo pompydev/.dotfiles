@@ -6,6 +6,54 @@
     enableExtensionUpdateCheck = false;
     mutableExtensionsDir = false;
 
+    userSettings = {
+      # general
+      "editor.rulers" = [ 80 ];
+      "color-highlight.enable" = false;
+      "workbench.colorTheme" = "One Dark Pro Flat";
+      "security.workspace.trust.untrustedFiles" = "open";
+      "window.restoreWindows" = "none";
+      "extensions.autoUpdate" = false;
+
+      # font
+      "editor.fontFamily" = "'MesloLGS NF', 'Terminess Nerd Font Mono'";
+
+      # sidebar
+      "workbench.hover.delay" = 200;
+      "workbench.iconTheme" = "material-icon-theme";
+      "explorer.compactFolders" = false;
+
+      # editor
+      "editor.cursorBlinking" = "solid";
+      "editor.largeFileOptimizations" = false;
+
+      # terminal
+      "terminal.external.linuxExec" = "kitty";
+      "terminal.integrated.defaultProfile.linux" = "zsh";
+      "terminal.integrated.enableMultiLinePasteWarning" = "never";
+      "terminal.integrated.enablePersistentSessions" = false;
+
+      # git
+      "git.autofetch" = true;
+      "git.confirmSync" = false;
+      "git.openRepositoryInParentFolders" = "always";
+      "diffEditor.ignoreTrimWhitespace" = false;
+      "gitlens.currentLine.enabled" = false;
+      "gitlens.hovers.currentLine.over" = "line";
+      "gitlens.statusBar.enabled" = false;
+      "gitlens.advanced.messages" = {
+        "suppressCreatePullRequestPrompt" = true;
+      };
+
+      # lldb
+      "lldb.suppressUpdateNotifications" = true;
+
+      # telemetry
+      "dotnetAcquisitionExtension.enableTelemetry" = false;
+      "gitlens.telemetry.enabled" = false;
+      "intelephense.telemetry.enabled" = false;
+    };
+
     # List installed extensions: codium --list-extensions
     extensions = pkgs.vscode-utils.extensionsFromVscodeMarketplace [
       # {
@@ -351,8 +399,8 @@
         # https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer
         name = "rust-analyzer";
         publisher = "rust-lang";
-        version = "0.4.2216";
-        sha256 = "sha256-38ZPH7uWihv0pHwlQU1RJm8gPQRYLFB9EFg2PU/uA9c=";
+        version = "0.4.2217";
+        sha256 = "sha256-UvrOy94AFcqLsDFFiSFPecFMvGVW8rMB1tHXhMRV4U0=";
       }
       {
         # https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml
@@ -662,53 +710,5 @@
         sha256 = "sha256-CYFDNQQFk6vC6RG/ZLp36npunuJKHrqxrwiOF9RmPrM=";
       }
     ];
-
-    userSettings = {
-      # general
-      "editor.rulers" = [ 80 ];
-      "color-highlight.enable" = false;
-      "workbench.colorTheme" = "One Dark Pro Flat";
-      "security.workspace.trust.untrustedFiles" = "open";
-      "window.restoreWindows" = "none";
-      "extensions.autoUpdate" = false;
-
-      # font
-      "editor.fontFamily" = "'MesloLGS NF', 'Terminess Nerd Font Mono'";
-
-      # sidebar
-      "workbench.hover.delay" = 200;
-      "workbench.iconTheme" = "material-icon-theme";
-      "explorer.compactFolders" = false;
-
-      # editor
-      "editor.cursorBlinking" = "solid";
-      "editor.largeFileOptimizations" = false;
-
-      # terminal
-      "terminal.external.linuxExec" = "kitty";
-      "terminal.integrated.defaultProfile.linux" = "zsh";
-      "terminal.integrated.enableMultiLinePasteWarning" = "never";
-      "terminal.integrated.enablePersistentSessions" = false;
-
-      # git
-      "git.autofetch" = true;
-      "git.confirmSync" = false;
-      "git.openRepositoryInParentFolders" = "always";
-      "diffEditor.ignoreTrimWhitespace" = false;
-      "gitlens.currentLine.enabled" = false;
-      "gitlens.hovers.currentLine.over" = "line";
-      "gitlens.statusBar.enabled" = false;
-      "gitlens.advanced.messages" = {
-        "suppressCreatePullRequestPrompt" = true;
-      };
-
-      # lldb
-      "lldb.suppressUpdateNotifications" = true;
-
-      # telemetry
-      "dotnetAcquisitionExtension.enableTelemetry" = false;
-      "gitlens.telemetry.enabled" = false;
-      "intelephense.telemetry.enabled" = false;
-    };
   };
 }
