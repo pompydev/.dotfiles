@@ -371,6 +371,13 @@
         sha256 = "sha256-CzMAiMQhclzaSRp/EkHYFCfpROADtu3miQwT+owhvq8=";
       }
       {
+        # https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter
+        name = "black-formatter";
+        publisher = "ms-python";
+        version = "2024.4.0";
+        sha256 = "sha256-swGlQAvPs5+HDrBc3ZvMEFdnimClnn6YsvkHbh/b+L8=";
+      }
+      {
         # https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff
         name = "ruff";
         publisher = "charliermarsh";
