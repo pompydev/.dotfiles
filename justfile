@@ -1,8 +1,8 @@
 r:
     sudo nixos-rebuild switch --flake ./#$(hostname) --print-build-logs
 
-r1:
-    sudo nixos-rebuild switch --flake ./#$(hostname) --print-build-logs --max-jobs 1
+rj jobs='1':
+    sudo nixos-rebuild switch --flake ./#$(hostname) --print-build-logs --max-jobs {{jobs}}
 
 u:
     sudo nix flake update
