@@ -8,8 +8,6 @@
 
   hardware.graphics.extraPackages = with pkgs; [
     rocmPackages.clr.icd
-  ];
-  hardware.opengl.extraPackages = with pkgs; [
     amdvlk
   ];
 
