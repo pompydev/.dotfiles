@@ -73,6 +73,7 @@
   };
 
   # System
+  # systemd.services.NetworkManager-wait-online.enable = false;
   boot.kernelParams = [
     "quiet"
     "splash"
