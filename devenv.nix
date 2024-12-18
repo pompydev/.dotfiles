@@ -2,6 +2,7 @@
 
 {
   packages = with pkgs; [
+    just
     nixfmt-rfc-style
   ];
 

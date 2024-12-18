@@ -32,7 +32,6 @@
   ];
   environment.systemPackages = with pkgs; [
     vim
-    just
     rustdesk-flutter
 
     # Office

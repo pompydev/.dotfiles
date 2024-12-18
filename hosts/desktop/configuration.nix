@@ -58,7 +58,6 @@
     seabird
     ## General CLI / TUI
     wget
-    just
     vim
     btop
     nvitop
