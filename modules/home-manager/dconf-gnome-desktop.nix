@@ -21,5 +21,30 @@
       locate-pointer = false;
       show-battery-percentage = true;
     };
+
+    "org/gnome/settings-daemon/plugins/color" = {
+      night-light-enabled = false;
+    };
+
+    "org/gnome/settings-daemon/plugins/power" = {
+      idle-dim = true;
+      power-button-action = "suspend";
+      sleep-inactive-ac-type = "nothing";
+    };
+
+    "org/gnome/settings-daemon/plugins/xsettings" = {
+      antialiasing = "grayscale";
+      hinting = "full";
+    };
+
+    "org/gnome/mutter" = {
+      dynamic-workspaces = true;
+      edge-tiling = false;
+      experimental-features = [
+        "kms-modifiers"
+        "variable-refresh-rate"
+      ];
+      workspaces-only-on-primary = false;
+    };
   };
 }
