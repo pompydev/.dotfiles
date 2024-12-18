@@ -27,6 +27,7 @@ format = '[$symbol($version )(🎯 $tfm )]($style)'
 
 [git_branch]
 format = '[$symbol$branch(:$remote_branch)]($style) '
+symbol = " "
 
 [golang]
 format = '[$symbol($version )]($style)'
