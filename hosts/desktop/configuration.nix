@@ -170,6 +170,9 @@
 
   # System
   # systemd.services.NetworkManager-wait-online.enable = false;
+  environment.sessionVariables = {
+    EDITOR = "vim";
+  };
   boot.loader.systemd-boot.enable = true;
   boot.kernelParams = [
     "quiet"

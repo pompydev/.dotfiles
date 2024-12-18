@@ -74,6 +74,9 @@
 
   # System
   # systemd.services.NetworkManager-wait-online.enable = false;
+  environment.sessionVariables = {
+    EDITOR = "vim";
+  };
   boot.kernelParams = [
     "quiet"
     "splash"
