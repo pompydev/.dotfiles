@@ -182,9 +182,6 @@
   services.printing.enable = false;
   hardware.openrazer.enable = true;
   security.rtkit.enable = true;
-  environment.sessionVariables = {
-    EDITOR = "vim";
-  };
 
   # Desktop
   services.xserver.enable = true;
