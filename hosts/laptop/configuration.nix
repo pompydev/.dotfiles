@@ -44,6 +44,7 @@
 
     # Misc Application
     anytype
+    collision
     menulibre
     snoop
     hashes
