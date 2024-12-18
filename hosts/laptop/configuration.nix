@@ -52,6 +52,7 @@
     protonvpn-gui
     gnome-disk-utility
     cheese
+    vlc
   ];
 
   # Programs
