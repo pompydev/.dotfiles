@@ -16,8 +16,15 @@
     papirus-icon-theme
     pop-gtk-theme
 
+    baobab
+    eog
+    gnome-calculator
+    gnome-characters
     gnome-clocks
     gnome-connections
+    gnome-disk-utility
+    gnome-logs
+    gnome-tweaks
   ];
 
   services.xserver.displayManager.gdm.enable = true;

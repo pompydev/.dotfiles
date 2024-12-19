@@ -40,7 +40,6 @@
     # Configuration & Monitor
     mission-center
     resources
-    gnome-tweaks
 
     # Misc Application
     anytype
@@ -51,7 +50,6 @@
     inspector
     baobab
     protonvpn-gui
-    gnome-disk-utility
     cheese
     qbittorrent
     vlc

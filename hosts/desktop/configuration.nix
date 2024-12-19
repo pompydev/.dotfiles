@@ -93,7 +93,6 @@
     discord
 
     # Design, Content Creation, and Media
-    eog
     vlc
     gcolor3
     contrast
@@ -114,15 +113,11 @@
     bustle
     mission-center
     resources
-    gnome-tweaks
-    baobab
-    gnome-disk-utility
     gparted
     gpa
     menulibre
     gsmartcontrol
     cpu-x
-    gnome-logs
 
     # Office
     onlyoffice-bin
@@ -136,8 +131,6 @@
     open-webui
     labplot
     pika-backup
-    gnome-calculator
-    gnome-characters
     qbittorrent
     metadata-cleaner
     snoop
