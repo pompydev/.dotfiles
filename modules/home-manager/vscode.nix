@@ -422,6 +422,13 @@
         version = "0.19.2";
         sha256 = "sha256-JKj6noi2dTe02PxX/kS117ZhW8u7Bhj4QowZQiJKP2E=";
       }
+      {
+        # https://marketplace.visualstudio.com/items?itemName=DioxusLabs.dioxus
+        name = "dioxus";
+        publisher = "DioxusLabs";
+        version = "0.6.0";
+        sha256 = "sha256-UYMJf0F8YjH1s7szIdTDG7t31/xjryD3wxogQM4ywOU=";
+      }
 
       # Python
       {
