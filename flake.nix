@@ -34,6 +34,16 @@
             ./hosts/laptop/configuration.nix
           ];
         };
+
+        homelab2 = nixpkgs.lib.nixosSystem {
+          specialArgs = {
+            inherit inputs;
+          };
+
+          modules = [
+            ./hosts/homelab2/configuration.nix
+          ];
+        };
       };
     };
 }
