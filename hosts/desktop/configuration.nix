@@ -91,6 +91,7 @@
     element-desktop
     slack
     discord
+    irssi
 
     # Design, Content Creation, and Media
     vlc

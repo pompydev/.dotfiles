@@ -48,6 +48,7 @@
     snoop
     hashes
     inspector
+    irssi
     baobab
     protonvpn-gui
     cheese
