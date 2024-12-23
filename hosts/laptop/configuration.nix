@@ -90,6 +90,7 @@
 
   # Services
   services.xserver.enable = true;
+  services.tailscale.enable = true;
   services.printing.enable = false; # enable only when needed
 
   # This value determines the NixOS release from which the default
