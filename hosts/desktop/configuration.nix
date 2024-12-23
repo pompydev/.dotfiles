@@ -210,6 +210,7 @@
   };
 
   # Services
+  services.tailscale.enable = true;
   services.open-webui.enable = true;
   services.ollama = {
     enable = true;
