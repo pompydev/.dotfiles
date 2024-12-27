@@ -313,8 +313,8 @@
         # https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
         name = "gitlens";
         publisher = "eamodio";
-        version = "2024.12.1304";
-        sha256 = "sha256-qGd+yUJUcxh4ca2piQ7+4JTXk+UxnxIs2fpjFHBxkTU=";
+        version = "2024.12.2404";
+        sha256 = "sha256-25EHqbkIVB451DAoEjWUwi0UDbU1ia4lT1AX1xWGgHE=";
       }
       {
         # https://marketplace.visualstudio.com/items?itemName=github.vscode-github-actions
