@@ -45,9 +45,6 @@
         "suppressCreatePullRequestPrompt" = true;
       };
 
-      # lldb
-      "lldb.suppressUpdateNotifications" = true;
-
       # telemetry
       "dotnetAcquisitionExtension.enableTelemetry" = false;
       "gitlens.telemetry.enabled" = false;
@@ -340,25 +337,11 @@
         sha256 = "sha256-AyUABtVUTQi9NRjo3O8Ma+XE3rcY+NSxahKUEvxvFG8=";
       }
       {
-        # https://marketplace.visualstudio.com/items?itemName=icsharpcode.ilspy-vscode
-        name = "ilspy-vscode";
-        publisher = "icsharpcode";
-        version = "0.19.0";
-        sha256 = "sha256-1KagEAoS21MqKE6Zp//9ER10C/bTYIXbpwEajGf7Z2w=";
-      }
-      {
         # https://marketplace.visualstudio.com/items?itemName=ms-vscode.hexeditor
         name = "hexeditor";
         publisher = "ms-vscode";
         version = "1.11.1";
         sha256 = "sha256-RB5YOp30tfMEzGyXpOwPIHzXqZlRGc+pXiJ3foego7Y=";
-      }
-      {
-        # https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb
-        name = "vscode-lldb";
-        publisher = "vadimcn";
-        version = "1.11.1";
-        sha256 = "sha256-urWkXVwD6Ad7DFVURc6sLQhhc6iKCgY89IovIWByz9U=";
       }
 
       # Markdown
@@ -485,13 +468,6 @@
         publisher = "ms-dotnettools";
         version = "1.15.13";
         sha256 = "sha256-hPwRAqH57keJhdY1TnrFeXvtNg0QJps9s6yfVgTkm9k=";
-      }
-      {
-        # https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscode-dotnet-runtime
-        name = "vscode-dotnet-runtime";
-        publisher = "ms-dotnettools";
-        version = "2.2.3";
-        sha256 = "sha256-P9wRidVJSf2mfdS3e162F5uSxw3ZtlVM5wIzg4cQiX0=";
       }
       {
         # https://marketplace.visualstudio.com/items?itemName=ms-vscode.mono-debug
@@ -688,13 +664,6 @@
       }
 
       # SQL
-      {
-        # https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite
-        name = "vscode-sqlite";
-        publisher = "alexcvzz";
-        version = "0.14.1";
-        sha256 = "sha256-jOQkRgBkUwJupD+cRo/KRahFRs82X3K49DySw6GlU8U=";
-      }
       {
         # https://marketplace.visualstudio.com/items?itemName=inferrinizzard.prettier-sql-vscode
         name = "prettier-sql-vscode";
