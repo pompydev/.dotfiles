@@ -26,6 +26,10 @@
       show-weekdate = true;
     };
 
+    "org/gnome/desktop/datetime" = {
+      automatic-timezone = true;
+    };
+
     "org/gnome/settings-daemon/plugins/color" = {
       night-light-enabled = false;
     };
