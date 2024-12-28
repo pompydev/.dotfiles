@@ -1,6 +1,15 @@
 { pkgs, ... }:
 
 {
+  xdg.mimeApps.defaultApplications = {
+    "application/pdf" = "firefox.desktop";
+    "text/plain" = "code.desktop";
+    "text/x-csrc" = "code.desktop";
+    "application/octet-stream" = "code.desktop";
+    "application/xml" = "code.desktop";
+    "application/x-zerosize" = "code.desktop";
+  };
+
   programs.vscode = {
     enable = true;
     enableExtensionUpdateCheck = false;

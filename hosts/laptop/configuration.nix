@@ -4,6 +4,7 @@
   imports = [
     ./hardware-configuration.nix
     ./modules/graphics.nix
+    ../../modules/nixos/anytype.nix
     ../../modules/nixos/audio.nix
     ../../modules/nixos/devenv.nix
     ../../modules/nixos/fonts.nix
@@ -14,6 +15,7 @@
     ../../modules/nixos/nix.nix
     ../../modules/nixos/shell.nix
     ../../modules/nixos/virtualbox.nix
+    ../../modules/nixos/vlc.nix
     inputs.home-manager.nixosModules.home-manager
   ];
 
@@ -42,7 +44,6 @@
     resources
 
     # Misc Application
-    anytype
     collision
     menulibre
     snoop
@@ -53,7 +54,6 @@
     protonvpn-gui
     cheese
     qbittorrent
-    vlc
   ];
 
   # Programs

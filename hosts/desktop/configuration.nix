@@ -9,6 +9,7 @@
   imports = [
     ./hardware-configuration.nix
     ../../modules/nixos/adb.nix
+    ../../modules/nixos/anytype.nix
     ../../modules/nixos/audio.nix
     ../../modules/nixos/authenticator.nix
     ../../modules/nixos/cubiomes-viewer.nix
@@ -20,6 +21,7 @@
     ../../modules/nixos/handbrake.nix
     ../../modules/nixos/killall.nix
     ../../modules/nixos/locale.nix
+    ../../modules/nixos/lunar-client.nix
     ../../modules/nixos/monero.nix
     ../../modules/nixos/mongodb-compass.nix
     ../../modules/nixos/nautilus.nix
@@ -29,6 +31,7 @@
     ../../modules/nixos/razer.nix
     ../../modules/nixos/shell.nix
     ../../modules/nixos/virtualbox.nix
+    ../../modules/nixos/vlc.nix
     ../../modules/nixos/wol.nix
     inputs.home-manager.nixosModules.home-manager
   ];
@@ -80,7 +83,6 @@
 
     # Gaming
     steam
-    lunar-client
     prismlauncher
 
     # Browsers
@@ -94,7 +96,6 @@
     irssi
 
     # Design, Content Creation, and Media
-    vlc
     gcolor3
     contrast
     gimp
@@ -124,7 +125,6 @@
     onlyoffice-bin
 
     # Misc Application
-    anytype
     rustdesk-flutter
     collision
     file-roller

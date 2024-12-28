@@ -1,6 +1,7 @@
 {
   "cSpell.words": [
     "anthy",
+    "anytype",
     "cachix",
     "chillhop",
     "dconf",
@@ -14,6 +15,7 @@
     "ibus",
     "justfile",
     "killall",
+    "lunarclient",
     "monero",
     "nixd",
     "nixfmt",
