@@ -14,6 +14,20 @@ in
     fontsOverlay
   ];
 
+  fonts.fontconfig = {
+    defaultFonts = {
+      emoji = [ "Noto Color Emoji" ]; # default
+      monospace = [ "MesloLGS NF" ];
+      sansSerif = [ "Noto Sans" ];
+      serif = [ "Noto Serif" ];
+    };
+
+    antialias = true; # default
+    hinting.style = "slight"; # default
+    subpixel.lcdfilter = "default"; # default
+    subpixel.rgba = "rgb";
+  };
+
   fonts.fontDir.enable = true;
   fonts.packages = with pkgs; [
     # General fonts
@@ -37,7 +51,7 @@ in
     # Emoji
     unicode-emoji
     noto-fonts-emoji
-    noto-fonts-color-emoji
+    noto-fonts-color-emoji # default for fonts.fontconfig.defaultFonts.emoji
 
     # Korean
     nanum
