@@ -26,7 +26,7 @@ Timeline: [setup-script-sh](https://github.com/developomp/setup-script-sh) ➡ [
 |               Icons - 💎 | [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) |                                                                                                        |
 |           GTK theme - 🎨 | [Pop!](https://github.com/pop-os/gtk-theme)                             |                                                                                                        |
 |               Shell - 🐚 | [zsh](https://github.com/zsh-users/zsh)                                 |                                                                                                        |
-|            Terminal - 🖥️ | [kitty](https://github.com/kovidgoyal/kitty)                            |                                                                                                        |
+|            Terminal - 🖥️ | [kitty](https://github.com/kovidgoyal/kitty)                            | [ghostty](https://github.com/ghostty-org/ghostty)                                                      |
 |             Browser - 🌐 | [Brave](https://github.com/brave/brave-browser)                         | [zen](https://github.com/zen-browser/desktop), [LadyBird](https://github.com/LadybirdBrowser/ladybird) |
 |   Text Editor & IDE - 📝 | [VSCodium](https://github.com/VSCodium/vscodium)                        |                                                                                                        |
 
