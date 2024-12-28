@@ -67,6 +67,7 @@
     tree
     usbutils
     lazygit
+    hotspot
     desktop-file-utils
     ## Game dev
     unityhub

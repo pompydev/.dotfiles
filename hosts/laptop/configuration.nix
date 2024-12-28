@@ -33,8 +33,9 @@
     "dotnet-sdk-wrapped-6.0.428"
   ];
   environment.systemPackages = with pkgs; [
+    # Dev
     vim
-    rustdesk-flutter
+    hotspot
 
     # Office
     onlyoffice-bin
@@ -44,6 +45,7 @@
     resources
 
     # Misc Application
+    rustdesk-flutter
     collision
     menulibre
     snoop
