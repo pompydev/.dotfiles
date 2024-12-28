@@ -22,6 +22,10 @@
       show-battery-percentage = true;
     };
 
+    "org/gnome/desktop/calendar" = {
+      show-weekdate = true;
+    };
+
     "org/gnome/settings-daemon/plugins/color" = {
       night-light-enabled = false;
     };
