@@ -110,8 +110,8 @@
         # https://marketplace.visualstudio.com/items?itemName=continue.continue
         name = "continue";
         publisher = "Continue";
-        version = "0.9.244";
-        sha256 = "sha256-Vp+t3AKAI/3ZRTEdvDsNrobIKIPnbih8GDFtsG9LFoo=";
+        version = "0.9.248";
+        sha256 = "sha256-rqE6jZyEwOhsiQkj+l24ZO0ijziIefXE3Wf74D+www4=";
       }
 
       # general editing feature
@@ -404,8 +404,8 @@
         # https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer
         name = "rust-analyzer";
         publisher = "rust-lang";
-        version = "0.4.2217";
-        sha256 = "sha256-UvrOy94AFcqLsDFFiSFPecFMvGVW8rMB1tHXhMRV4U0=";
+        version = "0.4.2236";
+        sha256 = "sha256-DBNzWX8vf23EGcuRl0ob9XdqnjXIu/ry2uTHQOR0qBA=";
       }
       {
         # https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml
@@ -442,7 +442,7 @@
         name = "ruff";
         publisher = "charliermarsh";
         version = "2024.56.0";
-        sha256 = "sha256-VaDD9JOV5ttNg/1nnyYJwqtsHfuX/0DgcBOxYYyhn1w=";
+        sha256 = "sha256-FAOod8OAzGi3IBpQkgbgwuAP7yVJ3/MBiylWYU+X+NY=";
       }
 
       # Go
