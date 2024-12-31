@@ -9,6 +9,7 @@
     ./hardware-configuration.nix
     ../../modules/nixos/locale.nix
     ../../modules/nixos/fonts.nix
+    ../../modules/nixos/gnome-remote-desktop.nix
     inputs.home-manager.nixosModules.home-manager
   ];
 
