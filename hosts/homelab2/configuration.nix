@@ -73,6 +73,9 @@
     tmux
     atuin
     yazi
+
+    # GUI
+    mission-center
   ];
 
   # Programs
