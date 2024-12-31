@@ -1,4 +1,4 @@
-{
+args@{
   config,
   pkgs,
   inputs,
@@ -17,6 +17,7 @@
     ../../modules/nixos/docker.nix
     ../../modules/nixos/fonts.nix
     ../../modules/nixos/gamemode.nix
+    (import ../../modules/nixos/gnome-boxes.nix (args // { user = "pomp"; }))
     ../../modules/nixos/gnome.nix
     ../../modules/nixos/handbrake.nix
     ../../modules/nixos/killall.nix
@@ -216,7 +217,6 @@
     enable = true;
     acceleration = "cuda";
   };
-  # services.openssh.enable = true;
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions

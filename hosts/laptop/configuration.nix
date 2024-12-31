@@ -1,4 +1,4 @@
-{ pkgs, inputs, ... }:
+args@{ pkgs, inputs, ... }:
 
 {
   imports = [
@@ -9,6 +9,7 @@
     ../../modules/nixos/devenv.nix
     ../../modules/nixos/fonts.nix
     ../../modules/nixos/gamemode.nix
+    (import ../../modules/nixos/gnome-boxes.nix (args // { user = "pomp"; }))
     ../../modules/nixos/gnome.nix
     ../../modules/nixos/locale.nix
     ../../modules/nixos/nautilus.nix
