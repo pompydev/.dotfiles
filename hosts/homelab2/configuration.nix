@@ -96,6 +96,7 @@
 
   # System
   systemd.services.NetworkManager-wait-online.enable = false;
+  services.tailscale.enable = true;
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
   networking.hostName = "homelab2";
