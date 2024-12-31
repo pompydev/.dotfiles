@@ -14,7 +14,6 @@
     ../../modules/nixos/nautilus.nix
     ../../modules/nixos/nix.nix
     ../../modules/nixos/shell.nix
-    ../../modules/nixos/virtualbox.nix
     ../../modules/nixos/vlc.nix
     inputs.home-manager.nixosModules.home-manager
   ];

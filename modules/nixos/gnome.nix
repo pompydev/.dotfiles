@@ -32,6 +32,7 @@
     gnome-connections
     gnome-disk-utility
     gnome-logs
+    gnome-boxes
     gnome-tweaks
   ];
 
