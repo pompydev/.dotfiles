@@ -46,7 +46,6 @@ args@{ pkgs, inputs, ... }:
     resources
 
     # Misc Application
-    rustdesk-flutter
     collision
     menulibre
     snoop

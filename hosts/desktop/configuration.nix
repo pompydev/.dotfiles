@@ -127,7 +127,6 @@ args@{
     onlyoffice-bin
 
     # Misc Application
-    rustdesk-flutter
     collision
     file-roller
     protonvpn-gui
