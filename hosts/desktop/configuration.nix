@@ -162,7 +162,7 @@
   };
 
   # System
-  # systemd.services.NetworkManager-wait-online.enable = false;
+  systemd.services.NetworkManager-wait-online.enable = false;
   environment.sessionVariables = {
     EDITOR = "vim";
   };
