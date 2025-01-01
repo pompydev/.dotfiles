@@ -75,6 +75,9 @@
     atuin
     yazi
 
+    # TUI
+    lazydocker
+
     # GUI
     mission-center
   ];
