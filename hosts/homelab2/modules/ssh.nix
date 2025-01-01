@@ -14,6 +14,12 @@
 
   services.fail2ban = {
     enable = true;
+    ignoreIP = [
+      # fron tailscale
+      "homelab"
+      "desktop"
+      "laptop"
+    ];
     maxretry = 5; # Ban IP after 5 failures
     bantime = "24h"; # Ban IPs for one day on the first ban
     bantime-increment = {
