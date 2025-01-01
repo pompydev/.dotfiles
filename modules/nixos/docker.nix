@@ -1,7 +1,11 @@
-{ pkgs, ... }:
+{
+  pkgs,
+  user ? "pomp",
+  ...
+}:
 
 {
-  users.users.pomp.extraGroups = [ "docker" ];
+  users.users.${user}.extraGroups = [ "docker" ];
   environment.systemPackages = with pkgs; [
     docker
     docker-buildx

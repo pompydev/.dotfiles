@@ -14,7 +14,7 @@ args@{
     ../../modules/nixos/authenticator.nix
     ../../modules/nixos/cubiomes-viewer.nix
     ../../modules/nixos/devenv.nix
-    ../../modules/nixos/docker.nix
+    (import ../../modules/nixos/docker.nix (args // { user = "pomp"; }))
     ../../modules/nixos/fonts.nix
     ../../modules/nixos/gamemode.nix
     (import ../../modules/nixos/gnome-boxes.nix (args // { user = "pomp"; }))
