@@ -4,7 +4,8 @@
   services.openssh = {
     enable = true;
     settings = {
-      PasswordAuthentication = true;
+      PasswordAuthentication = false;
+      PubkeyAuthentication = true;
       AllowUsers = null;
       UseDns = true;
       X11Forwarding = false;
