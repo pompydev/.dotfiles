@@ -1,15 +1,20 @@
 { ... }:
 
 {
+  # hack (can't log into root@homelab2 but homelab2@homelab2 works)
+  security.sudo.wheelNeedsPassword = false;
+
   services.openssh = {
     enable = true;
     settings = {
       PasswordAuthentication = false;
+      KbdInteractiveAuthentication = false;
       PubkeyAuthentication = true;
+      PermitRootLogin = "yes";
+
       AllowUsers = null;
       UseDns = true;
       X11Forwarding = false;
-      PermitRootLogin = "prohibit-password";
     };
   };
 
