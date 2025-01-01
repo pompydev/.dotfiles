@@ -1,4 +1,4 @@
-{
+args@{
   pkgs,
   inputs,
   ...
@@ -9,6 +9,7 @@
     ./hardware-configuration.nix
     ./modules/ssh.nix
     ../../modules/nixos/locale.nix
+    (import ../../modules/nixos/docker.nix (args // { user = "homelab2"; }))
     ../../modules/nixos/fonts.nix
     ../../modules/nixos/gnome-remote-desktop.nix
     inputs.home-manager.nixosModules.home-manager
