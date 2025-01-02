@@ -17,7 +17,6 @@ args@{
     (import ../../modules/nixos/docker.nix (args // { user = "pomp"; }))
     ../../modules/nixos/fonts.nix
     ../../modules/nixos/gamemode.nix
-    (import ../../modules/nixos/gnome-boxes.nix (args // { user = "pomp"; }))
     ../../modules/nixos/gnome-remote-desktop.nix
     ../../modules/nixos/gnome.nix
     ../../modules/nixos/handbrake.nix
@@ -147,6 +146,7 @@ args@{
 
   # Programs
   programs.nix-ld.enable = true;
+  virtualisation.vmware.host.enable = true;
   programs.gnupg.agent = {
     enable = true;
     enableSSHSupport = true;

@@ -1,4 +1,4 @@
-args@{ pkgs, inputs, ... }:
+{ pkgs, inputs, ... }:
 
 {
   imports = [
@@ -9,7 +9,6 @@ args@{ pkgs, inputs, ... }:
     ../../modules/nixos/devenv.nix
     ../../modules/nixos/fonts.nix
     ../../modules/nixos/gamemode.nix
-    (import ../../modules/nixos/gnome-boxes.nix (args // { user = "pomp"; }))
     ../../modules/nixos/gnome-remote-desktop.nix
     ../../modules/nixos/gnome.nix
     ../../modules/nixos/locale.nix
@@ -60,6 +59,7 @@ args@{ pkgs, inputs, ... }:
 
   # Programs
   programs.nix-ld.enable = true;
+  virtualisation.vmware.host.enable = true;
   programs.gnupg.agent = {
     enable = true;
     enableSSHSupport = true;
