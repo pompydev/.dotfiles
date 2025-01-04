@@ -104,6 +104,13 @@
         version = "24.9.2";
         sha256 = "sha256-m4D7bkHIjO/+NSfm0CwjxXkOvPBFi08cKRXaGNxZeCA=";
       }
+      {
+        # https://marketplace.visualstudio.com/items?itemName=iamhyc.overleaf-workshop
+        name = "overleaf-workshop";
+        publisher = "iamhyc";
+        version = "0.14.1";
+        sha256 = "sha256-x6HBwW1Jl0FJQ/RNJ/s9MaS5/6AzVBpvJ8X8owW4dVM=";
+      }
 
       # AI stuff
       {
