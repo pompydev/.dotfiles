@@ -53,7 +53,7 @@ args@{
     # Dev
     ## General GUI
     mongodb-compass
-    # gitbutler
+    gitbutler
     dbeaver-bin
     jetbrains-toolbox
     filezilla
