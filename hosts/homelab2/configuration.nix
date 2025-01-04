@@ -107,7 +107,7 @@ args@{
   networking.hostName = "homelab2";
   networking.networkmanager.enable = true;
   services.xserver.enable = true;
-  hardware.pulseaudio.enable = false;
+  services.pulseaudio.enable = false;
   security.rtkit.enable = true;
   services.pipewire = {
     enable = true;

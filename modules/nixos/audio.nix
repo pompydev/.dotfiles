@@ -10,8 +10,8 @@
 { pkgs, ... }:
 
 {
-  hardware.pulseaudio.support32Bit = true;
-  hardware.pulseaudio.enable = false;
+  services.pulseaudio.support32Bit = true;
+  services.pulseaudio.enable = false;
   services.pipewire = {
     enable = true;
     alsa.enable = true;
