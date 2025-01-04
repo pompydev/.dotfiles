@@ -12,6 +12,7 @@ args@{
     ../../modules/nixos/anytype.nix
     ../../modules/nixos/audio.nix
     ../../modules/nixos/authenticator.nix
+    ../../modules/nixos/blender.nix
     ../../modules/nixos/cubiomes-viewer.nix
     ../../modules/nixos/devenv.nix
     (import ../../modules/nixos/docker.nix (args // { user = "pomp"; }))
@@ -104,7 +105,6 @@ args@{
     kdePackages.kdenlive
     gmetronome
     font-manager
-    blender
     zrythm
     tenacity
     parabolic
@@ -183,7 +183,6 @@ args@{
   services.xserver.xkb.layout = "kr";
 
   # Graphics
-  nixpkgs.config.cudaSupport = true;
   services.xserver.videoDrivers = [ "nvidia" ];
   hardware.graphics.enable = true;
   hardware.graphics.enable32Bit = true;
