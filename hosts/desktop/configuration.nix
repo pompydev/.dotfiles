@@ -45,11 +45,6 @@ args@{
 
   # Packages
   nixpkgs.config.allowUnfree = true;
-  nixpkgs.config.permittedInsecurePackages = [
-    "dotnet-sdk-6.0.428"
-    "dotnet-runtime-6.0.36"
-    "dotnet-sdk-wrapped-6.0.428"
-  ];
   environment.systemPackages = with pkgs; [
     # Dev
     ## General GUI
