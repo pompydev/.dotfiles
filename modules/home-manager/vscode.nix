@@ -111,7 +111,7 @@
         name = "continue";
         publisher = "Continue";
         version = "0.9.248";
-        sha256 = "sha256-rqE6jZyEwOhsiQkj+l24ZO0ijziIefXE3Wf74D+www4=";
+        sha256 = "sha256-0/nKNPP14tN3wdSJ8EHmB3+im56dDG3A47BgXa539NQ=";
       }
 
       # general editing feature
@@ -405,7 +405,7 @@
         name = "rust-analyzer";
         publisher = "rust-lang";
         version = "0.4.2236";
-        sha256 = "sha256-DBNzWX8vf23EGcuRl0ob9XdqnjXIu/ry2uTHQOR0qBA=";
+        sha256 = "sha256-DonWczTJoVbVuigbkFfmEYFgZiSmmBuFD5IevNAgaCM=";
       }
       {
         # https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml
@@ -442,7 +442,7 @@
         name = "ruff";
         publisher = "charliermarsh";
         version = "2024.56.0";
-        sha256 = "sha256-FAOod8OAzGi3IBpQkgbgwuAP7yVJ3/MBiylWYU+X+NY=";
+        sha256 = "sha256-VaDD9JOV5ttNg/1nnyYJwqtsHfuX/0DgcBOxYYyhn1w=";
       }
 
       # Go

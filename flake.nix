@@ -11,11 +11,22 @@
   };
 
   outputs =
-    { nixpkgs, ... }@inputs:
+    { ... }@inputs:
 
+    let
+      nixpkgs = inputs.nixpkgs.legacyPackages."x86_64-linux".applyPatches {
+        name = "nixpkgs-patched";
+        src = inputs.nixpkgs;
+        patches = [
+          ./patches/nixos-nixpkgs-370735.patch
+        ];
+      };
+      nixosSystem = import (nixpkgs + "/nixos/lib/eval-config.nix");
+    in
     {
       nixosConfigurations = {
-        desktop = nixpkgs.lib.nixosSystem {
+        desktop = nixosSystem {
+          system = "x86_64-linux";
           specialArgs = {
             inherit inputs;
           };
@@ -25,7 +36,8 @@
           ];
         };
 
-        laptop = nixpkgs.lib.nixosSystem {
+        laptop = nixosSystem {
+          system = "x86_64-linux";
           specialArgs = {
             inherit inputs;
           };
@@ -35,7 +47,8 @@
           ];
         };
 
-        homelab2 = nixpkgs.lib.nixosSystem {
+        homelab2 = nixosSystem {
+          system = "x86_64-linux";
           specialArgs = {
             inherit inputs;
           };
