@@ -44,6 +44,13 @@
     mission-center
     resources
 
+    # Design, Content Creation, and Media
+    gimp
+    inkscape
+    kdePackages.kdenlive
+    zrythm
+    tenacity
+
     # Misc Application
     collision
     menulibre
