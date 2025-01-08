@@ -1,8 +1,8 @@
-{ pkgs, ... }:
+{ pkgs, user, ... }:
 
 {
   hardware.openrazer.enable = true;
-  hardware.openrazer.users = [ "pomp" ];
+  hardware.openrazer.users = [ user ];
   users.users.pomp.extraGroups = [
     "openrazer"
     "plugdev"

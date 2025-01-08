@@ -30,7 +30,7 @@ args@{
     ../../modules/nixos/nix.nix
     ../../modules/nixos/obs.nix
     ../../modules/nixos/otd.nix
-    ../../modules/nixos/razer.nix
+    (import ../../modules/nixos/razer.nix (args // { user = "pomp"; }))
     ../../modules/nixos/shell.nix
     (import ../../modules/nixos/virtualbox.nix (args // { user = "pomp"; }))
     ../../modules/nixos/vlc.nix
