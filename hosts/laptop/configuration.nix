@@ -1,4 +1,8 @@
-{ pkgs, inputs, ... }:
+args@{
+  pkgs,
+  inputs,
+  ...
+}:
 
 {
   imports = [
@@ -15,6 +19,7 @@
     ../../modules/nixos/nautilus.nix
     ../../modules/nixos/nix.nix
     ../../modules/nixos/shell.nix
+    (import ../../modules/nixos/virtualbox.nix (args // { user = "pomp"; }))
     ../../modules/nixos/vlc.nix
     inputs.home-manager.nixosModules.home-manager
   ];
@@ -66,7 +71,6 @@
 
   # Programs
   programs.nix-ld.enable = true;
-  virtualisation.vmware.host.enable = true;
   programs.gnupg.agent = {
     enable = true;
     enableSSHSupport = true;

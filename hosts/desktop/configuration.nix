@@ -32,6 +32,7 @@ args@{
     ../../modules/nixos/otd.nix
     ../../modules/nixos/razer.nix
     ../../modules/nixos/shell.nix
+    (import ../../modules/nixos/virtualbox.nix (args // { user = "pomp"; }))
     ../../modules/nixos/vlc.nix
     ../../modules/nixos/wol.nix
     inputs.home-manager.nixosModules.home-manager
@@ -141,7 +142,6 @@ args@{
 
   # Programs
   programs.nix-ld.enable = true;
-  virtualisation.vmware.host.enable = true;
   programs.gnupg.agent = {
     enable = true;
     enableSSHSupport = true;
