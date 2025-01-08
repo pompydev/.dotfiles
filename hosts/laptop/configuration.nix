@@ -55,6 +55,7 @@ args@{
     kdePackages.kdenlive
     zrythm
     tenacity
+    parabolic
 
     # Misc Application
     collision
