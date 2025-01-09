@@ -41,7 +41,6 @@ args@{
     # Dev
     vim
     hotspot
-    gitbutler
 
     # Office
     onlyoffice-bin
