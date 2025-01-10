@@ -101,8 +101,8 @@
         # https://marketplace.visualstudio.com/items?itemName=wakatime.vscode-wakatime
         name = "vscode-wakatime";
         publisher = "wakatime";
-        version = "24.9.2";
-        sha256 = "sha256-m4D7bkHIjO/+NSfm0CwjxXkOvPBFi08cKRXaGNxZeCA=";
+        version = "25.0.0";
+        sha256 = "sha256-n/7y2nbD+ziUCDmNbfuT01GK/ls8rTfghpntj6SmsbA=";
       }
       {
         # https://marketplace.visualstudio.com/items?itemName=iamhyc.overleaf-workshop
@@ -117,8 +117,8 @@
         # https://marketplace.visualstudio.com/items?itemName=continue.continue
         name = "continue";
         publisher = "Continue";
-        version = "0.9.248";
-        sha256 = "sha256-0/nKNPP14tN3wdSJ8EHmB3+im56dDG3A47BgXa539NQ=";
+        version = "0.9.250";
+        sha256 = "sha256-asL4vW00+8Cfdt/0vacYGvtO89w5Rp4zP2ehOUWYmao=";
       }
 
       # general editing feature
@@ -147,15 +147,15 @@
         # https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
         name = "code-spell-checker";
         publisher = "streetsidesoftware";
-        version = "4.0.21";
-        sha256 = "sha256-AcZAhmJeAD4nGDhBXieUxldzNZhTPCOg6W44Sc7W4H0=";
+        version = "4.0.34";
+        sha256 = "sha256-XREhBFc/UxvVxA4jlcEqym1D/pA1lmU0/PHX84BL2SQ=";
       }
       {
         # https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens
         name = "errorlens";
         publisher = "usernamehw";
-        version = "3.20.0";
-        sha256 = "sha256-0gCT+u6rfkEcWcdzqRdc4EosROllD/Q0TIOQ4k640j0=";
+        version = "3.22.0";
+        sha256 = "sha256-Uu2yJr5gxyCZdMK9NSwnBZcVQbG+uS5TtQlSZpyxd50=";
       }
       {
         # https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
@@ -196,10 +196,11 @@
       # Markdown/Markup
       {
         # https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml
+        # https://github.com/redhat-developer/vscode-xml
         name = "vscode-xml";
         publisher = "redhat";
-        version = "0.27.2024121308";
-        sha256 = "sha256-i8bmGIThG1pPEwkCnF8hvuqJfnSvGdsLd4lm7bH8MMM=";
+        version = "0.27.2";
+        sha256 = "sha256-yE8PfDpdrYtegJZ/9UaljuEw/y9gokPngsFvbfMSJ2g=";
       }
       {
         # https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml
@@ -212,8 +213,8 @@
         # https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx
         name = "vscode-mdx";
         publisher = "unifiedjs";
-        version = "1.8.11";
-        sha256 = "sha256-fUmyEBTvAxjgYaHXPGsT6c6j4TpSLEi8+WGG9I1wH74=";
+        version = "1.8.13";
+        sha256 = "sha256-QTIDs+HVnM+zJ3jqhiBhUTsrI44kaHInYDXLXMC1/9E=";
       }
 
       # General web tech
@@ -221,8 +222,8 @@
         # https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
         name = "vscode-tailwindcss";
         publisher = "bradlc";
-        version = "0.13.62";
-        sha256 = "sha256-F7HekdmIpMQOz1RJ9+pIwLgHT4tOYg8ugMEypOsa15A=";
+        version = "0.13.64";
+        sha256 = "sha256-JhC2hFx9I8wyBYG3YTOL7Ia/bZrHn2rixLUtutUVJpE=";
       }
       {
         # https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
@@ -272,15 +273,15 @@
         # https://marketplace.visualstudio.com/items?itemName=oven.bun-vscode
         name = "bun-vscode";
         publisher = "oven";
-        version = "0.0.25";
-        sha256 = "sha256-CB9NrBVxHVF/rexAgPpqDFxiYnrZCzP/e7jxRhHUBmI=";
+        version = "0.0.26";
+        sha256 = "sha256-klMkKAorWJj2o015FWbQQfpmYe4JM0UOM+WVh+YPtI4=";
       }
       {
         # https://marketplace.visualstudio.com/items?itemName=denoland.vscode-deno
         name = "vscode-deno";
         publisher = "denoland";
-        version = "3.42.0";
-        sha256 = "sha256-bfhpIxqHeUph51VBMlKBvdBJIeSO9E1ZitrfVl/MqgQ=";
+        version = "3.43.2";
+        sha256 = "sha256-Pz9ZgmErUBNYVBDgSvzxh74yG0X9GxFrdaaCCExVIJI=";
       }
       {
         # https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors
@@ -309,8 +310,8 @@
         # https://marketplace.visualstudio.com/items?itemName=pkief.material-icon-theme
         name = "material-icon-theme";
         publisher = "pkief";
-        version = "5.15.0";
-        sha256 = "sha256-wIde2Kz9+peLycRjx78yXDF3lMPUEO1TCqN925rZEOw=";
+        version = "5.17.0";
+        sha256 = "sha256-ohiWl/ymoWSRyL2pY9DabXfIrofL/oCDKPqvISpgUtU=";
       }
       {
         # One Dark Pro Theme
@@ -324,10 +325,11 @@
       # git & github
       {
         # https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
+        # https://github.com/gitkraken/vscode-gitlens/releases
         name = "gitlens";
         publisher = "eamodio";
-        version = "2024.12.2404";
-        sha256 = "sha256-25EHqbkIVB451DAoEjWUwi0UDbU1ia4lT1AX1xWGgHE=";
+        version = "16.1.1";
+        sha256 = "sha256-v9nNELeyEXLXvWPqmqQPyEA3lDPlgx8WRh4okh8568M=";
       }
       {
         # https://marketplace.visualstudio.com/items?itemName=github.vscode-github-actions
@@ -411,15 +413,15 @@
         # https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer
         name = "rust-analyzer";
         publisher = "rust-lang";
-        version = "0.4.2236";
-        sha256 = "sha256-DonWczTJoVbVuigbkFfmEYFgZiSmmBuFD5IevNAgaCM=";
+        version = "0.4.2259";
+        sha256 = "sha256-RJQnzDtIxRGWTg49LJiFjLmLP4vXzLWbjn7P0KMflJQ=";
       }
       {
         # https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml
         name = "even-better-toml";
         publisher = "tamasfe";
-        version = "0.19.2";
-        sha256 = "sha256-JKj6noi2dTe02PxX/kS117ZhW8u7Bhj4QowZQiJKP2E=";
+        version = "0.21.2";
+        sha256 = "sha256-IbjWavQoXu4x4hpEkvkhqzbf/NhZpn8RFdKTAnRlCAg=";
       }
       {
         # https://marketplace.visualstudio.com/items?itemName=DioxusLabs.dioxus
@@ -432,13 +434,15 @@
       # Python
       {
         # https://marketplace.visualstudio.com/items?itemName=ms-python.python
+        # https://github.com/microsoft/vscode-python/releases
         name = "python";
         publisher = "ms-python";
-        version = "2024.22.0";
-        sha256 = "sha256-CzMAiMQhclzaSRp/EkHYFCfpROADtu3miQwT+owhvq8=";
+        version = "2024.22.2";
+        sha256 = "sha256-uVv4kpTf0W82Gvoju0Q/HKf6SpN2mwuYO7NItlRoezI=";
       }
       {
         # https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter
+        # https://github.com/microsoft/vscode-black-formatter/releases
         name = "black-formatter";
         publisher = "ms-python";
         version = "2024.4.0";
@@ -448,8 +452,8 @@
         # https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff
         name = "ruff";
         publisher = "charliermarsh";
-        version = "2024.56.0";
-        sha256 = "sha256-VaDD9JOV5ttNg/1nnyYJwqtsHfuX/0DgcBOxYYyhn1w=";
+        version = "2025.0.0";
+        sha256 = "sha256-1RuXyU90vv+eSekH+Nz+U1aIaz4pN/DTPHE3enCE+Uo=";
       }
 
       # Go
@@ -457,8 +461,8 @@
         # https://marketplace.visualstudio.com/items?itemName=golang.go
         name = "go";
         publisher = "golang";
-        version = "0.43.4";
-        sha256 = "sha256-/K6eXCOaTEjDQKwA3LeMpxBGA03/pAmGmnU8TZnA+OM=";
+        version = "0.45.0";
+        sha256 = "sha256-w/74OCM1uAJzjlJ91eDoac6knD1+Imwfy6pXX9otHsY=";
       }
 
       # C++
@@ -466,8 +470,8 @@
         # https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
         name = "cpptools";
         publisher = "ms-vscode";
-        version = "1.23.2";
-        sha256 = "sha256-L7s2H+BhPK86cAGtyI+u/P1zU+RqxkYmWyuFGNMlw7Q=";
+        version = "1.23.3";
+        sha256 = "sha256-7c1o+4dCfhvC00XdkCuse4UVnZ4I1qM1QXwSxnL2/A0=";
       }
 
       # C#
@@ -475,15 +479,15 @@
         # https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp
         name = "csharp";
         publisher = "ms-dotnettools";
-        version = "2.60.26";
-        sha256 = "sha256-LQ8s+gWZAzKBbOy9hmss+SoP+OfuTFcGJbDkCaXgTh0=";
+        version = "2.61.27";
+        sha256 = "sha256-/YxsXDV3UlP+jeYsIN9YbW4EjLRW6gEAtMFIQHxA+zU=";
       }
       {
         # https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit
         name = "csdevkit";
         publisher = "ms-dotnettools";
-        version = "1.15.13";
-        sha256 = "sha256-hPwRAqH57keJhdY1TnrFeXvtNg0QJps9s6yfVgTkm9k=";
+        version = "1.15.32";
+        sha256 = "sha256-Pujbln1TLDTRrVPT3bZPllkbVHJl4t1zoATl8BDeTs8=";
       }
       {
         # https://marketplace.visualstudio.com/items?itemName=ms-vscode.mono-debug
@@ -507,15 +511,8 @@
         # https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode
         name = "svelte-vscode";
         publisher = "svelte";
-        version = "109.3.3";
-        sha256 = "sha256-Xcj8GsCyWdRN+/0RKPYHGunGXIk0hMf5lSGnNBOnNTw=";
-      }
-      {
-        # https://marketplace.visualstudio.com/items?itemName=ardenivanov.svelte-intellisense
-        name = "svelte-intellisense";
-        publisher = "ardenivanov";
-        version = "0.7.1";
-        sha256 = "sha256-/AiGMgwCeD9B3y8LxTe6HoIswLuCnLbmwV7fxwfWSLw=";
+        version = "109.5.1";
+        sha256 = "sha256-hEsh7UujasZBa2jlDzElRMNsH23U8rwIPP/cmt9Gnm4=";
       }
 
       # Shell
@@ -530,8 +527,8 @@
         # https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck
         name = "shellcheck";
         publisher = "timonwong";
-        version = "0.37.1";
-        sha256 = "sha256-JSS0GY76+C5xmkQ0PNjt2Nu/uTUkfiUqmPL51r64tl0=";
+        version = "0.37.4";
+        sha256 = "sha256-+DFoHjb5sl9s5Vqw7onsv+MKjS4+loGVnZsF9/e+7dQ=";
       }
 
       # Docker
@@ -548,8 +545,8 @@
         # https://marketplace.visualstudio.com/items?itemName=james-yu.latex-workshop
         name = "latex-workshop";
         publisher = "james-yu";
-        version = "10.7.0";
-        sha256 = "sha256-FVdeDAe4tPOD8FRAF1vfJg6AQjzdNd6+64gagR01nlQ=";
+        version = "10.7.5";
+        sha256 = "sha256-XdktZHSS33BJ+zq50NmGD3TgjOd2tY872+gJDubSS0E=";
       }
 
       # vim
@@ -641,8 +638,8 @@
         # https://marketplace.visualstudio.com/items?itemName=ziglang.vscode-zig
         name = "vscode-zig";
         publisher = "ziglang";
-        version = "0.6.2";
-        sha256 = "sha256-ALVRRX6x1RKWxAkRWdyFqOdJ1xxUViaNKFLE1AJPSxM=";
+        version = "0.6.3";
+        sha256 = "sha256-NpsNUZKfMay/4p8NTKkL53nwklEh88J750tpiEF2ghc=";
       }
 
       # Nix
@@ -666,8 +663,8 @@
         # https://marketplace.visualstudio.com/items?itemName=sumneko.lua
         name = "lua";
         publisher = "sumneko";
-        version = "3.13.3";
-        sha256 = "sha256-eXb62zJ62ENMAt15bRCqLBXqXRN20Fq7F74h5+EFnzQ=";
+        version = "3.13.5";
+        sha256 = "sha256-1JoYV6ErUy9ew0Qw888azYdbvZmZibJhdECRXj72MtI=";
       }
 
       # Assembly
@@ -693,8 +690,8 @@
         # https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client
         name = "vscode-intelephense-client";
         publisher = "bmewburn";
-        version = "1.12.6";
-        sha256 = "sha256-PBshvtO7NDMfKK482GN8qSyGw7OEeExEwr1/whH9yUA=";
+        version = "1.13.1";
+        sha256 = "sha256-eVm4x8WK9aRjKWQH2XaXCHHpc1f6qCn+PKmhyIpPJpk=";
       }
 
       # i18n
@@ -711,15 +708,15 @@
         # https://marketplace.visualstudio.com/items?itemName=nefrob.vscode-just-syntax
         name = "vscode-just-syntax";
         publisher = "nefrob";
-        version = "0.6.0";
-        sha256 = "sha256-CYFDNQQFk6vC6RG/ZLp36npunuJKHrqxrwiOF9RmPrM=";
+        version = "0.8.0";
+        sha256 = "sha256-zuDfIxhiUKRpVRxp9BceW6WPBq5NNCuS1Si0/6kfqF8=";
       }
       {
-        # https://marketplace.visualstudio.com/items?itemName=nefrob.vscode-just-syntax
+        # https://marketplace.visualstudio.com/items?itemName=ms-vscode.makefile-tools
         name = "makefile-tools";
         publisher = "ms-vscode";
-        version = "0.11.13";
-        sha256 = "sha256-j6u3IWFz6ion42T8QKtdQN2GWyX2qdPDdLmRduGvtcw=";
+        version = "0.12.14";
+        sha256 = "sha256-oH6uow3XZA/PQTdXYjtGKLN0gUGES7Wbq9iZ9p1LtdA=";
       }
     ];
   };
