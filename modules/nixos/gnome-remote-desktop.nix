@@ -4,7 +4,6 @@
   environment.systemPackages = with pkgs; [
     remmina
     turnon
-    gnome-connections
     gnome-session
     gnome-remote-desktop
   ];
