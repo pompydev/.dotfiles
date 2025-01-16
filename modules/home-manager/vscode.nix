@@ -267,6 +267,13 @@
         version = "1.4.0";
         sha256 = "sha256-CsQBRoVDtNLlkHa6NLmOspkswB/JUMfMuU2dMYDlDnc=";
       }
+      {
+        # https://marketplace.visualstudio.com/items?itemName=LorisCro.super
+        name = "super";
+        publisher = "LorisCro";
+        version = "0.5.3";
+        sha256 = "sha256-SSeCNtwiOVk6ZrKvQ8U3eoTEJETVWyymrFOWrXj88Xs=";
+      }
 
       # JS & TS ecosystem
       {
