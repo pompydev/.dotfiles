@@ -100,7 +100,7 @@ args@{
     kdePackages.kdenlive
     gmetronome
     font-manager
-    zrythm
+    # zrythm # todo: re-enable when fixed
     tenacity
     parabolic
     cheese

@@ -53,7 +53,7 @@ args@{
     gimp
     inkscape
     kdePackages.kdenlive
-    zrythm
+    # zrythm # todo: re-enable when fixed
     tenacity
     parabolic
 

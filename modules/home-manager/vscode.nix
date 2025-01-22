@@ -118,7 +118,7 @@
         name = "continue";
         publisher = "Continue";
         version = "0.9.250";
-        sha256 = "sha256-asL4vW00+8Cfdt/0vacYGvtO89w5Rp4zP2ehOUWYmao=";
+        sha256 = "sha256-UMLJLdNucrOLrwqkwLWG1a3zYmfmHUoRexfeEKQnCY4=";
       }
 
       # general editing feature
@@ -478,7 +478,7 @@
         name = "cpptools";
         publisher = "ms-vscode";
         version = "1.23.3";
-        sha256 = "sha256-7c1o+4dCfhvC00XdkCuse4UVnZ4I1qM1QXwSxnL2/A0=";
+        sha256 = "sha256-YOtPISpr23g/4T7u+ZHZz9mJOBI4GpifhqfP1bNhOkU=";
       }
 
       # C#
@@ -487,14 +487,14 @@
         name = "csharp";
         publisher = "ms-dotnettools";
         version = "2.61.27";
-        sha256 = "sha256-/YxsXDV3UlP+jeYsIN9YbW4EjLRW6gEAtMFIQHxA+zU=";
+        sha256 = "sha256-1CwJ0Mxs4/hfNUwCe4xMSunHm0el0lzILI+eqCKxYrk=";
       }
       {
         # https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit
         name = "csdevkit";
         publisher = "ms-dotnettools";
         version = "1.15.32";
-        sha256 = "sha256-Pujbln1TLDTRrVPT3bZPllkbVHJl4t1zoATl8BDeTs8=";
+        sha256 = "sha256-HxVDtnNhmAxKCh0gzzWfsrXr6avq+bpTv3W9pdAqeEw=";
       }
       {
         # https://marketplace.visualstudio.com/items?itemName=ms-vscode.mono-debug
@@ -671,7 +671,7 @@
         name = "lua";
         publisher = "sumneko";
         version = "3.13.5";
-        sha256 = "sha256-1JoYV6ErUy9ew0Qw888azYdbvZmZibJhdECRXj72MtI=";
+        sha256 = "sha256-WKgVHkpY6xjPXcgKl3V4D4tmb2W+1+IN3gedHZ5SRuU=";
       }
 
       # Assembly
