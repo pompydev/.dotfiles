@@ -1,0 +1,19 @@
+From a2b5108952b2647890a85de7d5e9d8178c7f2247 Mon Sep 17 00:00:00 2001
+From: Martin Schwaighofer <mschwaig@users.noreply.github.com>
+Date: Wed, 22 Jan 2025 14:58:26 +0100
+Subject: [PATCH] rocmPackages.llvm.libcxx: fix build by disabling test
+
+fc590fdd053b8eee03385d4cff4d71ead4c71547 causes this test to fail.
+---
+ .../rocm-modules/6/llvm/stage-2/1000-libcxx-failing-tests.list   | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/pkgs/development/rocm-modules/6/llvm/stage-2/1000-libcxx-failing-tests.list b/pkgs/development/rocm-modules/6/llvm/stage-2/1000-libcxx-failing-tests.list
+index d5e1f675079fa..a70c98d4e4732 100644
+--- a/pkgs/development/rocm-modules/6/llvm/stage-2/1000-libcxx-failing-tests.list
++++ b/pkgs/development/rocm-modules/6/llvm/stage-2/1000-libcxx-failing-tests.list
+@@ -173,3 +173,4 @@
+ ../libcxx/test/std/language.support/support.dynamic/new.delete/new.delete.array/sized_delete_array14.pass.cpp
+ ../libcxx/test/std/language.support/support.dynamic/new.delete/new.delete.single/sized_delete14.pass.cpp
+ ../libcxx/test/libcxx/selftest/sh.cpp/empty.sh.cpp
++../libcxx/test/libcxx/transitive_includes.sh.cpp
