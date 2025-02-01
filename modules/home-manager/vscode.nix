@@ -249,6 +249,13 @@
           version = "2.0.2";
           sha256 = "sha256-ttvCwxk3dMwva5LmVHq4p31INTa/T91qQISEU4gYNbg=";
         }
+        {
+          # https://marketplace.visualstudio.com/items?itemName=ardenivanov.svelte-intellisense
+          name = "svelte-intellisense";
+          publisher = "ardenivanov";
+          version = "0.7.1";
+          sha256 = "sha256-/AiGMgwCeD9B3y8LxTe6HoIswLuCnLbmwV7fxwfWSLw=";
+        }
 
         # Git/GitHub
         {
