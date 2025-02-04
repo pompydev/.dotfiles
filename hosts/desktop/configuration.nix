@@ -22,6 +22,7 @@ args@{
     ../../modules/nixos/gnome.nix
     ../../modules/nixos/handbrake.nix
     ../../modules/nixos/killall.nix
+    ../../modules/nixos/ladybird.nix
     ../../modules/nixos/locale.nix
     ../../modules/nixos/lunar-client.nix
     ../../modules/nixos/monero.nix

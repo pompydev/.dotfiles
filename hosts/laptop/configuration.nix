@@ -15,6 +15,7 @@ args@{
     ../../modules/nixos/gamemode.nix
     ../../modules/nixos/gnome-remote-desktop.nix
     ../../modules/nixos/gnome.nix
+    ../../modules/nixos/ladybird.nix
     ../../modules/nixos/locale.nix
     ../../modules/nixos/nautilus.nix
     ../../modules/nixos/nix.nix
