@@ -37,7 +37,7 @@
       "editor.largeFileOptimizations" = false;
 
       # terminal
-      "terminal.external.linuxExec" = "kitty";
+      "terminal.external.linuxExec" = "ghostty";
       "terminal.integrated.defaultProfile.linux" = "zsh";
       "terminal.integrated.enableMultiLinePasteWarning" = "never";
       "terminal.integrated.enablePersistentSessions" = false;
