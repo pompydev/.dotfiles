@@ -2,7 +2,6 @@
 
 {
   xdg.mimeApps.defaultApplications = {
-    "application/pdf" = "firefox.desktop";
     "text/plain" = "code.desktop";
     "text/x-csrc" = "code.desktop";
     "application/octet-stream" = "code.desktop";
