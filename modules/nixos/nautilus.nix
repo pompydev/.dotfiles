@@ -1,10 +1,6 @@
 { pkgs, ... }:
 
 {
-  xdg.mimeApps.defaultApplications = {
-    "inode/directory" = "nautilus.desktop";
-  };
-
   programs.nautilus-open-any-terminal = {
     enable = true;
     terminal = "ghostty";
