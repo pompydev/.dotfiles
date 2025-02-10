@@ -42,6 +42,7 @@ args@{
     # Dev
     vim
     hotspot
+    jetbrains-toolbox
 
     # Office
     onlyoffice-bin
