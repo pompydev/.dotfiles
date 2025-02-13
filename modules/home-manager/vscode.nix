@@ -22,6 +22,7 @@
       "security.workspace.trust.untrustedFiles" = "open";
       "window.restoreWindows" = "none";
       "extensions.autoUpdate" = false;
+      "chat.commandCenter.enabled" = false;
 
       # font
       "editor.fontFamily" = "'MesloLGS NF', 'Terminess Nerd Font Mono'";
