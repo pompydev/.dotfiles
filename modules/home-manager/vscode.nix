@@ -58,6 +58,9 @@
       "dotnetAcquisitionExtension.enableTelemetry" = false;
       "gitlens.telemetry.enabled" = false;
       "intelephense.telemetry.enabled" = false;
+
+      # AI
+      "continue.enableTabAutocomplete" = false;
     };
 
     keybindings = [
