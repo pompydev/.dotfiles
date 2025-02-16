@@ -386,6 +386,14 @@
           version = "1.1.0";
           sha256 = "sha256-cDo8nH6hFvYNiHuoriDzgZC4xt/vm+yJdLZ1pgggpSA=";
         }
+
+        # Android
+        {
+          name = "vscode-expo-tools";
+          publisher = "expo";
+          version = "1.6.0";
+          sha256 = "sha256-on+QlNwHQzmBBDYkRWJ2hVMuW+xLhJHx7Og6tuR2nMo=";
+        }
       ];
   };
 }
