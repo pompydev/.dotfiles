@@ -1,7 +1,11 @@
-{ pkgs, ... }:
+{
+  pkgs,
+  user ? "pomp",
+  ...
+}:
 
 {
-  users.users.pomp.shell = pkgs.zsh;
+  users.users.${user}.shell = pkgs.zsh;
   programs.starship.enable = true;
 
   # https://mynixos.com/nixpkgs/options/programs.zsh

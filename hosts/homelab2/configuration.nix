@@ -10,6 +10,7 @@ args@{
     ./modules/ssh.nix
     ../../modules/nixos/locale.nix
     (import ../../modules/nixos/docker.nix (args // { user = "homelab2"; }))
+    (import ../../modules/nixos/shell.nix (args // { user = "homelab2"; }))
     ../../modules/nixos/fonts.nix
     ../../modules/nixos/gnome-remote-desktop.nix
     inputs.home-manager.nixosModules.home-manager
@@ -46,20 +47,6 @@ args@{
     };
   };
 
-  users.users.homelab2.shell = pkgs.zsh;
-  programs.starship.enable = true;
-
-  # https://mynixos.com/nixpkgs/options/programs.zsh
-  programs.zsh = {
-    enable = true;
-    syntaxHighlighting.enable = true;
-    shellAliases = {
-      c = "clear";
-      e = "eza --long --classify=always --color=always --icons=always --all --group-directories-first --binary --group --no-time --octal-permissions";
-      y = "yazi";
-    };
-  };
-
   # Packages
   nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
@@ -68,13 +55,6 @@ args@{
     direnv
     devenv
     vscode
-
-    # CLI
-    fzf
-    eza
-    tmux
-    atuin
-    yazi
 
     # TUI
     lazydocker
