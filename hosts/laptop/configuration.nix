@@ -18,8 +18,8 @@ args@{
     ../../modules/nixos/ladybird.nix
     ../../modules/nixos/locale.nix
     ../../modules/nixos/nautilus.nix
-    ../../modules/nixos/nix.nix
-    ../../modules/nixos/shell.nix
+    (import ../../modules/nixos/nix.nix (args // { user = "pomp"; }))
+    (import ../../modules/nixos/shell.nix (args // { user = "pomp"; }))
     (import ../../modules/nixos/virtualbox.nix (args // { user = "pomp"; }))
     ../../modules/nixos/vlc.nix
     inputs.home-manager.nixosModules.home-manager

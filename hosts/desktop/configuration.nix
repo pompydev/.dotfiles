@@ -28,11 +28,11 @@ args@{
     ../../modules/nixos/monero.nix
     ../../modules/nixos/mongodb-compass.nix
     ../../modules/nixos/nautilus.nix
-    ../../modules/nixos/nix.nix
+    (import ../../modules/nixos/nix.nix (args // { user = "pomp"; }))
     ../../modules/nixos/obs.nix
     ../../modules/nixos/otd.nix
     (import ../../modules/nixos/razer.nix (args // { user = "pomp"; }))
-    ../../modules/nixos/shell.nix
+    (import ../../modules/nixos/shell.nix (args // { user = "pomp"; }))
     (import ../../modules/nixos/virtualbox.nix (args // { user = "pomp"; }))
     ../../modules/nixos/vlc.nix
     ../../modules/nixos/wol.nix
