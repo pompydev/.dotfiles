@@ -32,9 +32,6 @@ args@{
     devenv
     vscode
 
-    # TUI
-    lazydocker
-
     # GUI
     mission-center
     menulibre
