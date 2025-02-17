@@ -81,6 +81,7 @@ args@{
 
     # GUI
     mission-center
+    menulibre
   ];
 
   # Programs
