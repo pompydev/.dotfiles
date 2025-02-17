@@ -1,10 +1,13 @@
-{ ... }:
+{
+  user ? "pomp",
+  ...
+}:
 
 {
   nix = {
     extraOptions = ''
-      trusted-users = root pomp
-    ''; # allow pomp to manage nix store
+      trusted-users = root ${user}
+    ''; # allow ${user} to manage nix store
 
     settings = {
       substituters = [
