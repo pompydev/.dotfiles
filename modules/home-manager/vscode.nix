@@ -152,6 +152,7 @@
 
         # Python
         ms-python.python # https://marketplace.visualstudio.com/items?itemName=ms-python.python
+        ms-python.vscode-pylance # https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance
         ms-python.black-formatter # https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter
         charliermarsh.ruff # https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff
 
