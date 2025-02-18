@@ -154,6 +154,8 @@
         ms-python.python # https://marketplace.visualstudio.com/items?itemName=ms-python.python
         ms-python.vscode-pylance # https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance
         ms-python.black-formatter # https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter
+        ms-python.mypy-type-checker # https://marketplace.visualstudio.com/items?itemName=ms-python.mypy-type-checker
+        ms-python.pylint # https://marketplace.visualstudio.com/items?itemName=ms-python.pylint
         charliermarsh.ruff # https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff
 
         # Go
