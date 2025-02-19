@@ -94,6 +94,7 @@
         jock.svg # https://marketplace.visualstudio.com/items?itemName=jock.svg
         nefrob.vscode-just-syntax # https://marketplace.visualstudio.com/items?itemName=nefrob.vscode-just-syntax
         ms-vscode.makefile-tools # https://marketplace.visualstudio.com/items?itemName=ms-vscode.makefile-tools
+        antfu.slidev # https://marketplace.visualstudio.com/items?itemName=antfu.slidev
 
         # Appearance
         pkief.material-icon-theme # https://marketplace.visualstudio.com/items?itemName=pkief.material-icon-theme
