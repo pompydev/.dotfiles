@@ -94,7 +94,6 @@
         jock.svg # https://marketplace.visualstudio.com/items?itemName=jock.svg
         nefrob.vscode-just-syntax # https://marketplace.visualstudio.com/items?itemName=nefrob.vscode-just-syntax
         ms-vscode.makefile-tools # https://marketplace.visualstudio.com/items?itemName=ms-vscode.makefile-tools
-        antfu.slidev # https://marketplace.visualstudio.com/items?itemName=antfu.slidev
 
         # Appearance
         pkief.material-icon-theme # https://marketplace.visualstudio.com/items?itemName=pkief.material-icon-theme
@@ -232,6 +231,13 @@
           publisher = "iamhyc";
           version = "0.14.1";
           sha256 = "sha256-x6HBwW1Jl0FJQ/RNJ/s9MaS5/6AzVBpvJ8X8owW4dVM=";
+        }
+        {
+          # https://marketplace.visualstudio.com/items?itemName=antfu.slidev
+          name = "slidev";
+          publisher = "antfu";
+          version = "51.2.2";
+          sha256 = "sha256-wq7xn2kQ7gKAgWaTfdd+5tcqe0tM8JW3gqFIiUsB11k=";
         }
 
         # Nodejs/Deno/Bun
