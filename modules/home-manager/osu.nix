@@ -17,7 +17,7 @@
     Categories=Game
     Comment=A free-to-win rhythm game. Rhythm is just a *click* away!
     SingleMainWindow=true
-    Icon=osu!
+    Icon=osu
     StartupWMClass=osu!
     MimeType=application/x-osu-beatmap-archive;application/x-osu-skin-archive;application/x-osu-beatmap;application/x-osu-storyboard;application/x-osu-replay;x-scheme-handler/osu;
     StartupNotify=true
