@@ -143,7 +143,7 @@
         mkhl.direnv # https://marketplace.visualstudio.com/items?itemName=mkhl.direnv
 
         # Rust
-        rust-lang.rust-analyzer # https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer
+        # rust-lang.rust-analyzer # https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer # todo: re-enable
         tamasfe.even-better-toml # https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml
         tauri-apps.tauri-vscode # https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode
 
