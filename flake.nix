@@ -18,7 +18,7 @@
         name = "nixpkgs-patched";
         src = inputs.nixpkgs;
         patches = [
-
+          ./patches/385029.patch
         ];
       };
       nixosSystem = import (nixpkgs + "/nixos/lib/eval-config.nix");
