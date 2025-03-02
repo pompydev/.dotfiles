@@ -95,6 +95,8 @@
           jock.svg # https://marketplace.visualstudio.com/items?itemName=jock.svg
           nefrob.vscode-just-syntax # https://marketplace.visualstudio.com/items?itemName=nefrob.vscode-just-syntax
           ms-vscode.makefile-tools # https://marketplace.visualstudio.com/items?itemName=ms-vscode.makefile-tools
+          stkb.rewrap # https://marketplace.visualstudio.com/items?itemName=stkb.rewrap
+          antfu.slidev # https://marketplace.visualstudio.com/items?itemName=antfu.slidev
 
           # Appearance
           pkief.material-icon-theme # https://marketplace.visualstudio.com/items?itemName=pkief.material-icon-theme
@@ -188,8 +190,8 @@
             # https://marketplace.visualstudio.com/items?itemName=dprint.dprint
             name = "dprint";
             publisher = "dprint";
-            version = "0.16.3";
-            sha256 = "sha256-tK2sNLM+neYm+YXPaTKzWHcT+JE+fEbMR7MeB8gBKTI=";
+            version = "0.16.4";
+            sha256 = "sha256-PL4qVr9WMmADZkcNBlZDx9+LdvKlzW+mVRqakkbSM6M=";
           }
           {
             # https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight
@@ -213,13 +215,6 @@
             sha256 = "sha256-mxwMX4r+3XuPxG9pRN7MmmvCft0fLtKxp5dv/VFOeK8=";
           }
           {
-            # https://marketplace.visualstudio.com/items?itemName=stkb.rewrap
-            name = "rewrap";
-            publisher = "stkb";
-            version = "17.8.0";
-            sha256 = "sha256-9t1lpVbpcmhLamN/0ZWNEWD812S6tXG6aK3/ALJCJvg=";
-          }
-          {
             # https://marketplace.visualstudio.com/items?itemName=plievone.vscode-template-literal-editor
             name = "vscode-template-literal-editor";
             publisher = "plievone";
@@ -230,15 +225,8 @@
             # https://marketplace.visualstudio.com/items?itemName=iamhyc.overleaf-workshop
             name = "overleaf-workshop";
             publisher = "iamhyc";
-            version = "0.14.1";
-            sha256 = "sha256-x6HBwW1Jl0FJQ/RNJ/s9MaS5/6AzVBpvJ8X8owW4dVM=";
-          }
-          {
-            # https://marketplace.visualstudio.com/items?itemName=antfu.slidev
-            name = "slidev";
-            publisher = "antfu";
-            version = "51.2.2";
-            sha256 = "sha256-wq7xn2kQ7gKAgWaTfdd+5tcqe0tM8JW3gqFIiUsB11k=";
+            version = "0.15.0";
+            sha256 = "sha256-//PGvogsYMe3NzKTvmNFUUyxOokH298J5/0eCM4Z63U=";
           }
 
           # Nodejs/Deno/Bun
@@ -326,8 +314,8 @@
             # https://marketplace.visualstudio.com/items?itemName=visualstudiotoolsforunity.vstuc
             name = "vstuc";
             publisher = "visualstudiotoolsforunity";
-            version = "1.0.5";
-            sha256 = "sha256-7v/f9oo+zjQ3EaVhYfswhy3Sqw3U+v53o50SvMRngFc=";
+            version = "1.1.0";
+            sha256 = "sha256-86KDksbTKlPgKC1joUc7uQTsDe2w9AIL0fekZP0z6gE=";
           }
 
           # Godot
@@ -335,15 +323,15 @@
             # https://marketplace.visualstudio.com/items?itemName=geequlim.godot-tools
             name = "godot-tools";
             publisher = "geequlim";
-            version = "2.3.0";
+            version = "2.4.0";
             sha256 = "sha256-iuSec4PoVxyu1KB2jfCYOd98UrqQjH3q24zOR4VCPgs=";
           }
           {
             # https://marketplace.visualstudio.com/items?itemName=alfish.godot-files
             name = "godot-files";
             publisher = "alfish";
-            version = "0.1.2";
-            sha256 = "sha256-teVQzL+Gx7cYHuvW58egEkiBoXKopNzoWTK259tvvxw=";
+            version = "0.1.3";
+            sha256 = "sha256-0cMcVpkFHRZLlm5wjOwPiqamZaRyfTUDwck5hUwIhyE=";
           }
           {
             # https://marketplace.visualstudio.com/items?itemName=neikeq.godot-csharp-vscode
@@ -400,6 +388,7 @@
 
           # Android
           {
+            # https://marketplace.visualstudio.com/items?itemName=expo.vscode-expo-tools
             name = "vscode-expo-tools";
             publisher = "expo";
             version = "1.6.0";
