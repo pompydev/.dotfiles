@@ -25,6 +25,7 @@ args@{
     ../../modules/nixos/ladybird.nix
     ../../modules/nixos/locale.nix
     ../../modules/nixos/lunar-client.nix
+    ../../modules/nixos/media.nix
     ../../modules/nixos/monero.nix
     ../../modules/nixos/mongodb-compass.nix
     ../../modules/nixos/nautilus.nix
@@ -92,19 +93,6 @@ args@{
     slack
     discord
     irssi
-
-    # Design, Content Creation, and Media
-    gcolor3
-    contrast
-    gimp
-    inkscape
-    kdePackages.kdenlive
-    gmetronome
-    font-manager
-    zrythm
-    tenacity
-    parabolic
-    cheese
 
     # Configuration & Monitor
     dconf-editor

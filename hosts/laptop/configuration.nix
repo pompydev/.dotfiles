@@ -17,6 +17,7 @@ args@{
     ../../modules/nixos/gnome.nix
     ../../modules/nixos/ladybird.nix
     ../../modules/nixos/locale.nix
+    ../../modules/nixos/media.nix
     ../../modules/nixos/nautilus.nix
     (import ../../modules/nixos/nix.nix (args // { user = "pomp"; }))
     (import ../../modules/nixos/shell.nix (args // { user = "pomp"; }))
@@ -50,14 +51,6 @@ args@{
     # Configuration & Monitor
     mission-center
     resources
-
-    # Design, Content Creation, and Media
-    gimp
-    inkscape
-    kdePackages.kdenlive
-    zrythm
-    tenacity
-    parabolic
 
     # Misc Application
     collision
