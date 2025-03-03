@@ -8,6 +8,7 @@
     gimp
     inkscape
     cheese
+    sly
 
     # Video
     kdePackages.kdenlive
@@ -20,6 +21,5 @@
 
     # Font
     font-manager
-
   ];
 }
