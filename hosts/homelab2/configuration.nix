@@ -35,6 +35,7 @@ args@{
     # GUI
     mission-center
     menulibre
+    pika-backup
   ];
 
   # Programs

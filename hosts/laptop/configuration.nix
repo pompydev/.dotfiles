@@ -63,6 +63,7 @@ args@{
     protonvpn-gui
     cheese
     qbittorrent
+    pika-backup
   ];
 
   # Programs
