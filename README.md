@@ -1,6 +1,6 @@
 # POMP's dotfiles
 
-[![license](https://img.shields.io/github/license/developomp/.dotfiles?style=for-the-badge&color=yellow)](./LICENSE)
+[![license](https://img.shields.io/github/license/pompydev/.dotfiles?style=for-the-badge&color=yellow)](./LICENSE)
 
 <!-- ## Gallery
 
@@ -16,7 +16,7 @@ A [Nix flake](https://wiki.nixos.org/wiki/Flakes) for my [NixOS](https://nixos.o
 
 This is a continuation and a logical conclusion of my OS setup script project.
 
-Timeline: [setup-script-sh](https://github.com/developomp/setup-script-sh) ➡ [setup-script-py](https://github.com/developomp/setup-script-py) ➡ [pompup](https://github.com/developomp/pompup) ➡ this
+Timeline: [setup-script-sh](https://github.com/pompydev/setup-script-sh) ➡ [setup-script-py](https://github.com/pompydev/setup-script-py) ➡ [pompup](https://github.com/pompydev/pompup) ➡ this
 
 ## Software
 
