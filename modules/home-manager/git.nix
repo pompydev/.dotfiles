@@ -8,7 +8,7 @@
     userEmail = "pompydev@proton.me";
     signing = {
       signByDefault = true;
-      key = "2B516173EDD492EB";
+      key = "D3932F82A0667A3B";
     };
     extraConfig = {
       push = {
