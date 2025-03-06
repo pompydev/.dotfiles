@@ -1,0 +1,25 @@
+From e9d2cb8925f2a1c44856c61038de9de151ae9ef9 Mon Sep 17 00:00:00 2001
+From: pompydev <pompydev@proton.me>
+Date: Thu, 6 Mar 2025 09:33:58 +0900
+Subject: [PATCH] vscode-extensions.ms-python.python: 2025.1.2025022501 ->
+ 2025.2.0
+
+---
+ .../editors/vscode/extensions/ms-python.python/default.nix    | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/pkgs/applications/editors/vscode/extensions/ms-python.python/default.nix b/pkgs/applications/editors/vscode/extensions/ms-python.python/default.nix
+index 4c481fc43e24f..29dffb98b0a75 100644
+--- a/pkgs/applications/editors/vscode/extensions/ms-python.python/default.nix
++++ b/pkgs/applications/editors/vscode/extensions/ms-python.python/default.nix
+@@ -21,8 +21,8 @@ vscode-utils.buildVscodeMarketplaceExtension rec {
+   mktplcRef = {
+     name = "python";
+     publisher = "ms-python";
+-    version = "2025.1.2025022501";
+-    hash = "sha256-hPVT86Uvok4BAKbbB6FhjWxQoEY/TWVKCliEn/+QNWY=";
++    version = "2025.2.0";
++    hash = "sha256-bq6xcNTzGsnoAcwjn4yyCVN7n4kXOPULHu0V2Vgzu68=";
+   };
+ 
+   buildInputs = [ icu ];
