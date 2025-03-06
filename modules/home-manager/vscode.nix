@@ -67,12 +67,17 @@
         {
           key = "ctrl+alt+s";
           command = "git.stageSelectedRanges";
-          when = "isInDiffEditor && !operationInProgress";
+          when = "editorTextFocus && !operationInProgress && resourceScheme == 'file'";
         }
         {
           key = "ctrl+alt+u";
           command = "git.unstageSelectedRanges";
-          when = "isInDiffEditor && !operationInProgress";
+          when = "editorTextFocus && isInDiffEditor && resourceScheme == 'file'";
+        }
+        {
+          key = "ctrl+alt+r";
+          command = "git.revertSelectedRanges";
+          when = "editorTextFocus && !operationInProgress && resourceScheme == 'file'";
         }
       ];
 
