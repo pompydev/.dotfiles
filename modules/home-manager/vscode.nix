@@ -102,6 +102,7 @@
           ms-vscode.makefile-tools # https://marketplace.visualstudio.com/items?itemName=ms-vscode.makefile-tools
           stkb.rewrap # https://marketplace.visualstudio.com/items?itemName=stkb.rewrap
           antfu.slidev # https://marketplace.visualstudio.com/items?itemName=antfu.slidev
+          ms-vscode-remote.remote-containers # https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
 
           # Appearance
           pkief.material-icon-theme # https://marketplace.visualstudio.com/items?itemName=pkief.material-icon-theme
