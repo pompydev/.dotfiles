@@ -17,9 +17,7 @@
       nixpkgs = inputs.nixpkgs.legacyPackages."x86_64-linux".applyPatches {
         name = "nixpkgs-patched";
         src = inputs.nixpkgs;
-        patches = [
-          ./patches/387455.patch
-        ];
+        patches = [ ];
       };
       nixosSystem = import (nixpkgs + "/nixos/lib/eval-config.nix");
     in
