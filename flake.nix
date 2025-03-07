@@ -2,7 +2,7 @@
   description = "pomp's NixOS flake";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/master";
+    nixpkgs.url = "github:pompydev/nixpkgs/master";
 
     home-manager = {
       url = "github:nix-community/home-manager";
