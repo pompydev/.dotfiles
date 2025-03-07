@@ -38,6 +38,7 @@
 
         # terminal
         "terminal.external.linuxExec" = "ghostty";
+        "terminal.integrated.suggest.enabled" = true;
         "terminal.integrated.defaultProfile.linux" = "zsh";
         "terminal.integrated.enableMultiLinePasteWarning" = "never";
         "terminal.integrated.enablePersistentSessions" = false;
