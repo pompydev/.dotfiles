@@ -3,7 +3,10 @@
 
   inputs = {
     nixpkgs.url = "github:pompydev/nixpkgs/master";
-
+    nixvim = {
+      url = "github:nix-community/nixvim";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -11,7 +14,7 @@
   };
 
   outputs =
-    { ... }@inputs:
+    { nixvim, ... }@inputs:
 
     let
       nixpkgs = inputs.nixpkgs.legacyPackages."x86_64-linux".applyPatches {
@@ -31,6 +34,7 @@
 
           modules = [
             ./hosts/desktop/configuration.nix
+            nixvim.nixosModules.nixvim
           ];
         };
 
@@ -42,6 +46,7 @@
 
           modules = [
             ./hosts/laptop/configuration.nix
+            nixvim.nixosModules.nixvim
           ];
         };
 

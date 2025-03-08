@@ -19,6 +19,7 @@ args@{
     ../../modules/nixos/media.nix
     ../../modules/nixos/nautilus.nix
     (import ../../modules/nixos/nix.nix (args // { user = "pomp"; }))
+    ../../modules/nixos/nixvim.nix
     (import ../../modules/nixos/shell.nix (args // { user = "pomp"; }))
     (import ../../modules/nixos/virtualbox.nix (args // { user = "pomp"; }))
     ../../modules/nixos/vlc.nix
@@ -40,7 +41,6 @@ args@{
   ];
   environment.systemPackages = with pkgs; [
     # Dev
-    vim
     hotspot
     jetbrains-toolbox
 
@@ -84,9 +84,6 @@ args@{
 
   # System
   systemd.services.NetworkManager-wait-online.enable = false;
-  environment.sessionVariables = {
-    EDITOR = "vim";
-  };
   boot.kernelParams = [
     "quiet"
     "splash"

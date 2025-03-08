@@ -30,6 +30,7 @@ args@{
     ../../modules/nixos/mongodb-compass.nix
     ../../modules/nixos/nautilus.nix
     (import ../../modules/nixos/nix.nix (args // { user = "pomp"; }))
+    ../../modules/nixos/nixvim.nix
     ../../modules/nixos/obs.nix
     ../../modules/nixos/otd.nix
     (import ../../modules/nixos/razer.nix (args // { user = "pomp"; }))
@@ -59,7 +60,6 @@ args@{
     seabird
     ## General CLI / TUI
     wget
-    vim
     btop
     nvitop
     tree
@@ -147,9 +147,6 @@ args@{
 
   # System
   systemd.services.NetworkManager-wait-online.enable = false;
-  environment.sessionVariables = {
-    EDITOR = "vim";
-  };
   boot.loader.systemd-boot.enable = true;
   boot.kernelParams = [
     "quiet"
