@@ -20,6 +20,7 @@
     "justfile",
     "keymaps",
     "killall",
+    "lazygit",
     "lunarclient",
     "Meslo",
     "monero",
