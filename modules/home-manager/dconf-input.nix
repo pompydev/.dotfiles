@@ -64,9 +64,26 @@ with lib.hm.gvariant;
       two-finger-scrolling-enabled = true;
     };
 
+    "org/gnome/shell/keybindings" = {
+      switch-to-application-1 = [ ];
+      switch-to-application-2 = [ ];
+      switch-to-application-3 = [ ];
+      switch-to-application-4 = [ ];
+    };
+
     "org/gnome/desktop/wm/keybindings" = {
       close = [ "<Shift><Control>q" ];
       show-desktop = [ "<Super>d" ];
+
+      move-to-workspace-1 = [ ];
+      move-to-workspace-2 = [ ];
+      move-to-workspace-3 = [ ];
+      move-to-workspace-4 = [ ];
+
+      switch-to-workspace-1 = [ "<Super>1" ];
+      switch-to-workspace-2 = [ "<Super>2" ];
+      switch-to-workspace-3 = [ "<Super>3" ];
+      switch-to-workspace-4 = [ "<Super>4" ];
     };
 
     "org/gnome/settings-daemon/plugins/media-keys" = {
