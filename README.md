@@ -20,16 +20,17 @@ Timeline: [setup-script-sh](https://github.com/pompydev/setup-script-sh) ➡ [se
 
 ## Software
 
-|                 Software | Choice                                                                  | Future candidates |
-| -----------------------: | :---------------------------------------------------------------------- | :---------------: |
-| Desktop Environment - 🚀 | [GNOME](https://www.gnome.org/)                                         |         -         |
-|               Icons - 💎 | [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) |         -         |
-|           GTK theme - 🎨 | [Pop!](https://github.com/pop-os/gtk-theme)                             |         -         |
-|               Shell - 🐚 | [zsh](https://github.com/zsh-users/zsh)                                 |         -         |
-|            Terminal - 🖥️ | [ghostty](https://github.com/ghostty-org/ghostty)                       |         -         |
-|             Browser - 🌐 | [Brave](https://github.com/brave/brave-browser)                         |         -         |
-|   Text Editor & IDE - 📝 | [VSCodium](https://github.com/VSCodium/vscodium)                        |         -         |
-|     Note-taking App - 📚 | [AnyType](https://anytype.io/)                                          |         -         |
+|                  Software | Choice                                                                  |                    Future candidates                    |
+| ------------------------: | :---------------------------------------------------------------------- | :-----------------------------------------------------: |
+|  Desktop Environment - 🚀 | [GNOME](https://www.gnome.org/)                                         |                            -                            |
+|                Icons - 💎 | [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) |                            -                            |
+|            GTK theme - 🎨 | [Pop!](https://github.com/pop-os/gtk-theme)                             |                            -                            |
+|                Shell - 🐚 | [zsh](https://github.com/zsh-users/zsh)                                 |                            -                            |
+|             Terminal - 🖥️ | [ghostty](https://github.com/ghostty-org/ghostty)                       |                            -                            |
+|              Browser - 🌐 | [Brave](https://github.com/brave/brave-browser)                         |                            -                            |
+|    Text Editor & IDE - 📝 | [VSCodium](https://github.com/VSCodium/vscodium)                        |                            -                            |
+|      Note-taking App - 📚 | [AnyType](https://anytype.io/)                                          |                            -                            |
+| Linux Core Utilities - 🛠️ | [GNU Core Utilities](https://www.gnu.org/software/coreutils/)           | [uutils/coreutils](https://github.com/uutils/coreutils) |
 
 ## Wallpaper
 
