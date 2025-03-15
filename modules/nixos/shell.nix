@@ -15,6 +15,8 @@
     shellAliases = {
       c = "clear";
       e = "eza --long --classify=always --color=always --icons=always --all --group-directories-first --binary --group --no-time --octal-permissions";
+      lg = "lazygit";
+      ld = "lazydocker";
     };
   };
 
