@@ -135,6 +135,7 @@
           yoavbls.pretty-ts-errors # https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors
           svelte.svelte-vscode # https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode
           stylelint.vscode-stylelint # https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint
+          vue.volar # https://marketplace.visualstudio.com/items?itemName=Vue.volar
 
           # Markdown
           yzhang.markdown-all-in-one # https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
