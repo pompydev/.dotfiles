@@ -19,6 +19,10 @@
         autoSetupRemote = true;
       };
 
+      pull = {
+        rebase = true;
+      };
+
       init = {
         defaultBranch = "master";
       };
