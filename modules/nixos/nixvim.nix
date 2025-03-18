@@ -96,6 +96,7 @@
         };
       };
 
+      indent-blankline.enable = true;
       trouble.enable = true;
       lazygit.enable = true;
       gitsigns.enable = true;
