@@ -96,7 +96,17 @@
         };
       };
 
-      indent-blankline.enable = true;
+      indent-blankline = {
+        enable = true;
+        settings = {
+          exclude = {
+            filetypes = [
+              "dashboard"
+            ];
+          };
+        };
+      };
+
       trouble.enable = true;
       lazygit.enable = true;
       gitsigns.enable = true;
