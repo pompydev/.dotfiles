@@ -128,7 +128,7 @@
           foxundermoon.shell-format # https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format
           timonwong.shellcheck # https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck
 
-          # Nodejs/Deno/Bun
+          # Nodejs ecosystem
           dbaeumer.vscode-eslint # https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
           esbenp.prettier-vscode # https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
           denoland.vscode-deno # https://marketplace.visualstudio.com/items?itemName=denoland.vscode-deno
@@ -237,7 +237,7 @@
             sha256 = "sha256-//PGvogsYMe3NzKTvmNFUUyxOokH298J5/0eCM4Z63U=";
           }
 
-          # Nodejs/Deno/Bun
+          # Nodejs ecosystem
           {
             # https://marketplace.visualstudio.com/items?itemName=oven.bun-vscode
             name = "bun-vscode";
@@ -265,6 +265,13 @@
             publisher = "ardenivanov";
             version = "0.7.1";
             sha256 = "sha256-/AiGMgwCeD9B3y8LxTe6HoIswLuCnLbmwV7fxwfWSLw=";
+          }
+          {
+            # https://marketplace.visualstudio.com/items?itemName=oxc.oxc-vscode
+            name = "oxc-vscode";
+            publisher = "oxc";
+            version = "0.16.0";
+            sha256 = "sha256-2u8Z7xjygnUItPjveeI3XnpzdsJgzZ/Lh3I0vrbfzcY=";
           }
 
           # Git/GitHub
