@@ -18,7 +18,7 @@
         action = "<cmd>Telescope find_files<cr>";
       }
       {
-        key = "<leader>gg";
+        key = "<leader>lg";
         action = "<cmd>LazyGit<cr>";
       }
       {
@@ -44,7 +44,7 @@
             installCargo = true;
             installRustc = true;
           };
-	  gopls.enable = true;
+          gopls.enable = true;
           nixd.enable = true;
         };
       };
