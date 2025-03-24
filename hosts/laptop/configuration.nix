@@ -52,6 +52,7 @@ args@{
     resources
 
     # Misc Application
+    steam
     collision
     menulibre
     snoop
