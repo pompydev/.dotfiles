@@ -100,6 +100,11 @@ args@{
   # Services
   services.xserver.enable = true;
   services.tailscale.enable = true;
+  services.open-webui.enable = true;
+  services.ollama = {
+    enable = true;
+    acceleration = "cuda";
+  };
   services.printing.enable = false; # enable only when needed
 
   # This value determines the NixOS release from which the default
