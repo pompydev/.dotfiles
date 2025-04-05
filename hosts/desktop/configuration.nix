@@ -17,7 +17,7 @@ args@{
     ../../modules/nixos/devenv.nix
     (import ../../modules/nixos/docker.nix (args // { user = "pomp"; }))
     ../../modules/nixos/fonts.nix
-    ../../modules/nixos/gamemode.nix
+    (import ../../modules/nixos/gamemode.nix (args // { user = "pomp"; }))
     ../../modules/nixos/gnome-remote-desktop.nix
     ../../modules/nixos/gnome.nix
     ../../modules/nixos/handbrake.nix

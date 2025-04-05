@@ -1,7 +1,11 @@
-{ pkgs, ... }:
+{
+  user ? "pomp",
+  pkgs,
+  ...
+}:
 
 {
-  users.users.pomp.extraGroups = [ "gamemode" ];
+  users.users.${user}.extraGroups = [ "gamemode" ];
   programs.gamemode = {
     enable = true;
 
