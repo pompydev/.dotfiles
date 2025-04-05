@@ -21,6 +21,7 @@ args@{
     (import ../../modules/nixos/nix.nix (args // { user = "pomp"; }))
     ../../modules/nixos/nixvim.nix
     (import ../../modules/nixos/shell.nix (args // { user = "pomp"; }))
+    ../../modules/nixos/steam.nix
     (import ../../modules/nixos/virtualbox.nix (args // { user = "pomp"; }))
     ../../modules/nixos/vlc.nix
     inputs.home-manager.nixosModules.home-manager
@@ -52,7 +53,6 @@ args@{
     resources
 
     # Misc Application
-    steam
     collision
     menulibre
     snoop
