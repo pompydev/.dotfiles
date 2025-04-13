@@ -36,6 +36,7 @@
         pruneTags = true;
         all = true;
       };
+      help.autocorrect = "prompt";
       merge.conflictstyle = "zdiff3";
       pull.rebase = true;
     };
