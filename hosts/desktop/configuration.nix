@@ -13,6 +13,7 @@ args@{
     ../../modules/nixos/audio.nix
     ../../modules/nixos/authenticator.nix
     ../../modules/nixos/blender.nix
+    ../../modules/nixos/browsers.nix
     ../../modules/nixos/cubiomes-viewer.nix
     ../../modules/nixos/devenv.nix
     (import ../../modules/nixos/docker.nix (args // { user = "pomp"; }))
@@ -84,10 +85,6 @@ args@{
 
     # Gaming
     prismlauncher
-
-    # Browsers
-    tor-browser-bundle-bin
-    mullvad-browser
 
     # Communication
     element-desktop
