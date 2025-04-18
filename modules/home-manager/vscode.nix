@@ -184,6 +184,9 @@
 
           # Lua
           sumneko.lua # https://marketplace.visualstudio.com/items?itemName=sumneko.lua
+
+          # Java
+          vscjava.vscode-java-pack # https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
         ]
         ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
           # General
