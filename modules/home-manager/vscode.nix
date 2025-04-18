@@ -188,6 +188,7 @@
           # Java
           vscjava.vscode-java-pack # https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
           vscjava.vscode-gradle # https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-gradle
+          redhat.java # https://marketplace.visualstudio.com/items?itemName=redhat.java
         ]
         ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
           # General
