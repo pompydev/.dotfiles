@@ -6,3 +6,6 @@ eval "$(fzf --zsh)"
 
 # https://direnv.net
 eval "$(direnv hook zsh)"
+
+# https://nodejs.org/docs/latest/api/cli.html#node_compile_cachedir
+NODE_COMPILE_CACHE=~/.node-compile-cache
