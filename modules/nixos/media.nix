@@ -7,6 +7,7 @@
     contrast
     gimp
     inkscape
+    krita
     cheese
     sly
 
