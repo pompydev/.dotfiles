@@ -53,6 +53,7 @@ args@{
   environment.systemPackages = with pkgs; [
     # Dev
     ## General GUI
+    devtoolbox
     mongodb-compass
     dbeaver-bin
     jetbrains-toolbox
