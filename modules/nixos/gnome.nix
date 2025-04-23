@@ -19,6 +19,7 @@
     gnomeExtensions.pop-shell
     gnomeExtensions.tray-icons-reloaded
     gnomeExtensions.user-themes
+    gnome-pomodoro
 
     # Icons & Themes
     papirus-icon-theme
