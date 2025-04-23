@@ -3,7 +3,7 @@
     {
       "Tablet": "Wacom PTK-640",
       "OutputMode": {
-        "Path": "OpenTabletDriver.Desktop.Output.AbsoluteMode",
+        "Path": "OpenTabletDriver.Desktop.Output.LinuxArtistMode",
         "Settings": [],
         "Enable": true
       },
@@ -17,11 +17,11 @@
           "Rotation": 0.0
         },
         "Tablet": {
-          "Width": 80.0,
-          "Height": 45.0,
-          "X": 22.5,
-          "Y": 99.7,
-          "Rotation": 270.0
+          "Width": 223.52,
+          "Height": 125.73,
+          "X": 111.76,
+          "Y": 69.85,
+          "Rotation": 0.0
         },
         "EnableClipping": true,
         "EnableAreaLimiting": false,
