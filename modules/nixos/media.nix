@@ -13,6 +13,7 @@
 
     # Video
     kdePackages.kdenlive
+    video-trimmer
     parabolic
 
     # Music
