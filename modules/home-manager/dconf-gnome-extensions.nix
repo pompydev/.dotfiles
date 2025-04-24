@@ -13,6 +13,7 @@
         tray-icons-reloaded.extensionUuid
         gnome-40-ui-improvements.extensionUuid
         user-themes.extensionUuid
+        "pomodoro@arun.codito.in"
       ];
     };
 
