@@ -1396,17 +1396,17 @@ index 53cbb9e750856e..0f839fdce3cf82 100644
    cargoPatches = [
      ./add-Cargo.lock.patch
 
-From efe0ebe8e27f71caa2fcfe699007ae0f679c48c8 Mon Sep 17 00:00:00 2001
+From e88e8830e00eaac9bc7d4e2a80be01cd15d46ef3 Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?David=20Chocholat=C3=BD?= <chocholaty.david@protonmail.com>
 Date: Fri, 18 Apr 2025 12:52:32 +0200
-Subject: [PATCH 2/3] anytype-heart: 0.39.11 -> 0.40.17
+Subject: [PATCH 2/3] anytype-heart: 0.39.11 -> 0.40.19
 
 ---
  pkgs/by-name/an/anytype-heart/package.nix | 6 +++---
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/pkgs/by-name/an/anytype-heart/package.nix b/pkgs/by-name/an/anytype-heart/package.nix
-index 6b2f2472a473ed..8ab71b8e8a4cb0 100644
+index 6b2f2472a473ed..787c9dc93826c5 100644
 --- a/pkgs/by-name/an/anytype-heart/package.nix
 +++ b/pkgs/by-name/an/anytype-heart/package.nix
 @@ -11,12 +11,12 @@
@@ -1414,13 +1414,13 @@ index 6b2f2472a473ed..8ab71b8e8a4cb0 100644
  let
    pname = "anytype-heart";
 -  version = "0.39.11";
-+  version = "0.40.17";
++  version = "0.40.19";
    src = fetchFromGitHub {
      owner = "anyproto";
      repo = "anytype-heart";
      tag = "v${version}";
 -    hash = "sha256-+H63bc4aJPERfclzKh4E3uYEEwNycLfe0BCPSlilqCc=";
-+    hash = "sha256-SUjaJsOyHadB/Cu9TCv4mOVJtI4yV8Udg1rCR6cW7wM=";
++    hash = "sha256-BUQZmZ7jKWdbBcWtx7rbbeEJbo5FncYHmp/5FVd0vdI=";
    };
  
    arch =
@@ -1429,37 +1429,37 @@ index 6b2f2472a473ed..8ab71b8e8a4cb0 100644
    inherit pname version src;
  
 -  vendorHash = "sha256-fbZ1DiRcD9dnS8e7BMrKPYApqZmQbaH6DsSSO1knDmo=";
-+  vendorHash = "sha256-q04bUuW/r1LQMFrLozzDDTW5/kc4+e63FetIa/oJmfs=";
++  vendorHash = "sha256-xsxgeoS1wIi0/LNGmZZyWKWzhkMJUnCEslXcIz+Dw8U=";
  
    subPackages = [ "cmd/grpcserver" ];
    tags = [
 
-From ce25ef34e92b40cba2fe96561b85330a9d393cbb Mon Sep 17 00:00:00 2001
+From 07ee7aabd7e3d8616fa973e40d1941e5a79ca022 Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?David=20Chocholat=C3=BD?= <chocholaty.david@protonmail.com>
 Date: Fri, 18 Apr 2025 12:53:30 +0200
-Subject: [PATCH 3/3] anytype: 0.45.3 -> 0.46.3
+Subject: [PATCH 3/3] anytype: 0.45.3 -> 0.46.4
 
 ---
- pkgs/by-name/an/anytype/package.nix | 11 ++++++-----
- 1 file changed, 6 insertions(+), 5 deletions(-)
+ pkgs/by-name/an/anytype/package.nix | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
 
 diff --git a/pkgs/by-name/an/anytype/package.nix b/pkgs/by-name/an/anytype/package.nix
-index d6a5bea3143ed4..024f90234b45c4 100644
+index d6a5bea3143ed4..a923faacf42bfd 100644
 --- a/pkgs/by-name/an/anytype/package.nix
 +++ b/pkgs/by-name/an/anytype/package.nix
-@@ -15,27 +15,28 @@
+@@ -15,27 +15,27 @@
  
  let
    pname = "anytype";
 -  version = "0.45.3";
-+  version = "0.46.3";
++  version = "0.46.4";
  
    src = fetchFromGitHub {
      owner = "anyproto";
      repo = "anytype-ts";
      tag = "v${version}";
 -    hash = "sha256-fwfxmNca75xAAHKeT2nddz+XZexDomzHbw188LXxZqA=";
-+    hash = "sha256-n8odGFOED40XzicUfmTtYFv4kNmNbFpXPcB2o9tOw14=";
++    hash = "sha256-JA8DHOPRLPoc8/GXkHfktVy3sZ5BpSFmgn71Xt15iLE=";
    };
    description = "P2P note-taking tool";
  
@@ -1468,16 +1468,15 @@ index d6a5bea3143ed4..024f90234b45c4 100644
      repo = "l10n-anytype-ts";
 -    rev = "687106c4e37297f86fab79f77ef83599b61ab65c";
 -    hash = "sha256-Y0irD0jzqYobnjtD2M1+hTDRUUYnuygUx9+tE1gUoTw=";
-+    rev = "4a0aebf24ef541679c476f317f0e088a5877d961";
-+
-+    hash = "sha256-IkaOzhdZnKXQ6W8rx+5dWcJsw+JnjvTi07rzVzVCUH4=";
++    rev = "07eed415b0eec409dcdfedf848936d41f190c7ec";
++    hash = "sha256-PgDZkL/tg7/uZhLLenRjkb5NB1hQjUJflaAce2TlDRE=";
    };
  in
  buildNpmPackage {
    inherit pname version src;
  
 -  npmDepsHash = "sha256-9BI+rXzTYonlMhcH8uiWyyF18JGv8GL1U9hZ9Z6X3As=";
-+  npmDepsHash = "sha256-FNrAQ6849Z3f6V4+bCPEROO0eDBfJZL60Hpt0V8UQEE=";
++  npmDepsHash = "sha256-4pMYKmQ7+f8BKztLF4Jfe89tuh+DiQNnS3ulL0i6Gw0=";
  
    env = {
      ELECTRON_SKIP_BINARY_DOWNLOAD = "1";
