@@ -97,6 +97,7 @@
           formulahendry.auto-rename-tag # https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag
           naumovs.color-highlight # https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight
           ms-vscode.hexeditor # https://marketplace.visualstudio.com/items?itemName=ms-vscode.hexeditor
+          vadimcn.vscode-lldb # https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb
           bradlc.vscode-tailwindcss # https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
           jock.svg # https://marketplace.visualstudio.com/items?itemName=jock.svg
           nefrob.vscode-just-syntax # https://marketplace.visualstudio.com/items?itemName=nefrob.vscode-just-syntax
