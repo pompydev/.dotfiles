@@ -42,6 +42,7 @@
         "terminal.integrated.defaultProfile.linux" = "zsh";
         "terminal.integrated.enableMultiLinePasteWarning" = "never";
         "terminal.integrated.enablePersistentSessions" = false;
+        "terminal.integrated.scrollback" = 65536; # default is 1000
 
         # git
         "git.autofetch" = true;
