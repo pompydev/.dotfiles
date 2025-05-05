@@ -2,7 +2,10 @@
 
 {
   imports = [
+    ../../modules/home-manager/bat.nix
     ../../modules/home-manager/brave.nix
+    ../../modules/home-manager/btop.nix
+    ../../modules/home-manager/catppuccin.nix
     ../../modules/home-manager/dconf-gnome-desktop.nix
     ../../modules/home-manager/dconf-gnome-extension-blur-my-shell.nix
     ../../modules/home-manager/dconf-gnome-extensions.nix
@@ -12,6 +15,7 @@
     ../../modules/home-manager/nautilus.nix
     ../../modules/home-manager/ghostty.nix
     ../../modules/home-manager/osu.nix
+    ../../modules/home-manager/shell.nix
     ../../modules/home-manager/vesktop.nix
     ../../modules/home-manager/vscode.nix
     ../../modules/home-manager/xdg-user-dirs.nix
@@ -21,10 +25,6 @@
 
   home.username = "pomp";
   home.homeDirectory = "/home/pomp";
-  home.file = {
-    ".zshrc".source = ../../home/.zshrc;
-    ".config/starship.toml".source = ../../home/.config/starship.toml;
-  };
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;

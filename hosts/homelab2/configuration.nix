@@ -8,11 +8,13 @@ args@{
   imports = [
     ./hardware-configuration.nix
     ./modules/ssh.nix
-    ../../modules/nixos/locale.nix
+    ../../modules/nixos/devenv.nix
     (import ../../modules/nixos/docker.nix (args // { user = "homelab2"; }))
     ../../modules/nixos/fonts.nix
     ../../modules/nixos/gnome-remote-desktop.nix
+    ../../modules/nixos/locale.nix
     (import ../../modules/nixos/nix.nix (args // { user = "homelab2"; }))
+    ../../modules/nixos/nixvim.nix
     (import ../../modules/nixos/shell.nix (args // { user = "homelab2"; }))
     inputs.home-manager.nixosModules.home-manager
   ];
@@ -27,9 +29,6 @@ args@{
   nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
     # dev
-    vim
-    direnv
-    devenv
     vscode
 
     # GUI

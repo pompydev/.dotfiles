@@ -63,11 +63,9 @@ args@{
     ## General CLI / TUI
     oha
     wget
-    btop
     nvitop
     tree
     usbutils
-    lazygit
     hotspot
     desktop-file-utils
     ## Game dev

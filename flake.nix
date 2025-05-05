@@ -3,6 +3,7 @@
 
   inputs = {
     nixpkgs.url = "github:pompydev/nixpkgs/master";
+    catppuccin.url = "github:catppuccin/nix";
     nixvim = {
       url = "github:nix-community/nixvim";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -18,7 +19,7 @@
   };
 
   outputs =
-    { nixvim, ... }@inputs:
+    { nixvim, catppuccin, ... }@inputs:
 
     let
       nixpkgs = inputs.nixpkgs.legacyPackages."x86_64-linux".applyPatches {
@@ -41,6 +42,12 @@
           modules = [
             ./hosts/desktop/configuration.nix
             nixvim.nixosModules.nixvim
+            catppuccin.nixosModules.catppuccin
+            {
+              home-manager.users.pomp = {
+                imports = [ catppuccin.homeModules.catppuccin ];
+              };
+            }
           ];
         };
 
@@ -53,6 +60,12 @@
           modules = [
             ./hosts/laptop/configuration.nix
             nixvim.nixosModules.nixvim
+            catppuccin.nixosModules.catppuccin
+            {
+              home-manager.users.pomp = {
+                imports = [ catppuccin.homeModules.catppuccin ];
+              };
+            }
           ];
         };
 
@@ -64,6 +77,12 @@
 
           modules = [
             ./hosts/homelab2/configuration.nix
+            catppuccin.nixosModules.catppuccin
+            {
+              home-manager.users.homelab2 = {
+                imports = [ catppuccin.homeModules.catppuccin ];
+              };
+            }
           ];
         };
       };

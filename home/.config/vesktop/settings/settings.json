@@ -5,7 +5,7 @@
     "useQuickCss": true,
     "themeLinks": [],
     "enabledThemes": [
-        "nordic.theme.css"
+        "catppuccin-frappe.theme.css"
     ],
     "enableReactDevtools": false,
     "frameless": false,

@@ -9,6 +9,8 @@
     "application/x-zerosize" = "code.desktop";
   };
 
+  catppuccin.vscode.enable = true;
+
   programs.vscode = {
     enable = true;
     mutableExtensionsDir = false;
@@ -18,7 +20,6 @@
         # general
         "editor.rulers" = [ 80 ];
         "color-highlight.enable" = false;
-        "workbench.colorTheme" = "One Dark Pro Flat";
         "security.workspace.trust.untrustedFiles" = "open";
         "window.restoreWindows" = "none";
         "extensions.autoUpdate" = false;

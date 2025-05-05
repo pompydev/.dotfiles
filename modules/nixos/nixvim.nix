@@ -4,7 +4,11 @@
   # https://nix-community.github.io/nixvim/
   programs.nixvim = {
     enable = true;
-    colorschemes.onedark.enable = true;
+
+    colorschemes.catppuccin = {
+      enable = true;
+      settings.flavour = "frappe";
+    };
 
     opts = {
       number = true;

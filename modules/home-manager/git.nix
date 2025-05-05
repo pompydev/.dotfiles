@@ -6,6 +6,8 @@
     lazygit
   ];
 
+  catppuccin.lazygit.enable = true;
+
   programs.git = {
     enable = true;
     lfs.enable = true;
