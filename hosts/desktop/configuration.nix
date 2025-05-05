@@ -19,6 +19,7 @@ args@{
     (import ../../modules/nixos/docker.nix (args // { user = "pomp"; }))
     ../../modules/nixos/fonts.nix
     (import ../../modules/nixos/gamemode.nix (args // { user = "pomp"; }))
+    ../../modules/nixos/ghidra.nix
     ../../modules/nixos/gnome-remote-desktop.nix
     ../../modules/nixos/gnome.nix
     ../../modules/nixos/killall.nix
