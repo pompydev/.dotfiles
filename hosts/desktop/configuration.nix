@@ -120,7 +120,6 @@ args@{
     inspector
 
     # Misc System packages
-    affine
     gnupg
     appimage-run
     file
