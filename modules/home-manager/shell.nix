@@ -13,7 +13,7 @@
     };
     sessionVariables = {
       # https://nodejs.org/docs/latest/api/cli.html#node_compile_cachedir
-      NODE_COMPILE_CACHE = "~/.node-compile-cache";
+      NODE_COMPILE_CACHE = "$HOME/.node-compile-cache";
     };
   };
 
