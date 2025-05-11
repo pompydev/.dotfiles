@@ -53,7 +53,7 @@ args@{
     snoop
     hashes
     inspector
-    irssi
+    halloy
     baobab
     protonvpn-gui
     cheese

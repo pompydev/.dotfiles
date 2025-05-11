@@ -89,7 +89,7 @@ args@{
     element-desktop
     slack
     discord
-    irssi
+    halloy
 
     # Configuration & Monitor
     dconf-editor
