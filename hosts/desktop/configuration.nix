@@ -88,7 +88,6 @@ args@{
     # Communication
     element-desktop
     slack
-    discord
     halloy
 
     # Configuration & Monitor
