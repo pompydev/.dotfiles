@@ -22,6 +22,7 @@ args@{
     ../../modules/nixos/ghidra.nix
     ../../modules/nixos/gnome-remote-desktop.nix
     ../../modules/nixos/gnome.nix
+    ../../modules/nixos/halloy.nix
     ../../modules/nixos/killall.nix
     ../../modules/nixos/ladybird.nix
     ../../modules/nixos/locale.nix

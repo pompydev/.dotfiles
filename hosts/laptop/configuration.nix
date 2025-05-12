@@ -15,6 +15,7 @@ args@{
     (import ../../modules/nixos/gamemode.nix (args // { user = "pomp"; }))
     ../../modules/nixos/gnome-remote-desktop.nix
     ../../modules/nixos/gnome.nix
+    ../../modules/nixos/halloy.nix
     ../../modules/nixos/locale.nix
     ../../modules/nixos/media.nix
     ../../modules/nixos/nautilus.nix
@@ -53,7 +54,6 @@ args@{
     snoop
     hashes
     inspector
-    halloy
     baobab
     protonvpn-gui
     cheese
