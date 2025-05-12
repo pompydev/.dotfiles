@@ -26,7 +26,7 @@
         name = "nixpkgs-patched";
         src = inputs.nixpkgs;
         patches = [
-          ./patches/399709.patch
+          ./patches/fix-psycopg.patch
         ];
       };
       nixosSystem = import (nixpkgs + "/nixos/lib/eval-config.nix");

@@ -1,0 +1,22 @@
+---
+ pkgs/development/python-modules/psycopg/default.nix
+
+diff --git a/pkgs/development/python-modules/psycopg/default.nix b/pkgs/development/python-modules/psycopg/default.nix
+--- a/pkgs/development/python-modules/psycopg/default.nix
++++ b/pkgs/development/python-modules/psycopg/default.nix
+@@ -35,13 +35,13 @@
+ 
+ let
+   pname = "psycopg";
+-  version = "3.2.8";
++  version = "3.2.7";
+ 
+   src = fetchFromGitHub {
+     owner = "psycopg";
+     repo = "psycopg";
+     tag = version;
+-    hash = "sha256-fSryNbWqIO5+oyU9uP7zO6TJzrtFPwrtaU0toxBysao=";
++    hash = "sha256-v4R+5jgC4dTrL+i6O+UCCr7+g673hKi9YmrSeROLpZs=";
+   };
+ 
+   patches = [

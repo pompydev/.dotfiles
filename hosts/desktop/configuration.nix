@@ -73,7 +73,7 @@ args@{
     unityhub
     godot3-mono
     godot3-mono-export-templates
-    # godot_4 # todo: re-enable
+    godot_4
     godot_4-export-templates
     ## Profiling
     sysprof
