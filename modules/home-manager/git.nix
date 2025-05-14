@@ -9,7 +9,7 @@
 
   programs.zsh.shellAliases = {
     lg = "lazygit";
-    g = "gitoxide";
+    g = "gix";
   };
 
   catppuccin.lazygit.enable = true;
