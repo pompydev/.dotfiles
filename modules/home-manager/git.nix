@@ -4,7 +4,13 @@
   home.packages = with pkgs; [
     gitbutler
     lazygit
+    gitoxide
   ];
+
+  programs.zsh.shellAliases = {
+    lg = "lazygit";
+    g = "gitoxide";
+  };
 
   catppuccin.lazygit.enable = true;
 
