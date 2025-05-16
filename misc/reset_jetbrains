@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+PRODUCTS="IntelliJIdea CLion PhpStorm GoLand PyCharm WebStorm Rider DataGrip RubyMine AppCode"
+
+rm -rf ~/.java/.userPrefs/prefs.xml
+rm -rf ~/.java/.userPrefs/jetbrains/prefs.xml
+
+for PRODUCT in $PRODUCTS; do
+	echo "[+] Resetting trial period for ${PRODUCT}"
+
+	rm -rf ~/.config/JetBrains/${PRODUCT}*/eval/
+	rm -rf ~/.config/JetBrains/${PRODUCT}*/options/other.xml
+	rm -rf ~/.config/${PRODUCT}*/options/other.xml
+	rm -rf ~/.config/${PRODUCT}*/eval
+done
+
+echo "Removing userPrefs files..."
+rm -rf ~/.java/.userPrefs
+
+echo "Done!"

@@ -57,7 +57,6 @@ args@{
     devtoolbox
     mongodb-compass
     dbeaver-bin
-    jetbrains-toolbox
     filezilla
     glade
     seabird

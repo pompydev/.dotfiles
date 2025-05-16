@@ -12,6 +12,7 @@
     ../../modules/home-manager/dconf-input.nix
     ../../modules/home-manager/dconf-nautilus.nix
     ../../modules/home-manager/git.nix
+    ../../modules/home-manager/jetbrains.nix
     ../../modules/home-manager/nautilus.nix
     ../../modules/home-manager/ghostty.nix
     ../../modules/home-manager/osu.nix

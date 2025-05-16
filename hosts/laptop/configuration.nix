@@ -38,7 +38,6 @@ args@{
   environment.systemPackages = with pkgs; [
     # Dev
     hotspot
-    jetbrains-toolbox
 
     # Office
     onlyoffice-bin
