@@ -148,6 +148,9 @@
           # LaTeX
           james-yu.latex-workshop # https://marketplace.visualstudio.com/items?itemName=james-yu.latex-workshop
 
+          # Typst
+          myriad-dreamin.tinymist
+
           # Docker
           ms-azuretools.vscode-docker # https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
 
