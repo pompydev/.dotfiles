@@ -4,8 +4,8 @@ let
   # https://github.com/Soft/nix-google-fonts-overlay
   fontsOverlay = import (
     builtins.fetchTarball {
-      url = "https://github.com/pompydev/nix-google-fonts-overlay/archive/dfb84823efeb84314f8186cb2014edf05136b527.tar.gz";
-      sha256 = "sha256:01cpfyzd4xl3a462jyn2xn22hn6i1my1svyag7926r3r2vmck24y";
+      url = "https://github.com/pompydev/nix-google-fonts-overlay/archive/fc0690302d895d6813a51bcd918442f7dc9db49a.tar.gz";
+      sha256 = "sha256:1mvhxl20vbccwzcr55ghlxnr8fnanbzh3jy7l4k2mzin4vmz4qan";
     }
   );
 in
