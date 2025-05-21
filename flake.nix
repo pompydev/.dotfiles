@@ -85,6 +85,23 @@
             }
           ];
         };
+
+        ryan = nixosSystem {
+          system = "x86_64-linux";
+          specialArgs = {
+            inherit inputs;
+          };
+
+          modules = [
+            ./hosts/homelab-ryan/configuration.nix
+            catppuccin.nixosModules.catppuccin
+            {
+              home-manager.users.ryan = {
+                imports = [ catppuccin.homeModules.catppuccin ];
+              };
+            }
+          ];
+        };
       };
     };
 }
