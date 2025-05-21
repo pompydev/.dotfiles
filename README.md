@@ -1,4 +1,4 @@
-# POMP's dotfiles
+# pomp's dotfiles
 
 [![license](https://img.shields.io/github/license/pompydev/.dotfiles?style=for-the-badge&color=yellow)](./LICENSE)
 
