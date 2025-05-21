@@ -25,7 +25,10 @@
         cdi-spec-dirs = [ "/home/${user}/.cdi" ];
       };
     };
-    daemon.settings.features.cdi = true;
+    daemon.settings = {
+      live-restore = false; # required for docker swarm
+      features.cdi = true;
+    };
   };
   hardware.nvidia-container-toolkit.enable = true;
 }
