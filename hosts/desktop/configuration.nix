@@ -61,6 +61,7 @@ args@{
     glade
     seabird
     ## General CLI / TUI
+    just
     oha
     wget
     nvitop
