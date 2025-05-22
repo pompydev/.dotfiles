@@ -1,4 +1,4 @@
-{ lib, ... }:
+{ lib, pkgs, ... }:
 
 {
   catppuccin.zsh-syntax-highlighting.enable = true;
@@ -7,14 +7,21 @@
     syntaxHighlighting.enable = true;
     shellAliases = {
       c = "clear";
+      d = "dua interactive";
       e = "eza --long --classify=always --color=always --icons=always --all --group-directories-first --binary --group --no-time --octal-permissions";
       ld = "lazydocker";
+      x = "xh --follow";
     };
     sessionVariables = {
       # https://nodejs.org/docs/latest/api/cli.html#node_compile_cachedir
       NODE_COMPILE_CACHE = "$HOME/.node-compile-cache";
     };
   };
+
+  home.packages = with pkgs; [
+    xh
+    dua
+  ];
 
   catppuccin.atuin.enable = true;
   programs.atuin = {
