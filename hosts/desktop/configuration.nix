@@ -74,7 +74,7 @@ args@{
     godot3-mono
     godot3-mono-export-templates
     godot_4
-    godot_4-export-templates
+    godot_4-export-templates-bin
     ## Profiling
     sysprof
 
