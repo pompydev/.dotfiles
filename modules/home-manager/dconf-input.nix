@@ -84,6 +84,18 @@ with lib.hm.gvariant;
       switch-to-workspace-2 = [ "<Super>2" ];
       switch-to-workspace-3 = [ "<Super>3" ];
       switch-to-workspace-4 = [ "<Super>4" ];
+
+      move-to-workspace-left = [ "<Alt><Super>Left" ];
+      move-to-workspace-right = [ "<Alt><Super>Right" ];
+
+      switch-to-workspace-last = [ ];
+      switch-to-workspace-left = [ "<Super>Left" ];
+      switch-to-workspace-right = [ "<Super>Right" ];
+    };
+
+    "org/gnome/mutter/keybindings" = {
+      toggle-tiled-left = [ ];
+      toggle-tiled-right = [ ];
     };
 
     "org/gnome/settings-daemon/plugins/media-keys" = {
