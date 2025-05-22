@@ -85,12 +85,12 @@ with lib.hm.gvariant;
       switch-to-workspace-3 = [ "<Super>3" ];
       switch-to-workspace-4 = [ "<Super>4" ];
 
-      move-to-workspace-left = [ "<Alt><Super>Left" ];
-      move-to-workspace-right = [ "<Alt><Super>Right" ];
+      move-to-workspace-left = [ "<Shift><Super>comma" ];
+      move-to-workspace-right = [ "<Shift><Super>period" ];
 
       switch-to-workspace-last = [ ];
-      switch-to-workspace-left = [ "<Super>Left" ];
-      switch-to-workspace-right = [ "<Super>Right" ];
+      switch-to-workspace-left = [ "<Super>comma" ];
+      switch-to-workspace-right = [ "<Super>period" ];
     };
 
     "org/gnome/mutter/keybindings" = {
